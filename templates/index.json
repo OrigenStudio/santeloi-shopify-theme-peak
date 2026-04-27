@@ -102,6 +102,7 @@
         "slide_FC9Hrc": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/04_Sant-Eloi_interior-3516.jpg",
             "image_overlay_opacity": 4,
             "image_link": "",
             "horizontal_offset": 0,
@@ -2288,7 +2289,8 @@
         "show_time_afternoon": true,
         "show_time_evening": true,
         "show_time_night": true,
-        "heading_tag": "h2"
+        "heading_tag": "h2",
+        "ai_description": ""
       }
     },
     "scrolling_text_N9GHHx": {
