@@ -17,8 +17,9 @@
         "image_and_text_AMCBwY": {
           "type": "image_and_text",
           "settings": {
-            "heading": "Store name",
-            "description": "<p>Share contact information, store details and brand content with your customers.<\/p>",
+            "heading": "Sant eloi",
+            "description": "<p>Share contact information, store details and brand content with your customers.</p>",
+            "collapsible": true,
             "wider": true,
             "image_width": 100,
             "image_placement": "top"
@@ -28,21 +29,24 @@
           "type": "link_list",
           "settings": {
             "heading": "Menu",
-            "menu": ""
+            "menu": "",
+            "collapsible": true
           }
         },
         "link_list_3H8mTj": {
           "type": "link_list",
           "settings": {
             "heading": "Menu",
-            "menu": ""
+            "menu": "",
+            "collapsible": true
           }
         },
         "image_and_text_FFDePH": {
           "type": "image_and_text",
           "settings": {
             "heading": "Expert help",
-            "description": "<p>Need any advice before you buy? We're here to help.<\/p><p><a href=\"\/\" title=\"\/\">Contact Us<\/a><\/p>",
+            "description": "<p>Need any advice before you buy? We're here to help.</p><p><a href=\"/\" title=\"/\">Contact Us</a></p>",
+            "collapsible": true,
             "wider": false,
             "image_width": 100,
             "image_placement": "top"
@@ -65,7 +69,8 @@
         "payment_enable": true,
         "color_scheme": "",
         "color_scheme_bottom": "",
-        "color_scheme_bottom_light": true
+        "color_scheme_bottom_light": true,
+        "let_it_snow": false
       }
     }
   },
