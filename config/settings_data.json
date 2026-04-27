@@ -114,6 +114,7 @@
     "inventory_threshold": 10,
     "stock_low": "#E66711",
     "social_share_whatsapp": "",
+    "favicon": "shopify://shop_images/logo_small_santeloi.webp",
     "show_search_types": true,
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
