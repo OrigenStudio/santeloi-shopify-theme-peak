@@ -304,7 +304,7 @@
         "collection_text_size": "t1",
         "content_alignment": "md:justify-center",
         "card_image_ratio": "circle",
-        "use_product_image": false,
+        "use_product_image": true,
         "desktop_layout": "carousel",
         "mobile_layout": "carousel",
         "columns_desktop": "6",
