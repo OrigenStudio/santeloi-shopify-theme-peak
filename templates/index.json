@@ -15,7 +15,7 @@
         "icon_with_text_LetnmJ": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "thermometer",
+            "icon": "leaf",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#ededed",
@@ -43,7 +43,7 @@
         "icon_with_text_VyjFJt": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "bag-check",
+            "icon": "cart",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#ededed",
