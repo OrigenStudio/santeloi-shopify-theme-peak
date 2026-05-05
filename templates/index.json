@@ -2770,9 +2770,9 @@
       "settings": {
         "preview_success": false,
         "show_image": true,
-        "image": "shopify://shop_images/04_Sant-Eloi_interior-3516.jpg",
+        "image": "shopify://shop_images/full.webp",
         "image_overlay_opacity": 0,
-        "fix_image": false,
+        "fix_image": true,
         "image_ratio": "custom",
         "desktop_section_height": 440,
         "mobile_section_height": 100,
