@@ -15,7 +15,7 @@
         "icon_with_text_LetnmJ": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "shield_checkmark",
+            "icon": "thermometer",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#ededed",
@@ -29,7 +29,7 @@
         "icon_with_text_nyyqmY": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "truck",
+            "icon": "map_pin",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#ededed",
@@ -43,7 +43,7 @@
         "icon_with_text_VyjFJt": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "chat_bubbles",
+            "icon": "bag-check",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#ededed",
@@ -57,7 +57,7 @@
         "icon_with_text_btQAbC": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "price_tags",
+            "icon": "truck",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#ededed",
