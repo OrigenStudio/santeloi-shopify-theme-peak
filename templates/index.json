@@ -2738,7 +2738,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always",
-            "heading": "Rep ofertes i novetats",
+            "heading": "Vols estar al dia?",
             "heading_italic_convert": "",
             "heading_size": "h3",
             "heading_size_custom": 2.4,
@@ -2750,7 +2750,7 @@
           "type": "text",
           "settings": {
             "visibility": "always",
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text": "<p>Rep ofertes i novetats</p>",
             "text_size": "t3"
           }
         },
