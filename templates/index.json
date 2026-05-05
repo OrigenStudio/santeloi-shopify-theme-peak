@@ -9,93 +9,6 @@
  */
 {
   "sections": {
-    "icons_with_text_mKJW78": {
-      "type": "icons-with-text",
-      "blocks": {
-        "icon_with_text_LetnmJ": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "leaf",
-            "icon_container": "none",
-            "icon_color": "",
-            "icon_background_color": "#ededed",
-            "background_gradient": "",
-            "image_width": 40,
-            "title": "<strong>PRODUCTE FRESC</strong>",
-            "text": "Seleccionem productes frescos cada dia",
-            "card_link": ""
-          }
-        },
-        "icon_with_text_nyyqmY": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "map_pin",
-            "icon_container": "none",
-            "icon_color": "",
-            "icon_background_color": "#ededed",
-            "background_gradient": "",
-            "image_width": 40,
-            "title": "<strong>PROXIMITAT</strong>",
-            "text": "Treballem amb proveïdors de confiança",
-            "card_link": ""
-          }
-        },
-        "icon_with_text_VyjFJt": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "cart",
-            "icon_container": "none",
-            "icon_color": "",
-            "icon_background_color": "#ededed",
-            "background_gradient": "",
-            "image_width": 40,
-            "title": "<strong>COMPRA FÀÇIL</strong>",
-            "text": "Fes la compra en pocs minuts",
-            "card_link": ""
-          }
-        },
-        "icon_with_text_btQAbC": {
-          "type": "icon_with_text",
-          "settings": {
-            "icon": "truck",
-            "icon_container": "none",
-            "icon_color": "",
-            "icon_background_color": "#ededed",
-            "background_gradient": "",
-            "image_width": 40,
-            "title": "<strong>RECOLLIDA O ENVIAMENT</strong>",
-            "text": "Tria com vols rebre la teva comanda",
-            "card_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "icon_with_text_LetnmJ",
-        "icon_with_text_nyyqmY",
-        "icon_with_text_VyjFJt",
-        "icon_with_text_btQAbC"
-      ],
-      "settings": {
-        "placement": "beside",
-        "content_vertical_alignment": "items-start",
-        "column_alignment": "left",
-        "vertical_padding": 1,
-        "icon_size": 2.8,
-        "heading_size": "t6",
-        "text_size": "t6",
-        "mobile_layout": "carousel",
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "line_separator": "",
-        "visibility": "hidden-xs",
-        "hide_when_empty": false,
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true
-      }
-    },
     "slideshow_hKELGY": {
       "type": "slideshow",
       "blocks": {
@@ -244,6 +157,93 @@
         "bottom_padding": "pb-s05",
         "hide_when_empty": false,
         "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
+    "icons_with_text_mKJW78": {
+      "type": "icons-with-text",
+      "blocks": {
+        "icon_with_text_LetnmJ": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "leaf",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#ededed",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>PRODUCTE FRESC</strong>",
+            "text": "Seleccionem productes frescos cada dia",
+            "card_link": ""
+          }
+        },
+        "icon_with_text_nyyqmY": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "map_pin",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#ededed",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>PROXIMITAT</strong>",
+            "text": "Treballem amb proveïdors de confiança",
+            "card_link": ""
+          }
+        },
+        "icon_with_text_VyjFJt": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "cart",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#ededed",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>COMPRA FÀÇIL</strong>",
+            "text": "Fes la compra en pocs minuts",
+            "card_link": ""
+          }
+        },
+        "icon_with_text_btQAbC": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "truck",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#ededed",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>RECOLLIDA O ENVIAMENT</strong>",
+            "text": "Tria com vols rebre la teva comanda",
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_LetnmJ",
+        "icon_with_text_nyyqmY",
+        "icon_with_text_VyjFJt",
+        "icon_with_text_btQAbC"
+      ],
+      "settings": {
+        "placement": "beside",
+        "content_vertical_alignment": "items-start",
+        "column_alignment": "left",
+        "vertical_padding": 1,
+        "icon_size": 2.8,
+        "heading_size": "t6",
+        "text_size": "t6",
+        "mobile_layout": "carousel",
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "line_separator": "",
+        "visibility": "hidden-xs",
+        "hide_when_empty": false,
         "show_at_specific_time_of_day": false,
         "show_time_morning": true,
         "show_time_afternoon": true,
@@ -2800,8 +2800,8 @@
     }
   },
   "order": [
-    "icons_with_text_mKJW78",
     "slideshow_hKELGY",
+    "icons_with_text_mKJW78",
     "collection_list_3EHKmq",
     "featured_collection_raicD4",
     "gallery_4FwdyU",
