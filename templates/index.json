@@ -49,8 +49,8 @@
             "icon_background_color": "#ededed",
             "background_gradient": "",
             "image_width": 40,
-            "title": "<strong>EXPERT HELP</strong>",
-            "text": "Seven days a week",
+            "title": "<strong>COMPRA FÀÇIL</strong>",
+            "text": "Fes la compra en pocs minuts",
             "card_link": ""
           }
         },
@@ -63,8 +63,8 @@
             "icon_background_color": "#ededed",
             "background_gradient": "",
             "image_width": 40,
-            "title": "<strong>BEST PRICES</strong>",
-            "text": "Unbeatable value",
+            "title": "<strong>RECOLLIDA O ENVIAMENT</strong>",
+            "text": "Tria com vols rebre la teva comanda",
             "card_link": ""
           }
         }
