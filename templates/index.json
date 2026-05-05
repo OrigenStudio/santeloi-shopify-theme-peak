@@ -21,8 +21,8 @@
             "icon_background_color": "#ededed",
             "background_gradient": "",
             "image_width": 40,
-            "title": "<strong>WELL TRUSTED</strong>",
-            "text": "Over 100k customers",
+            "title": "<strong>PRODUCTE FRESC</strong>",
+            "text": "Seleccionem productes frescos cada dia",
             "card_link": ""
           }
         },
@@ -35,8 +35,8 @@
             "icon_background_color": "#ededed",
             "background_gradient": "",
             "image_width": 40,
-            "title": "<strong>SUPER FAST</strong>",
-            "text": "With Express delivery",
+            "title": "<strong>PROXIMITAT</strong>",
+            "text": "Treballem amb proveïdors de confiança",
             "card_link": ""
           }
         },
