@@ -183,20 +183,20 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#fcf6ef",
+          "background": "#f8f4ed",
           "background_gradient": "",
           "background_accent": "",
-          "text": "#2c463d",
-          "link": "#2c463d",
-          "caption": "#2c463d",
-          "accent": "#008031",
+          "text": "#3a3a36",
+          "link": "#3a3a36",
+          "caption": "#3a3a36",
+          "accent": "#188f65",
           "accent_gradient": "linear-gradient(90deg, rgba(0, 128, 49, 1), rgba(59, 217, 119, 1) 100%)",
-          "heading": "#121212",
+          "heading": "#1e1e1b",
           "heading_background_gradient": "",
           "button_label": "#ffffff",
-          "button": "#121212",
+          "button": "#1f2421",
           "button_background_gradient": "",
-          "secondary_button_label": "#121212"
+          "secondary_button_label": "#1f2421"
         }
       },
       "scheme-2": {
