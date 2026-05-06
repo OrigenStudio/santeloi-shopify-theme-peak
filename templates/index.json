@@ -2580,7 +2580,7 @@
         "heading_C4ChT4": {
           "type": "heading",
           "settings": {
-            "heading": "Més que [compra|proximitat|serveis|Andorra]",
+            "heading": "Més que [<em>compra</em>|<em>proximitat</em>|<em>serveis</em>|<em>Andorra</em>]",
             "heading_italic_convert": "accent",
             "heading_size": "h2",
             "heading_size_custom": 2.4,
