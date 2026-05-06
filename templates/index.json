@@ -513,6 +513,7 @@
             "column_alignment": "right",
             "text_vertical_alignment": "justify-end",
             "content_max_width": "s",
+            "image": "shopify://shop_images/banner-623x504-motxilla-munich.jpg",
             "image_overlay_opacity": 0,
             "icon": "",
             "icon_container": "none",
