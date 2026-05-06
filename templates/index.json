@@ -729,7 +729,7 @@
                 "icon_heading_gap": 2.5,
                 "text_max_width": 400,
                 "link": "",
-                "icon": "ribbon",
+                "icon": "check_mark_circle",
                 "icon_container": "rounded",
                 "icon_size": 3,
                 "icon_vertical_position": 0.1,
