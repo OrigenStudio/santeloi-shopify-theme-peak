@@ -1,3 +1,75 @@
+@font-face {
+  font-family: "Quincy CF";
+  src: url("{{ 'Quincy CF.woff2' | asset_url }}") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("{{ 'BrandonGrotesque-Light.woff2' | asset_url }}") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+p,
+span,
+a,
+li {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.heading,
+.title,
+.section-title,
+.section__title,
+.section-heading,
+.section__heading,
+.banner__heading,
+.hero__heading,
+.slideshow__heading,
+.collection__title,
+.card__heading,
+.product__title,
+.rich-text__heading,
+.title-wrapper .title {
+  font-family: "Quincy CF", serif !important;
+  font-weight: 400;
+}
+
+em,
+.heading em,
+.title em,
+.banner__heading em,
+.hero__heading em,
+.slideshow__heading em,
+.rich-text__heading em {
+  font-family: "Quincy CF", serif !important;
+  font-style: normal;
+  font-weight: 400;
+}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
