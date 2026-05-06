@@ -686,7 +686,7 @@
                 "heading_size_custom": 2.4,
                 "heading_line_height_custom": 1.2,
                 "heading_tag": "h3",
-                "text": "<p>Preparem la teva comanda el mateix dia</p>",
+                "text": "<p>Preparem la teva comanda <br/>el mateix dia</p>",
                 "text_size": "t3"
               },
               "blocks": {}
@@ -798,7 +798,7 @@
                 "heading_size_custom": 2.4,
                 "heading_line_height_custom": 1.2,
                 "heading_tag": "h3",
-                "text": "<p>Ajustos de pes i preu en productes frescos</p>",
+                "text": "<p>Ajustos de pes i preu<br/>en productes frescos</p>",
                 "text_size": "t3"
               },
               "blocks": {}
