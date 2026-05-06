@@ -238,7 +238,7 @@
       "scheme-4": {
         "settings": {
           "background": "#2c463d",
-          "background_gradient": "linear-gradient(135deg, #1F2421 0%, #2E3A34 100%)",
+          "background_gradient": "linear-gradient(135deg, rgba(31, 36, 33, 1), rgba(46, 58, 52, 1) 100%)",
           "background_accent": "",
           "text": "#ffffff",
           "link": "#ffffff",
