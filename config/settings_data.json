@@ -204,17 +204,17 @@
           "background": "#ffffff",
           "background_gradient": "",
           "background_accent": "",
-          "text": "#191919",
+          "text": "#3a3a36",
           "link": "#008031",
           "caption": "#3c4043",
-          "accent": "#dc2bff",
+          "accent": "#cc9741",
           "accent_gradient": "linear-gradient(90deg, rgba(135, 98, 3, 1) 16%, rgba(31, 198, 108, 1) 84%)",
-          "heading": "#3c4043",
+          "heading": "#2a2a28",
           "heading_background_gradient": "",
           "button_label": "#f3f3f3",
-          "button": "#4a9767",
+          "button": "#188f65",
           "button_background_gradient": "linear-gradient(50deg, rgba(77, 167, 111, 1) 13%, rgba(56, 180, 103, 1) 84%)",
-          "secondary_button_label": "#008031"
+          "secondary_button_label": "#188f65"
         }
       },
       "scheme-3": {
