@@ -2591,7 +2591,7 @@
         "text_G7QiEK": {
           "type": "text",
           "settings": {
-            "text": "<p>A Sant Eloi treballem per oferir qualitat, proximitat i confiança formant part del dia a dia de les famílies d’Andorra.</p>",
+            "text": "<p>Des de 1960, Grup Sant Eloi forma part del dia a dia d’Andorra amb supermercats, estacions de servei, hoteleria i serveis pensats per estar sempre a prop teu.</p>",
             "text_size": "t1"
           }
         },
@@ -2599,7 +2599,7 @@
           "type": "buttons",
           "settings": {
             "button_text_size": "t3",
-            "button_label_1": "GRUP SANT ELOI",
+            "button_label_1": "Descobreix el Grup",
             "button_link_1": "https://santeloi.com/",
             "button_style_1": "primary",
             "button_style_1_show_arrow": true,
