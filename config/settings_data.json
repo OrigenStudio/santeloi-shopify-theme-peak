@@ -292,7 +292,7 @@
       "scheme-7": {
         "settings": {
           "background": "#b85c38",
-          "background_gradient": "linear-gradient(229deg, rgba(201, 111, 59, 1) 4%, rgba(184, 92, 56, 1) 100%)",
+          "background_gradient": "",
           "background_accent": "",
           "text": "#ffffff",
           "link": "#ffffff",
