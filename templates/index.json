@@ -2477,95 +2477,6 @@
         "show_time_night": true
       }
     },
-    "video_with_text_fbpiJb": {
-      "type": "video-with-text",
-      "blocks": {
-        "caption_TnVnLp": {
-          "type": "caption",
-          "settings": {
-            "caption": "Only organic",
-            "caption_text_style": "caption-with-letter-spacing",
-            "caption_text_size": "t6"
-          }
-        },
-        "heading_wdmLgE": {
-          "type": "heading",
-          "settings": {
-            "heading": "We're partnered with [sustainable|<em>remarkable</em>] farmers",
-            "heading_italic_convert": "accent",
-            "heading_size": "h2",
-            "heading_size_custom": 2.4,
-            "heading_line_height_custom": 1.2,
-            "heading_tag": "h2"
-          }
-        },
-        "text_hYXjWA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Carefully selected partners to produce only the highest standard of produce. For you.</p>",
-            "text_size": "t1"
-          }
-        },
-        "buttons_NqVRUE": {
-          "type": "buttons",
-          "settings": {
-            "button_text_size": "t3",
-            "button_label_1": "Quality food",
-            "button_link_1": "",
-            "button_style_1": "primary",
-            "button_style_1_show_arrow": true,
-            "button_style_1_show_gradient_border": false,
-            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_2": "secondary",
-            "button_style_2_show_arrow": false,
-            "button_style_2_show_gradient_border": false,
-            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
-          }
-        }
-      },
-      "block_order": [
-        "caption_TnVnLp",
-        "heading_wdmLgE",
-        "text_hYXjWA",
-        "buttons_NqVRUE"
-      ],
-      "custom_css": [],
-      "settings": {
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "image": "shopify://shop_images/caption_1.jpg",
-        "enable_video_autoplay": false,
-        "controls_position": "bottom_right",
-        "playback_controls": "custom",
-        "playback_end": "loop",
-        "video_cover": true,
-        "video_aspect_ratio": "1.77",
-        "desktop_section_height": 500,
-        "mobile_section_height": 400,
-        "desktop_media_width": 50,
-        "desktop_media_scale": 100,
-        "layout": "media_first",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "text_max_width": "xs",
-        "content_layout": "no-overlap-separate",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-2",
-        "show_content_shadow": false,
-        "line_separator": "border-top border-bottom",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
-        "visibility": "",
-        "hide_when_empty": false,
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true,
-        "lazy_load": true
-      }
-    },
     "image_with_text_8BwKqb": {
       "type": "image-with-text",
       "blocks": {
@@ -2737,7 +2648,6 @@
     "testimonials_Jnq7c4",
     "image_banner_LC9AiE",
     "image_with_collapsible_content_YnzF8Q",
-    "video_with_text_fbpiJb",
     "image_with_text_8BwKqb",
     "newsletter_wdAX3R"
   ]
