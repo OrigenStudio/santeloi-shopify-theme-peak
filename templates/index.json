@@ -2772,7 +2772,7 @@
       "name": "Email signup",
       "settings": {
         "preview_success": false,
-        "show_image": true,
+        "show_image": false,
         "image": "shopify://shop_images/full.webp",
         "image_overlay_opacity": 0,
         "fix_image": true,
@@ -2787,7 +2787,7 @@
         "mobile_content_alignment": "center",
         "show_text_box": "always",
         "show_text_below": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "container_color_scheme": "",
         "line_separator": "",
         "top_padding": "pt-s",
