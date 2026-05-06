@@ -2687,6 +2687,14 @@
     "image_with_text_8BwKqb": {
       "type": "image-with-text",
       "blocks": {
+        "caption_trieeV": {
+          "type": "caption",
+          "settings": {
+            "caption": "GRUP SANT ELOI",
+            "caption_text_style": "caption-with-letter-spacing",
+            "caption_text_size": "t6"
+          }
+        },
         "heading_C4ChT4": {
           "type": "heading",
           "settings": {
@@ -2709,10 +2717,10 @@
           "type": "buttons",
           "settings": {
             "button_text_size": "t3",
-            "button_label_1": "Button label",
-            "button_link_1": "/",
+            "button_label_1": "GRUP SANT ELOI",
+            "button_link_1": "https://santeloi.com/",
             "button_style_1": "primary",
-            "button_style_1_show_arrow": false,
+            "button_style_1_show_arrow": true,
             "button_style_1_show_gradient_border": false,
             "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "button_label_2": "",
@@ -2725,6 +2733,7 @@
         }
       },
       "block_order": [
+        "caption_trieeV",
         "heading_C4ChT4",
         "text_G7QiEK",
         "buttons_xhqgeH"
@@ -2741,9 +2750,9 @@
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "text_max_width": "xs",
-        "content_layout": "no-overlap",
+        "content_layout": "no-overlap-separate",
         "section_color_scheme": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-8",
         "show_content_shadow": false,
         "line_separator": "",
         "top_padding": "pt-s",
