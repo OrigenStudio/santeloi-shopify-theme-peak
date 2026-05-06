@@ -168,7 +168,10 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "color_scheme": "scheme-1"
+          "logo": "shopify://shop_images/logo_santeloi.png",
+          "logo_width": 100,
+          "color_scheme": "scheme-1",
+          "line_separator": "border-bottom"
         }
       },
       "main-password-footer": {
