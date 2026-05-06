@@ -2549,73 +2549,6 @@
         "lazy_load": true
       }
     },
-    "newsletter_wdAX3R": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_bKyjFF": {
-          "type": "heading",
-          "settings": {
-            "visibility": "always",
-            "heading": "Vols estar al dia?",
-            "heading_italic_convert": "",
-            "heading_size": "h3",
-            "heading_size_custom": 2.4,
-            "heading_line_height_custom": 1.2,
-            "heading_tag": "h2"
-          }
-        },
-        "text_pBrQpi": {
-          "type": "text",
-          "settings": {
-            "visibility": "always",
-            "text": "<p>Rep ofertes i novetats</p>",
-            "text_size": "t3"
-          }
-        },
-        "email_form_96Rp8F": {
-          "type": "email_form",
-          "settings": {
-            "visibility": "always"
-          }
-        }
-      },
-      "block_order": [
-        "heading_bKyjFF",
-        "text_pBrQpi",
-        "email_form_96Rp8F"
-      ],
-      "name": "Email signup",
-      "settings": {
-        "preview_success": false,
-        "show_image": false,
-        "image": "shopify://shop_images/full.webp",
-        "image_overlay_opacity": 0,
-        "fix_image": true,
-        "image_ratio": "custom",
-        "desktop_section_height": 440,
-        "mobile_section_height": 100,
-        "full_width": true,
-        "desktop_content_position": "md:justify-center md:items-center",
-        "mobile_content_position": "justify-center items-center",
-        "content_max_width": "m",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "center",
-        "show_text_box": "always",
-        "show_text_below": false,
-        "color_scheme": "scheme-5",
-        "container_color_scheme": "",
-        "line_separator": "",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
-        "visibility": "",
-        "hide_when_empty": false,
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true
-      }
-    },
     "image_with_text_8BwKqb": {
       "type": "image-with-text",
       "blocks": {
@@ -2688,6 +2621,73 @@
         "show_time_evening": true,
         "show_time_night": true
       }
+    },
+    "newsletter_wdAX3R": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_bKyjFF": {
+          "type": "heading",
+          "settings": {
+            "visibility": "always",
+            "heading": "Vols estar al dia?",
+            "heading_italic_convert": "",
+            "heading_size": "h3",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h2"
+          }
+        },
+        "text_pBrQpi": {
+          "type": "text",
+          "settings": {
+            "visibility": "always",
+            "text": "<p>Rep ofertes i novetats</p>",
+            "text_size": "t3"
+          }
+        },
+        "email_form_96Rp8F": {
+          "type": "email_form",
+          "settings": {
+            "visibility": "always"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bKyjFF",
+        "text_pBrQpi",
+        "email_form_96Rp8F"
+      ],
+      "name": "Email signup",
+      "settings": {
+        "preview_success": false,
+        "show_image": false,
+        "image": "shopify://shop_images/full.webp",
+        "image_overlay_opacity": 0,
+        "fix_image": true,
+        "image_ratio": "custom",
+        "desktop_section_height": 440,
+        "mobile_section_height": 100,
+        "full_width": true,
+        "desktop_content_position": "md:justify-center md:items-center",
+        "mobile_content_position": "justify-center items-center",
+        "content_max_width": "m",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "show_text_box": "always",
+        "show_text_below": false,
+        "color_scheme": "scheme-5",
+        "container_color_scheme": "",
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
     }
   },
   "order": [
@@ -2714,7 +2714,7 @@
     "image_banner_LC9AiE",
     "image_with_collapsible_content_YnzF8Q",
     "video_with_text_fbpiJb",
-    "newsletter_wdAX3R",
-    "image_with_text_8BwKqb"
+    "image_with_text_8BwKqb",
+    "newsletter_wdAX3R"
   ]
 }
