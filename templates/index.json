@@ -2581,8 +2581,8 @@
           "type": "heading",
           "settings": {
             "heading": "Més que un supermercat",
-            "heading_italic_convert": "",
-            "heading_size": "h3",
+            "heading_italic_convert": "accent",
+            "heading_size": "h2",
             "heading_size_custom": 2.4,
             "heading_line_height_custom": 1.2,
             "heading_tag": "h2"
@@ -2592,7 +2592,7 @@
           "type": "text",
           "settings": {
             "text": "<p>A Sant Eloi treballem per oferir qualitat, proximitat i confiança formant part del dia a dia de les famílies d’Andorra.</p>",
-            "text_size": "t3"
+            "text_size": "t1"
           }
         },
         "buttons_xhqgeH": {
