@@ -1353,191 +1353,6 @@
         "show_time_night": true
       }
     },
-    "image_hotspots_MaPqKF": {
-      "type": "image-hotspots",
-      "blocks": {
-        "heading_VtHPtK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop the spread",
-            "heading_italic_convert": "light",
-            "heading_size": "custom",
-            "heading_size_custom": 2.8,
-            "heading_line_height_custom": 1.2,
-            "heading_tag": "h2"
-          }
-        },
-        "text_YFDYtq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Save time and money, with our thoughtful meal ideas, especially made for you.</p>",
-            "text_size": "t2"
-          }
-        },
-        "spacer_wrzeEH": {
-          "type": "spacer",
-          "settings": {
-            "show_line_separator": true,
-            "spacing_top": 1.2,
-            "spacing_bottom": 2.4,
-            "spacer_visibility": "both",
-            "line_color": "rgba(0,0,0,0)"
-          }
-        },
-        "buttons_NKwzwc": {
-          "type": "buttons",
-          "settings": {
-            "button_text_size": "t4",
-            "button_label_1": "Vegetables",
-            "button_link_1": "",
-            "button_style_1": "secondary",
-            "button_style_1_show_arrow": true,
-            "button_style_1_show_gradient_border": false,
-            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_2": "secondary",
-            "button_style_2_show_arrow": false,
-            "button_style_2_show_gradient_border": false,
-            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
-          }
-        },
-        "hotspot_HgrFPY": {
-          "type": "hotspot",
-          "settings": {
-            "hotspot_horizontal_position_desktop": 30,
-            "hotspot_vertical_position_desktop": 16,
-            "hotspot_horizontal_position_override_desktop": "",
-            "hotspot_vertical_position_override_desktop": "",
-            "hotspot_position_mobile": false,
-            "hotspot_horizontal_position_mobile": 50,
-            "hotspot_vertical_position_mobile": 50,
-            "hotspot_horizontal_position_override_mobile": "",
-            "hotspot_vertical_position_override_mobile": "",
-            "popover_product": "",
-            "title": "Vine Tomatoes",
-            "popover_content": "<p>As an industry expert in produce, we offer the juiciest Classic Vine Tomatoes that are sure to satisfy.</p>",
-            "popover_button_label": "Tomatoes",
-            "popover_button_link": "",
-            "popover_button_style": "link",
-            "popover_button_show_arrow": true,
-            "hotspot_style": "plus",
-            "hotspot_size_desktop": 40,
-            "hotspot_size_mobile": 24,
-            "hotspot_pulse": true,
-            "popover_width_desktop": 335,
-            "popover_title_size": "t0",
-            "popover_content_size": "t4",
-            "popover_button_text_size": "t3",
-            "popover_color_scheme": "",
-            "hotspot_background_color": "#ffffff",
-            "hotspot_foreground_color": "#222222",
-            "hotspot_opacity": 95,
-            "hotspot_visibility": ""
-          }
-        },
-        "hotspot_8UjYFa": {
-          "type": "hotspot",
-          "settings": {
-            "hotspot_horizontal_position_desktop": 90,
-            "hotspot_vertical_position_desktop": 50,
-            "hotspot_horizontal_position_override_desktop": "",
-            "hotspot_vertical_position_override_desktop": "",
-            "hotspot_position_mobile": false,
-            "hotspot_horizontal_position_mobile": 50,
-            "hotspot_vertical_position_mobile": 50,
-            "hotspot_horizontal_position_override_mobile": "",
-            "hotspot_vertical_position_override_mobile": "",
-            "popover_product": "",
-            "title": "Avocados",
-            "popover_content": "<p>These ripe avocados are carefully selected and ready to be enjoyed. Rich in healthy fats, they are a great addition to any meal. </p>",
-            "popover_button_label": "Avocados",
-            "popover_button_link": "",
-            "popover_button_style": "link",
-            "popover_button_show_arrow": true,
-            "hotspot_style": "plus",
-            "hotspot_size_desktop": 40,
-            "hotspot_size_mobile": 24,
-            "hotspot_pulse": true,
-            "popover_width_desktop": 335,
-            "popover_title_size": "t0",
-            "popover_content_size": "t4",
-            "popover_button_text_size": "t3",
-            "popover_color_scheme": "",
-            "hotspot_background_color": "#ffffff",
-            "hotspot_foreground_color": "#222222",
-            "hotspot_opacity": 95,
-            "hotspot_visibility": ""
-          }
-        },
-        "hotspot_fyca9f": {
-          "type": "hotspot",
-          "settings": {
-            "hotspot_horizontal_position_desktop": 67,
-            "hotspot_vertical_position_desktop": 78,
-            "hotspot_horizontal_position_override_desktop": "",
-            "hotspot_vertical_position_override_desktop": "",
-            "hotspot_position_mobile": false,
-            "hotspot_horizontal_position_mobile": 50,
-            "hotspot_vertical_position_mobile": 50,
-            "hotspot_horizontal_position_override_mobile": "",
-            "hotspot_vertical_position_override_mobile": "",
-            "popover_product": "",
-            "title": "No Caffeine Coffee",
-            "popover_content": "<p>Experience the rich and full-bodied flavor of our Organic No Caffeine Coffee Alternative. </p>",
-            "popover_button_label": "Coffee",
-            "popover_button_link": "",
-            "popover_button_style": "link",
-            "popover_button_show_arrow": true,
-            "hotspot_style": "plus",
-            "hotspot_size_desktop": 40,
-            "hotspot_size_mobile": 24,
-            "hotspot_pulse": true,
-            "popover_width_desktop": 335,
-            "popover_title_size": "t0",
-            "popover_content_size": "t4",
-            "popover_button_text_size": "t3",
-            "popover_color_scheme": "",
-            "hotspot_background_color": "#ffffff",
-            "hotspot_foreground_color": "#222222",
-            "hotspot_opacity": 95,
-            "hotspot_visibility": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_VtHPtK",
-        "text_YFDYtq",
-        "spacer_wrzeEH",
-        "buttons_NKwzwc",
-        "hotspot_HgrFPY",
-        "hotspot_8UjYFa",
-        "hotspot_fyca9f"
-      ],
-      "settings": {
-        "image_overlay_opacity": 18,
-        "skew_images": false,
-        "image_ratio": "adapt",
-        "full_width": false,
-        "desktop_content_position": "md:justify-start md:items-end",
-        "content_max_width": "xs",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "show_text_box": "mobile",
-        "color_scheme": "scheme-1",
-        "container_color_scheme": "scheme-1c719768-b92f-4199-989e-717e347e77ed",
-        "line_separator": "border-top",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
-        "visibility": "",
-        "hide_when_empty": false,
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true
-      }
-    },
     "quick_filter_yJGjV7": {
       "type": "quick-filter",
       "blocks": {
@@ -2787,8 +2602,81 @@
         "mobile_content_alignment": "center",
         "show_text_box": "always",
         "show_text_below": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "container_color_scheme": "",
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
+    "image_with_text_8BwKqb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_C4ChT4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Més que un supermercat",
+            "heading_italic_convert": "",
+            "heading_size": "h3",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h2"
+          }
+        },
+        "text_G7QiEK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A Sant Eloi treballem per oferir qualitat, proximitat i confiança formant part del dia a dia de les famílies d’Andorra.</p>",
+            "text_size": "t3"
+          }
+        },
+        "buttons_xhqgeH": {
+          "type": "buttons",
+          "settings": {
+            "button_text_size": "t3",
+            "button_label_1": "Button label",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "button_style_2_show_arrow": false,
+            "button_style_2_show_gradient_border": false,
+            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C4ChT4",
+        "text_G7QiEK",
+        "buttons_xhqgeH"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/caption_1.jpg",
+        "desktop_section_height": 500,
+        "mobile_section_height": 400,
+        "desktop_media_width": 50,
+        "desktop_media_scale": 100,
+        "layout": "media_first",
+        "image_cover": true,
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_max_width": "xs",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "show_content_shadow": false,
         "line_separator": "",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
@@ -2814,7 +2702,6 @@
     "video_banner_dGUdeU",
     "ribbon_banner_EiYXmj",
     "gallery_9XYaNx",
-    "image_hotspots_MaPqKF",
     "quick_filter_yJGjV7",
     "product_compare_kc3xBH",
     "scrolling_text_N9GHHx",
@@ -2827,6 +2714,7 @@
     "image_banner_LC9AiE",
     "image_with_collapsible_content_YnzF8Q",
     "video_with_text_fbpiJb",
-    "newsletter_wdAX3R"
+    "newsletter_wdAX3R",
+    "image_with_text_8BwKqb"
   ]
 }
