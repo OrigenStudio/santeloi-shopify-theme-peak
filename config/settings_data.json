@@ -273,13 +273,13 @@
       },
       "scheme-6": {
         "settings": {
-          "background": "#e6d8be",
+          "background": "#e9dfc8",
           "background_gradient": "",
           "background_accent": "",
           "text": "#ffffff",
           "link": "#ffffff",
           "caption": "#ffffff",
-          "accent": "#0a812a",
+          "accent": "#188f65",
           "accent_gradient": "linear-gradient(82deg, rgba(126, 199, 45, 1) 13%, rgba(239, 255, 218, 1) 84%)",
           "heading": "#ffffff",
           "heading_background_gradient": "",
