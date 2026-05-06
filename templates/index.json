@@ -1869,12 +1869,13 @@
         "buttons_EQ9yYp"
       ],
       "settings": {
+        "image": "shopify://shop_images/targeta-client-santeloi.jpg",
         "image_overlay_opacity": 10,
         "image_link": "",
         "fix_image": false,
         "skew_images": false,
         "stack_images_on_mobile": true,
-        "image_ratio": "landscape_wider",
+        "image_ratio": "adapt",
         "desktop_section_height": 500,
         "mobile_section_height": 400,
         "full_width": false,
