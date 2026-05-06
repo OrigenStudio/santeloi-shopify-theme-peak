@@ -2518,7 +2518,8 @@
       "custom_css": [],
       "settings": {
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "enable_video_autoplay": true,
+        "image": "shopify://shop_images/caption_1.jpg",
+        "enable_video_autoplay": false,
         "controls_position": "bottom_right",
         "playback_controls": "custom",
         "playback_end": "loop",
