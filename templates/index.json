@@ -2686,7 +2686,7 @@
       "name": "Email signup",
       "settings": {
         "preview_success": false,
-        "show_image": false,
+        "show_image": true,
         "image": "shopify://shop_images/full.webp",
         "image_overlay_opacity": 0,
         "fix_image": true,
