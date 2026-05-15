@@ -40,7 +40,7 @@
       "settings": {
         "text_size": "t5",
         "change_slides_speed": 7,
-        "enable_accounts": true,
+        "enable_accounts": false,
         "link_1_icon": "question_mark",
         "link_1_label": "Ajuda",
         "link_1_url": "/",
