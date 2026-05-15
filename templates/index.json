@@ -343,7 +343,7 @@
     "featured_collection_raicD4": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "frontpage",
         "products_to_show": 11,
         "desktop_layout": "carousel",
         "mobile_layout": "carousel",
