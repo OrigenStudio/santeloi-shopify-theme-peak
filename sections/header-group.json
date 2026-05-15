@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free delivery to your door for orders over $100.",
+            "text": "Producte fresc i ofertes noves cada setmana",
             "mobile_text": "",
             "announcement_pages": "",
             "color_scheme": "scheme-5"
@@ -26,7 +26,7 @@
         "01f1744f-4bdc-4966-8eb5-a7fdf375e9a5": {
           "type": "announcement",
           "settings": {
-            "text": "Check out our new <a href=\"/\" title=\"/\">Protein Shake</a>, 20% off for a limited time!",
+            "text": "Recull la teva compra o rep-la on vulguis a Andorra",
             "mobile_text": "",
             "announcement_pages": "",
             "color_scheme": "scheme-11"
