@@ -352,6 +352,7 @@
         },
         "enquiry_product_4iRP68": {
           "type": "enquiry_product",
+          "disabled": true,
           "settings": {
             "icon": "",
             "text": "<h4><strong>Question about this product?</strong></h4><p>We're happy to help.</p>",
