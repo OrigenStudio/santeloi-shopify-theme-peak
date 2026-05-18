@@ -103,7 +103,7 @@
             "side_popup_max_width": 500,
             "icon": "information_circle",
             "icon_position": "left",
-            "text": "Allergen Information",
+            "text": "Informació sobre Al·lèrgens",
             "button_style": "link",
             "button_text_font_weight": "font-normal",
             "button_text_size": "t4",
