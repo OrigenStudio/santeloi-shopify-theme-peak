@@ -203,7 +203,7 @@
         "richtext_tHQW4k": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Want <strong>next day</strong> delivery? Be quick!</p>",
+            "text": "<p>🚚 <strong>Entrega a Andorra</strong><br/>Rep la teva comanda quan vulguis o recull-la a botiga.</p>",
             "text_size": "t3",
             "stock_visibility": "either",
             "show_in_quickbuy": true
@@ -211,6 +211,7 @@
         },
         "countdown_8DCKwq": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "end_date": "",
             "end_time": "",
@@ -261,11 +262,17 @@
             "padding": 3,
             "panel_icon": "",
             "panel_heading": "",
+            "heading_tag": "h2",
             "heading_style": "text-body",
             "heading_text_size": "t4",
             "heading_text_weight": "bold",
             "below_media": false,
             "visibility": "",
+            "show_at_specific_time_of_day": false,
+            "show_time_morning": true,
+            "show_time_afternoon": true,
+            "show_time_evening": true,
+            "show_time_night": true,
             "stock_visibility": "out_of_stock",
             "show_in_quickbuy": true,
             "color_scheme": "scheme-4"
@@ -278,6 +285,7 @@
             "text": "<h5>Sorry, it's out of stock.</h5><p>But we can let you know when it's back in.</p>",
             "text_size": "t3",
             "text_padding": 0,
+            "stock_visibility": "out_of_stock",
             "show_in_quickbuy": true,
             "color_scheme": "scheme-4",
             "image_overlay_opacity": 6,
@@ -291,11 +299,17 @@
             "padding": 0,
             "panel_icon": "",
             "panel_heading": "",
+            "heading_tag": "h2",
             "heading_style": "text-body",
             "heading_text_size": "t4",
             "heading_text_weight": "bold",
             "below_media": false,
             "visibility": "",
+            "show_at_specific_time_of_day": false,
+            "show_time_morning": true,
+            "show_time_afternoon": true,
+            "show_time_evening": true,
+            "show_time_night": true,
             "stock_visibility": "either",
             "show_in_quickbuy": true,
             "color_scheme": "scheme-1"
@@ -320,11 +334,17 @@
             "padding": 0.2,
             "panel_icon": "",
             "panel_heading": "",
+            "heading_tag": "h2",
             "heading_style": "text-body",
             "heading_text_size": "t4",
             "heading_text_weight": "bold",
             "below_media": false,
             "visibility": "",
+            "show_at_specific_time_of_day": false,
+            "show_time_morning": true,
+            "show_time_afternoon": true,
+            "show_time_evening": true,
+            "show_time_night": true,
             "stock_visibility": "either",
             "show_in_quickbuy": false,
             "color_scheme": "scheme-3"
@@ -335,6 +355,19 @@
           "settings": {
             "icon": "",
             "text": "<h4><strong>Question about this product?</strong></h4><p>We're happy to help.</p>",
+            "show_custom_text_field": false,
+            "custom_text_field_label": "Custom text",
+            "custom_text_field_required": true,
+            "show_long_text_field": true,
+            "long_text_field_label": "",
+            "long_text_field_required": true,
+            "button_label": "",
+            "button_text_size": "t6",
+            "button_style": "primary",
+            "button_style_show_arrow": true,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "success_message": "",
             "text_size": "t3",
             "text_padding": 2,
             "stock_visibility": "either",
@@ -351,11 +384,17 @@
             "padding": 0.2,
             "panel_icon": "",
             "panel_heading": "",
+            "heading_tag": "h2",
             "heading_style": "text-heading",
             "heading_text_size": "t0",
             "heading_text_weight": "medium",
             "below_media": true,
             "visibility": "",
+            "show_at_specific_time_of_day": false,
+            "show_time_morning": true,
+            "show_time_afternoon": true,
+            "show_time_evening": true,
+            "show_time_night": true,
             "stock_visibility": "either",
             "show_in_quickbuy": false,
             "color_scheme": "scheme-2"
@@ -450,11 +489,17 @@
             "padding": 0,
             "panel_icon": "clipboard",
             "panel_heading": "Nutritional Facts",
+            "heading_tag": "h2",
             "heading_style": "text-heading",
             "heading_text_size": "t0",
             "heading_text_weight": "medium",
             "below_media": true,
             "visibility": "",
+            "show_at_specific_time_of_day": false,
+            "show_time_morning": true,
+            "show_time_afternoon": true,
+            "show_time_evening": true,
+            "show_time_night": true,
             "stock_visibility": "either",
             "show_in_quickbuy": true,
             "color_scheme": "scheme-2"
@@ -622,11 +667,17 @@
             "padding": 2.4,
             "panel_icon": "",
             "panel_heading": "",
+            "heading_tag": "h2",
             "heading_style": "text-body",
             "heading_text_size": "t4",
             "heading_text_weight": "bold",
             "below_media": false,
             "visibility": "",
+            "show_at_specific_time_of_day": false,
+            "show_time_morning": true,
+            "show_time_afternoon": true,
+            "show_time_evening": true,
+            "show_time_night": true,
             "stock_visibility": "either",
             "show_in_quickbuy": false,
             "color_scheme": "scheme-2"
@@ -733,6 +784,7 @@
         "gallery_layout": "slider",
         "info_fullwidth_mob": true,
         "scroll_to_active_variant": true,
+        "sticky_panel_enable": true,
         "sticky_panel": "",
         "page_title_enabled": false,
         "page_title_vendor": false,
@@ -786,7 +838,12 @@
         "line_separator": "border-top",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
-        "visibility": ""
+        "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "related-products": {
@@ -811,7 +868,12 @@
         "line_separator": "border-top",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
-        "visibility": ""
+        "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "rich_text_AqAAyx": {
@@ -852,7 +914,12 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-s05",
         "visibility": "",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "image_banner_gwGM38": {
@@ -882,7 +949,12 @@
         "top_padding": "pt-s05",
         "bottom_padding": "pb-0",
         "visibility": "",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "stats_bJWtWh": {
@@ -913,6 +985,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -943,6 +1017,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -973,6 +1049,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1019,6 +1097,11 @@
         "bottom_padding": "pb-s05",
         "visibility": "",
         "hide_when_empty": true,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "heading_tag": "h2"
       }
     },
@@ -1075,7 +1158,12 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-0",
         "visibility": "",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "image_with_text_gmFpBQ": {
@@ -1131,7 +1219,12 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-0",
         "visibility": "",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "video_banner_mQNJpX": {
@@ -1186,6 +1279,11 @@
         "bottom_padding": "pb-s",
         "visibility": "",
         "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "lazy_load": true,
         "heading_tag": "h2",
         "description": "",
@@ -1221,6 +1319,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1252,6 +1352,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1283,6 +1385,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1314,6 +1418,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1345,6 +1451,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1376,6 +1484,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1407,6 +1517,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-2",
             "color_scheme_bg_fix": false
@@ -1450,6 +1562,11 @@
         "bottom_padding": "pb-s05",
         "visibility": "",
         "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "heading_tag": "h2"
       }
     },
@@ -1499,7 +1616,12 @@
         "top_padding": "pt-0",
         "bottom_padding": "pb-s15",
         "visibility": "both",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "collapsible_content_t3C4Tq": {
@@ -1520,7 +1642,9 @@
             "button_label_1": "",
             "button_link_1": "/",
             "button_style_1": "primary",
-            "button_style_1_show_arrow": false
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         },
         "collapsible_row_wzzmgF": {
@@ -1538,7 +1662,9 @@
             "button_label_1": "",
             "button_link_1": "/",
             "button_style_1": "primary",
-            "button_style_1_show_arrow": false
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         },
         "collapsible_row_y93qxH": {
@@ -1556,7 +1682,9 @@
             "button_label_1": "",
             "button_link_1": "/",
             "button_style_1": "primary",
-            "button_style_1_show_arrow": false
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         },
         "collapsible_row_3zyzVG": {
@@ -1574,7 +1702,9 @@
             "button_label_1": "",
             "button_link_1": "/",
             "button_style_1": "primary",
-            "button_style_1_show_arrow": false
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         }
       },
@@ -1606,6 +1736,8 @@
         "button_style": "secondary",
         "button_text_size": "t5",
         "button_style_show_arrow": true,
+        "button_style_show_gradient_border": false,
+        "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
         "section_color_scheme": "scheme-3",
         "color_scheme": "scheme-11",
         "show_content_shadow": true,
@@ -1615,7 +1747,12 @@
         "heading_tag": "h3",
         "render_schema": true,
         "visibility": "",
-        "hide_when_empty": true
+        "hide_when_empty": true,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "testimonials_wGiqtd": {
@@ -1712,6 +1849,11 @@
         "bottom_padding": "pb-s",
         "visibility": "",
         "hide_when_empty": true,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "heading_tag": "h2"
       }
     },
@@ -1863,7 +2005,12 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
         "visibility": "",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "recently_viewed_WRF76n": {
@@ -1888,6 +2035,11 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
         "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "heading_tag": "h2"
       }
     },
@@ -1913,10 +2065,14 @@
             "button_link_1": "/",
             "button_style_1": "secondary",
             "button_style_1_show_arrow": true,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_2": "secondary",
-            "button_style_2_show_arrow": false
+            "button_style_2_show_arrow": false,
+            "button_style_2_show_gradient_border": false,
+            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         }
       },
@@ -1937,7 +2093,12 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
         "visibility": "both",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "alert_DtAfgB": {
@@ -1980,7 +2141,12 @@
         "color_scheme": "",
         "close_color": "",
         "visibility": "both",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "ribbon_banner_EBBMYR": {
@@ -2014,7 +2180,12 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
         "visibility": "both",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "icons_with_text_XRiz3T": {
@@ -2097,7 +2268,12 @@
         "color_scheme": "scheme-3",
         "line_separator": "border-bottom",
         "visibility": "",
-        "hide_when_empty": false
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     }
   },
