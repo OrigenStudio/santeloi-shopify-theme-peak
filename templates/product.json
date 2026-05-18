@@ -489,7 +489,7 @@
           "settings": {
             "padding": 0,
             "panel_icon": "clipboard",
-            "panel_heading": "Nutritional Facts",
+            "panel_heading": "Informació nutricional",
             "heading_tag": "h2",
             "heading_style": "text-heading",
             "heading_text_size": "t0",
