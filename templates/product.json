@@ -1309,7 +1309,7 @@
             "icon_color": "#0a6622",
             "icon_background_color": "#e5ffec",
             "background_gradient": "",
-            "title": "Vegan",
+            "title": "Vegà",
             "heading_tag": "h3",
             "heading_size": "custom",
             "heading_size_custom": 1.2,
@@ -1342,7 +1342,7 @@
             "icon_color": "#581470",
             "icon_background_color": "#fbf0ff",
             "background_gradient": "",
-            "title": "Gluten Free",
+            "title": "Sense gluten",
             "heading_tag": "h3",
             "heading_size": "custom",
             "heading_size_custom": 1.2,
@@ -1375,7 +1375,7 @@
             "icon_color": "#134386",
             "icon_background_color": "#ecf5fc",
             "background_gradient": "",
-            "title": "Dairy Free",
+            "title": "Sense lactosa",
             "heading_tag": "h3",
             "heading_size": "custom",
             "heading_size_custom": 1.2,
@@ -1813,6 +1813,7 @@
         "column_standard_bxfpHL",
         "column_standard_DKwYDD"
       ],
+      "disabled": true,
       "settings": {
         "review_style": "star",
         "rating_size": 3,
@@ -1989,6 +1990,7 @@
         "hotspot_dCiRJy",
         "hotspot_P3FiCD"
       ],
+      "disabled": true,
       "name": "Image hotspots",
       "settings": {
         "image_overlay_opacity": 8,
