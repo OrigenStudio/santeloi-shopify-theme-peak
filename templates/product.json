@@ -1653,7 +1653,7 @@
           "settings": {
             "row_open": false,
             "heading": "Què passa amb els productes de pes variable?",
-            "icon": "ban",
+            "icon": "scale",
             "image_width": 20,
             "row_heading_tag": "h3",
             "row_content": "<p>En productes frescos com fruita, carn o peix, el pes final pot variar lleugerament. El cobrament s’ajusta sempre al pes real preparat.</p>",
@@ -1673,7 +1673,7 @@
           "settings": {
             "row_open": false,
             "heading": "Puc modificar la meva comanda?",
-            "icon": "truck",
+            "icon": "return",
             "image_width": 20,
             "row_heading_tag": "h3",
             "row_content": "<p>Sí. Pots contactar amb el nostre equip abans de la preparació de la comanda per gestionar canvis o incidències.</p>",
@@ -1693,7 +1693,7 @@
           "settings": {
             "row_open": false,
             "heading": "Què passa si un producte no està disponible?",
-            "icon": "return",
+            "icon": "repeat",
             "image_width": 20,
             "row_heading_tag": "h3",
             "row_content": "<p>Si algun producte no està disponible, podem proposar-te una substitució equivalent o eliminar-lo de la comanda segons les teves preferències.</p>",
