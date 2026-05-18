@@ -248,7 +248,7 @@
           "settings": {
             "closable": true,
             "icon": "calendar",
-            "message": "<p><strong>5 days freshness</strong><br/>*Freshness guarantee is based on delivery scheduled for tomorrow, with coverage beginning the day after delivery.</p>",
+            "message": "<p><strong>Producte fresc preparat al dia</strong><br/>*Preparem moltes comandes el mateix dia per garantir la màxima frescor i qualitat dels productes refrigerats i frescos.</p>",
             "visibility": "",
             "stock_visibility": "either",
             "show_in_quickbuy": true,
