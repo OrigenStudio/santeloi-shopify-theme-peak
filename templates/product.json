@@ -204,7 +204,7 @@
           "type": "richtext",
           "settings": {
             "text": "<p>🚚 <strong>Entrega a Andorra</strong><br/>Rep la teva comanda quan vulguis o recull-la a botiga.</p>",
-            "text_size": "t3",
+            "text_size": "t4",
             "stock_visibility": "either",
             "show_in_quickbuy": true
           }
