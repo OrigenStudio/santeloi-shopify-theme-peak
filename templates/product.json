@@ -1673,7 +1673,7 @@
           "settings": {
             "row_open": false,
             "heading": "Puc modificar la meva comanda?",
-            "icon": "return",
+            "icon": "bag-add",
             "image_width": 20,
             "row_heading_tag": "h3",
             "row_content": "<p>Sí. Pots contactar amb el nostre equip abans de la preparació de la comanda per gestionar canvis o incidències.</p>",
