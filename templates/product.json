@@ -248,7 +248,7 @@
           "settings": {
             "closable": true,
             "icon": "calendar",
-            "message": "<p><strong>Producte fresc preparat al dia</strong><br/>*Preparem moltes comandes el mateix dia per garantir la màxima frescor i qualitat dels productes refrigerats i frescos.</p>",
+            "message": "<p><strong>Preparació el mateix dia</strong><br/>*Preparem moltes comandes el mateix dia per garantir la màxima frescor dels productes.</p>",
             "visibility": "",
             "stock_visibility": "either",
             "show_in_quickbuy": true,
