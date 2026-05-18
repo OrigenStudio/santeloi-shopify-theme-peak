@@ -849,7 +849,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "products_to_show": 4,
         "desktop_layout": "carousel",
@@ -860,7 +859,7 @@
         "content_max_width": "m",
         "desktop_heading_alignment": "left",
         "mobile_heading_alignment": "left",
-        "title": "You may also like",
+        "title": "<strong>També et pot interessar</strong>",
         "italic_convert": "",
         "heading_size": "h2",
         "text": "",
@@ -925,6 +924,7 @@
     },
     "image_banner_gwGM38": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "{{ product.featured_image }}",
         "image_overlay_opacity": 0,
