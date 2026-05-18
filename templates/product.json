@@ -1713,7 +1713,7 @@
           "settings": {
             "row_open": false,
             "heading": "Com funciona el Click & Collect?",
-            "icon": "return",
+            "icon": "storefront",
             "image_width": 20,
             "row_heading_tag": "h3",
             "row_content": "<p>Pots fer la compra online i recollir-la al punt seleccionat en l’horari que millor et vagi.</p>",
@@ -1733,7 +1733,7 @@
           "settings": {
             "row_open": false,
             "heading": "Quins mètodes de pagament accepteu?",
-            "icon": "return",
+            "icon": "card",
             "image_width": 20,
             "row_heading_tag": "h3",
             "row_content": "<p>Acceptem pagament amb targeta de crèdit o dèbit i altres mètodes disponibles durant el checkout.</p>",
