@@ -687,7 +687,7 @@
         "collapsible_tab_khyUdX": {
           "type": "collapsible_tab",
           "settings": {
-            "row_open": false,
+            "row_open": true,
             "line_separator": "border-bottom",
             "heading": "Descripció",
             "row_heading_size": "t3",
