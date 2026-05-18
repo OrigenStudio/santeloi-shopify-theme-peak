@@ -1141,6 +1141,7 @@
         "heading_jKH9Um",
         "text_37XbVG"
       ],
+      "disabled": true,
       "settings": {
         "desktop_section_height": 500,
         "mobile_section_height": 400,
@@ -1202,6 +1203,7 @@
         "heading_yxHimN",
         "text_GPwHNF"
       ],
+      "disabled": true,
       "settings": {
         "desktop_section_height": 500,
         "mobile_section_height": 400,
