@@ -666,7 +666,7 @@
           "settings": {
             "padding": 2.4,
             "panel_icon": "",
-            "panel_heading": "",
+            "panel_heading": "Composició del producte",
             "heading_tag": "h2",
             "heading_style": "text-body",
             "heading_text_size": "t4",
@@ -688,7 +688,7 @@
           "settings": {
             "row_open": false,
             "line_separator": "border-bottom",
-            "heading": "Advisory Information",
+            "heading": "Descripció",
             "row_heading_size": "t3",
             "row_heading_weight": "medium",
             "icon": "question_mark",
@@ -706,7 +706,7 @@
           "settings": {
             "row_open": false,
             "line_separator": "border-top border-bottom",
-            "heading": "Sustainability Information",
+            "heading": "Ingredients",
             "row_heading_size": "t3",
             "row_heading_weight": "medium",
             "icon": "earth",
@@ -724,7 +724,7 @@
           "settings": {
             "row_open": false,
             "line_separator": "border-top",
-            "heading": "Legal Information",
+            "heading": "Condicions de conservació i ús",
             "row_heading_size": "t3",
             "row_heading_weight": "medium",
             "icon": "information_circle",
