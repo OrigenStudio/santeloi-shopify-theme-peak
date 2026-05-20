@@ -1538,7 +1538,7 @@
         "card_shadow": false,
         "line_separator": "",
         "top_padding": "pt-0",
-        "bottom_padding": "pb-s",
+        "bottom_padding": "pb-s15",
         "visibility": "",
         "hide_when_empty": false,
         "show_at_specific_time_of_day": false,
