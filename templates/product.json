@@ -1561,7 +1561,7 @@
         "content_max_width": "m",
         "desktop_heading_alignment": "left",
         "mobile_heading_alignment": "left",
-        "title": "<strong>També et pot interessar</strong>",
+        "title": "També et pot interessar",
         "italic_convert": "",
         "heading_size": "h2",
         "text": "",
@@ -1576,6 +1576,36 @@
         "show_time_afternoon": true,
         "show_time_evening": true,
         "show_time_night": true
+      }
+    },
+    "recently_viewed_WRF76n": {
+      "type": "recently-viewed",
+      "settings": {
+        "products_to_show": 8,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "columns_desktop": "4",
+        "columns_mobile": "2",
+        "full_width": false,
+        "content_max_width": "m",
+        "desktop_heading_alignment": "left",
+        "mobile_heading_alignment": "left",
+        "title": "Continua descobrint",
+        "italic_convert": "",
+        "heading_size": "h2",
+        "text": "",
+        "text_size": "t3",
+        "color_scheme": "",
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
+        "heading_tag": "h2"
       }
     },
     "ribbon_banner_pxNBa9": {
@@ -2066,36 +2096,6 @@
         "show_time_night": true
       }
     },
-    "recently_viewed_WRF76n": {
-      "type": "recently-viewed",
-      "settings": {
-        "products_to_show": 8,
-        "desktop_layout": "carousel",
-        "mobile_layout": "carousel",
-        "columns_desktop": "4",
-        "columns_mobile": "2",
-        "full_width": false,
-        "content_max_width": "m",
-        "desktop_heading_alignment": "left",
-        "mobile_heading_alignment": "left",
-        "title": "Recently viewed",
-        "italic_convert": "",
-        "heading_size": "h2",
-        "text": "",
-        "text_size": "t3",
-        "color_scheme": "",
-        "line_separator": "",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
-        "visibility": "",
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true,
-        "heading_tag": "h2"
-      }
-    },
     "ribbon_banner_kAqDx9": {
       "type": "ribbon-banner",
       "blocks": {
@@ -2342,11 +2342,11 @@
     "video_banner_mQNJpX",
     "multicolumn_nYdahQ",
     "related-products",
+    "recently_viewed_WRF76n",
     "ribbon_banner_pxNBa9",
     "collapsible_content_t3C4Tq",
     "testimonials_wGiqtd",
     "image_hotspots_HGcqwG",
-    "recently_viewed_WRF76n",
     "ribbon_banner_kAqDx9",
     "alert_DtAfgB",
     "ribbon_banner_EBBMYR",
