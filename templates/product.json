@@ -1549,6 +1549,35 @@
         "heading_tag": "h2"
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "products_to_show": 4,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "columns_desktop": "4",
+        "columns_mobile": "2",
+        "full_width": false,
+        "content_max_width": "m",
+        "desktop_heading_alignment": "left",
+        "mobile_heading_alignment": "left",
+        "title": "<strong>També et pot interessar</strong>",
+        "italic_convert": "",
+        "heading_size": "h2",
+        "text": "",
+        "text_size": "t3",
+        "color_scheme": "scheme-1",
+        "line_separator": "border-top",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
     "ribbon_banner_pxNBa9": {
       "type": "ribbon-banner",
       "blocks": {
@@ -2037,35 +2066,6 @@
         "show_time_night": true
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "products_to_show": 4,
-        "desktop_layout": "carousel",
-        "mobile_layout": "carousel",
-        "columns_desktop": "4",
-        "columns_mobile": "2",
-        "full_width": false,
-        "content_max_width": "m",
-        "desktop_heading_alignment": "left",
-        "mobile_heading_alignment": "left",
-        "title": "<strong>També et pot interessar</strong>",
-        "italic_convert": "",
-        "heading_size": "h2",
-        "text": "",
-        "text_size": "t3",
-        "color_scheme": "scheme-1",
-        "line_separator": "border-top",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
-        "visibility": "",
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true
-      }
-    },
     "recently_viewed_WRF76n": {
       "type": "recently-viewed",
       "settings": {
@@ -2341,11 +2341,11 @@
     "image_with_text_gmFpBQ",
     "video_banner_mQNJpX",
     "multicolumn_nYdahQ",
+    "related-products",
     "ribbon_banner_pxNBa9",
     "collapsible_content_t3C4Tq",
     "testimonials_wGiqtd",
     "image_hotspots_HGcqwG",
-    "related-products",
     "recently_viewed_WRF76n",
     "ribbon_banner_kAqDx9",
     "alert_DtAfgB",
