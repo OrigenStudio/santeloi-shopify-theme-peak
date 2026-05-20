@@ -902,6 +902,7 @@
         "heading_yVzDpd",
         "text_dyL3R9"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_max_width": "m",
@@ -1063,6 +1064,7 @@
         "column_standard_NBeTj7",
         "column_standard_yypakD"
       ],
+      "disabled": true,
       "settings": {
         "stat_animate": true,
         "stat_caption_style": "caption-with-letter-spacing",
