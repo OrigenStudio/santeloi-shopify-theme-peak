@@ -1567,7 +1567,7 @@
         "card_shadow": false,
         "line_separator": "",
         "top_padding": "pt-s",
-        "bottom_padding": "pb-s05",
+        "bottom_padding": "pb-s",
         "visibility": "",
         "hide_when_empty": false,
         "show_at_specific_time_of_day": false,
@@ -1611,6 +1611,7 @@
         "text_HWRzU9",
         "text_pkEiYj"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "closable": false,
