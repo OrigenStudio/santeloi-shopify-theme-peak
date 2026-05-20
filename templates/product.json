@@ -1299,39 +1299,6 @@
     "multicolumn_nYdahQ": {
       "type": "multicolumn",
       "blocks": {
-        "column_standard_da6i7E": {
-          "type": "column_standard",
-          "settings": {
-            "column_alignment": "center",
-            "text_vertical_alignment": "justify-center",
-            "content_padding": 2,
-            "image_ratio": "adapt",
-            "image_width": 100,
-            "image_position": "top",
-            "icon": "plant",
-            "icon_container": "circle",
-            "icon_size": 5.4,
-            "icon_color": "#0a6622",
-            "icon_background_color": "#e5ffec",
-            "background_gradient": "",
-            "title": "Vegà",
-            "heading_tag": "h3",
-            "heading_size": "custom",
-            "heading_size_custom": 1.2,
-            "text": "",
-            "text_size": "t3",
-            "button_text_size": "t3",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "primary",
-            "button_style_show_arrow": false,
-            "button_style_show_gradient_border": false,
-            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "card_link": "",
-            "card_color_scheme": "scheme-2",
-            "color_scheme_bg_fix": false
-          }
-        },
         "column_standard_PXKhzp": {
           "type": "column_standard",
           "settings": {
@@ -1398,8 +1365,42 @@
             "color_scheme_bg_fix": false
           }
         },
+        "column_standard_da6i7E": {
+          "type": "column_standard",
+          "settings": {
+            "column_alignment": "center",
+            "text_vertical_alignment": "justify-center",
+            "content_padding": 2,
+            "image_ratio": "adapt",
+            "image_width": 100,
+            "image_position": "top",
+            "icon": "plant",
+            "icon_container": "circle",
+            "icon_size": 5.4,
+            "icon_color": "#0a6622",
+            "icon_background_color": "#e5ffec",
+            "background_gradient": "",
+            "title": "Ecològic",
+            "heading_tag": "h3",
+            "heading_size": "custom",
+            "heading_size_custom": 1.2,
+            "text": "",
+            "text_size": "t3",
+            "button_text_size": "t3",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "card_link": "",
+            "card_color_scheme": "scheme-2",
+            "color_scheme_bg_fix": false
+          }
+        },
         "column_standard_QP3kLj": {
           "type": "column_standard",
+          "disabled": true,
           "settings": {
             "column_alignment": "center",
             "text_vertical_alignment": "justify-center",
@@ -1446,7 +1447,7 @@
             "icon_color": "#105c26",
             "icon_background_color": "#f5ffdb",
             "background_gradient": "",
-            "title": "Plant Based",
+            "title": "Producte ecològic certificat",
             "heading_tag": "h3",
             "heading_size": "custom",
             "heading_size_custom": 1.2,
@@ -1466,6 +1467,7 @@
         },
         "column_standard_8jqbXp": {
           "type": "column_standard",
+          "disabled": true,
           "settings": {
             "column_alignment": "center",
             "text_vertical_alignment": "justify-center",
@@ -1506,13 +1508,13 @@
             "image_ratio": "adapt",
             "image_width": 100,
             "image_position": "top",
-            "icon": "earth",
+            "icon": "sunny",
             "icon_container": "circle",
             "icon_size": 5.4,
-            "icon_color": "",
-            "icon_background_color": "#ededed",
+            "icon_color": "#f5e121",
+            "icon_background_color": "#f5f1c1",
             "background_gradient": "",
-            "title": "Paleo",
+            "title": "Producte de temporada",
             "heading_tag": "h3",
             "heading_size": "custom",
             "heading_size_custom": 1.2,
@@ -1532,9 +1534,9 @@
         }
       },
       "block_order": [
-        "column_standard_da6i7E",
         "column_standard_PXKhzp",
         "column_standard_TUxyVn",
+        "column_standard_da6i7E",
         "column_standard_QP3kLj",
         "column_standard_qmVnpY",
         "column_standard_8jqbXp",
