@@ -1537,7 +1537,7 @@
         "color_scheme": "scheme-1",
         "card_shadow": false,
         "line_separator": "",
-        "top_padding": "pt-s05",
+        "top_padding": "pt-0",
         "bottom_padding": "pb-s",
         "visibility": "",
         "hide_when_empty": false,
