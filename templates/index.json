@@ -435,6 +435,7 @@
             "column_alignment": "left",
             "text_vertical_alignment": "justify-start",
             "content_max_width": "xs",
+            "image": "shopify://shop_images/banner-623x504-rana-gourmet.jpg",
             "image_overlay_opacity": 12,
             "icon": "",
             "icon_container": "none",
@@ -881,7 +882,7 @@
         "view_all_link": "",
         "view_all_text": "",
         "view_all_text_size": "t3",
-        "section_color_scheme": "scheme-2",
+        "section_color_scheme": "scheme-12",
         "line_separator": "",
         "top_padding": "pt-s15",
         "bottom_padding": "pb-s15",
@@ -1213,6 +1214,7 @@
         "column_standard_bTJfaH",
         "column_standard_d9TYft"
       ],
+      "disabled": true,
       "settings": {
         "icon_bottom": false,
         "desktop_section_height": 200,
@@ -2090,6 +2092,7 @@
         "column_standard_4kwVaK",
         "column_standard_jD3CVb"
       ],
+      "disabled": true,
       "settings": {
         "stat_animate": true,
         "stat_caption_style": "caption-with-letter-spacing",
@@ -2241,6 +2244,7 @@
         "column_standard_fk4U36",
         "column_standard_hRGtDx"
       ],
+      "disabled": true,
       "settings": {
         "review_style": "star",
         "rating_size": 3,
