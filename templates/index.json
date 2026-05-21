@@ -168,7 +168,7 @@
             "text_size": "t1",
             "button_text_size": "t5",
             "button_label_1": "Descobreix producte fresc",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify://collections/fruita-i-verdura",
             "button_style_1": "primary",
             "button_style_1_show_arrow": true,
             "button_style_1_show_gradient_border": false,
