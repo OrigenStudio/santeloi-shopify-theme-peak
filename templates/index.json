@@ -145,7 +145,7 @@
           "settings": {
             "image": "shopify://shop_images/front-view-arrangement-delicious-autumnal-vegetables.jpg",
             "mobile_image": "shopify://shop_images/autumnal-assortment-fresh-vegetables.jpg",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 12,
             "image_link": "",
             "horizontal_offset": -2,
             "vertical_offset": -2.2,
@@ -187,7 +187,7 @@
           "settings": {
             "image": "shopify://shop_images/2149401501.jpg",
             "mobile_image": "shopify://shop_images/2149401503.jpg",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 12,
             "image_link": "",
             "horizontal_offset": 0,
             "vertical_offset": 0,
@@ -228,7 +228,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/courier-delivering-groceries-home.jpg",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 12,
             "image_link": "",
             "horizontal_offset": 0,
             "vertical_offset": 0,
