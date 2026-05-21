@@ -227,6 +227,7 @@
         "slide_QxV7EQ": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/courier-delivering-groceries-home.jpg",
             "image_overlay_opacity": 0,
             "image_link": "",
             "horizontal_offset": 0,
@@ -261,7 +262,7 @@
             "button_style_2_show_arrow": false,
             "button_style_2_show_gradient_border": false,
             "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "color_scheme": "scheme-8"
+            "color_scheme": "scheme-6"
           }
         }
       },
