@@ -11,6 +11,98 @@
   "name": "Footer",
   "type": "footer",
   "sections": {
+    "icons_with_text_ERKmHx": {
+      "type": "icons-with-text",
+      "blocks": {
+        "icon_with_text_RidXpN": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "truck",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#EDEDED",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>ENTREGA A DOMICILI</strong>",
+            "text": "Tria la franja que millor et vagi",
+            "card_link": ""
+          }
+        },
+        "icon_with_text_yAcjxT": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "chat_bubbles",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#EDEDED",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>CLICK & COLLECT</strong>",
+            "text": "Recull la compra al punt més proper",
+            "card_link": ""
+          }
+        },
+        "icon_with_text_iLzRdR": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shield_checkmark",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#EDEDED",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>COMPRA SEGURA</strong>",
+            "text": "Pagament segur amb targeta o wallet",
+            "card_link": ""
+          }
+        },
+        "icon_with_text_KxwkeQ": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "price_tags",
+            "icon_container": "none",
+            "icon_color": "",
+            "icon_background_color": "#EDEDED",
+            "background_gradient": "",
+            "image_width": 40,
+            "title": "<strong>PRODUCTE FRESC</strong>",
+            "text": "Selecció diària i cadena de fred garantida",
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_RidXpN",
+        "icon_with_text_yAcjxT",
+        "icon_with_text_iLzRdR",
+        "icon_with_text_KxwkeQ"
+      ],
+      "name": "Icons with text",
+      "settings": {
+        "placement": "beside",
+        "content_vertical_alignment": "items-start",
+        "column_alignment": "left",
+        "vertical_padding": 1,
+        "icon_size": 2.8,
+        "heading_size": "t6",
+        "text_size": "t6",
+        "mobile_layout": "carousel",
+        "columns_mobile": "2",
+        "color_scheme": "scheme-3",
+        "line_separator": "",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
+    "17793606863a565db7": {
+      "type": "_blocks",
+      "settings": {}
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -86,6 +178,8 @@
     }
   },
   "order": [
+    "icons_with_text_ERKmHx",
+    "17793606863a565db7",
     "footer"
   ]
 }
