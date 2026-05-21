@@ -143,6 +143,7 @@
         "slide_appRQE": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/front-view-arrangement-delicious-autumnal-vegetables.jpg",
             "image_overlay_opacity": 0,
             "image_link": "",
             "horizontal_offset": -2,
@@ -162,11 +163,11 @@
             "heading_size_custom": 3.2,
             "heading_line_height_custom": 1.4,
             "heading_tag": "h2",
-            "text": "<p>Seleccionem productes frescos cada dia perquè la teva compra arribi amb la millor qualitat.</p>",
+            "text": "<p><strong>Seleccionem productes frescos cada dia perquè la teva compra arribi amb la millor qualitat.</strong></p>",
             "text_size": "t1",
             "button_text_size": "t5",
             "button_label_1": "Descobreix producte fresc",
-            "button_link_1": "",
+            "button_link_1": "shopify://collections/all",
             "button_style_1": "primary",
             "button_style_1_show_arrow": true,
             "button_style_1_show_gradient_border": false,
@@ -177,7 +178,7 @@
             "button_style_2_show_arrow": false,
             "button_style_2_show_gradient_border": false,
             "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "color_scheme": "scheme-2"
+            "color_scheme": "scheme-6"
           }
         },
         "slide_c8j7xp": {
