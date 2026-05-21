@@ -60,6 +60,7 @@
         },
         "image_and_text_FFDePH": {
           "type": "image_and_text",
+          "disabled": true,
           "settings": {
             "heading": "Expert help",
             "description": "<p>Need any advice before you buy? We're here to help.</p><p><a href=\"/\" title=\"/\">Contact Us</a></p>",
