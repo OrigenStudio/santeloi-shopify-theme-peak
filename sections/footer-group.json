@@ -30,7 +30,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Comprar",
-            "menu": "",
+            "menu": "footer-menu-1-comprar",
             "collapsible": true
           }
         },
