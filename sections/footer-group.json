@@ -31,7 +31,7 @@
         "icon_with_text_yAcjxT": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "chat_bubbles",
+            "icon": "storefront",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#EDEDED",
@@ -59,7 +59,7 @@
         "icon_with_text_KxwkeQ": {
           "type": "icon_with_text",
           "settings": {
-            "icon": "price_tags",
+            "icon": "leaf",
             "icon_container": "none",
             "icon_color": "",
             "icon_background_color": "#EDEDED",
