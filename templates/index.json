@@ -186,6 +186,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/2149401501.jpg",
+            "mobile_image": "shopify://shop_images/2149401503.jpg",
             "image_overlay_opacity": 0,
             "image_link": "",
             "horizontal_offset": 0,
@@ -195,7 +196,7 @@
             "content_max_width": "m",
             "desktop_content_alignment": "left",
             "mobile_content_alignment": "center",
-            "show_text_box": "mobile",
+            "show_text_box": "off",
             "caption": "",
             "caption_text_style": "caption-with-letter-spacing",
             "caption_text_size": "t6",
