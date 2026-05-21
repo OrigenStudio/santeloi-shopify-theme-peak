@@ -113,8 +113,8 @@
             "description": "<p>El teu supermercat de referència a Andorra.</p>",
             "collapsible": true,
             "wider": false,
-            "image": "shopify://shop_images/logo_santeloi.png",
-            "image_width": 100,
+            "image": "shopify://shop_images/logo_blanc_santeloi.png",
+            "image_width": 250,
             "image_placement": "top"
           }
         },
