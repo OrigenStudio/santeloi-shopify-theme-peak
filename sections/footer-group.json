@@ -17,10 +17,11 @@
         "image_and_text_AMCBwY": {
           "type": "image_and_text",
           "settings": {
-            "heading": "Sant eloi",
-            "description": "<p>Share contact information, store details and brand content with your customers.</p>",
+            "heading": "",
+            "description": "<p>El teu supermercat de referència a Andorra.</p>",
             "collapsible": true,
             "wider": true,
+            "image": "shopify://shop_images/logo_santeloi.png",
             "image_width": 100,
             "image_placement": "top"
           }
