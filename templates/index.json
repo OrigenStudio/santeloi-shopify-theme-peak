@@ -144,6 +144,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/front-view-arrangement-delicious-autumnal-vegetables.jpg",
+            "mobile_image": "shopify://shop_images/autumnal-assortment-fresh-vegetables.jpg",
             "image_overlay_opacity": 0,
             "image_link": "",
             "horizontal_offset": -2,
