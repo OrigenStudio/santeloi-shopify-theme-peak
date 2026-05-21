@@ -467,6 +467,7 @@
             "column_alignment": "left",
             "text_vertical_alignment": "justify-start",
             "content_max_width": "l",
+            "image": "shopify://shop_images/banner-307x265px-02200160_1.jpg",
             "image_overlay_opacity": 0,
             "icon": "",
             "icon_container": "none",
