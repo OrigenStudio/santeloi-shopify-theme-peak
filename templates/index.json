@@ -201,7 +201,7 @@
             "caption_text_style": "caption-with-letter-spacing",
             "caption_text_size": "t6",
             "heading": "Cuida’t amb [<em>benestar</em>|<em>cura</em>|<em>salut</em>|<em>confiança</em>]",
-            "heading_italic_convert": "accent_color",
+            "heading_italic_convert": "accent",
             "heading_size": "custom",
             "heading_size_custom": 3.2,
             "heading_line_height_custom": 1.3,
