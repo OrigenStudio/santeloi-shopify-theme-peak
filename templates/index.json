@@ -136,7 +136,7 @@
             "button_style_2": "secondary",
             "button_style_2_show_arrow": false,
             "button_style_2_show_gradient_border": true,
-            "button_2_border_gradient": "linear-gradient(118deg, rgba(88, 244, 57, 1) 14%, rgba(255, 250, 99, 1) 85%)",
+            "button_2_border_gradient": "linear-gradient(118deg, rgba(204, 151, 65, 1) 14%, rgba(212, 217, 190, 1) 85%)",
             "color_scheme": "scheme-6"
           }
         },
