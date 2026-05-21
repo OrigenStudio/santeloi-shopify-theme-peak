@@ -116,7 +116,7 @@
             "caption": "",
             "caption_text_style": "caption-with-letter-spacing",
             "caption_text_size": "t6",
-            "heading": "El teu [supermercat|rebost|mercat|dia a dia] online a Andorra",
+            "heading": "El teu [<em>supermercat</em>|<em>rebost</em>|<em>mercat</em>|<em>dia a dia</em>] online a Andorra",
             "heading_italic_convert": "accent",
             "heading_size": "custom",
             "heading_size_custom": 3.4,
