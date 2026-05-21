@@ -237,7 +237,7 @@
             "content_max_width": "m",
             "desktop_content_alignment": "left",
             "mobile_content_alignment": "center",
-            "show_text_box": "mobile",
+            "show_text_box": "off",
             "caption": "",
             "caption_text_style": "caption-with-letter-spacing",
             "caption_text_size": "t6",
