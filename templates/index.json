@@ -185,6 +185,7 @@
         "slide_c8j7xp": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/2149401501.jpg",
             "image_overlay_opacity": 0,
             "image_link": "",
             "horizontal_offset": 0,
@@ -204,11 +205,11 @@
             "heading_size_custom": 3.2,
             "heading_line_height_custom": 1.3,
             "heading_tag": "h2",
-            "text": "<p>Parafarmàcia, higiene i productes per al teu benestar en un sol lloc.</p>",
+            "text": "<p><strong>Parafarmàcia, higiene i productes per al teu benestar en un sol lloc.</strong></p>",
             "text_size": "t1",
             "button_text_size": "t4",
             "button_label_1": "Veure parafarmàcia",
-            "button_link_1": "",
+            "button_link_1": "shopify://collections/all",
             "button_style_1": "primary",
             "button_style_1_show_arrow": true,
             "button_style_1_show_gradient_border": false,
@@ -219,7 +220,7 @@
             "button_style_2_show_arrow": false,
             "button_style_2_show_gradient_border": false,
             "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "color_scheme": "scheme-8"
+            "color_scheme": "scheme-6"
           }
         },
         "slide_QxV7EQ": {
