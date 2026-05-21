@@ -103,7 +103,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/04_Sant-Eloi_interior-3516.jpg",
-            "image_overlay_opacity": 16,
+            "image_overlay_opacity": 24,
             "image_link": "",
             "horizontal_offset": 0,
             "vertical_offset": 3.6,
