@@ -88,7 +88,7 @@
         "text_size": "t6",
         "mobile_layout": "carousel",
         "columns_mobile": "2",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
         "line_separator": "",
         "visibility": "",
         "hide_when_empty": false,
@@ -172,7 +172,7 @@
         "payment_enable": true,
         "color_scheme": "",
         "color_scheme_bottom": "",
-        "color_scheme_bottom_light": true,
+        "color_scheme_bottom_light": false,
         "let_it_snow": false
       }
     }
