@@ -20,7 +20,7 @@
             "heading": "",
             "description": "<p>El teu supermercat de referència a Andorra.</p>",
             "collapsible": true,
-            "wider": true,
+            "wider": false,
             "image": "shopify://shop_images/logo_santeloi.png",
             "image_width": 100,
             "image_placement": "top"
@@ -29,7 +29,7 @@
         "link_list_yAXYbY": {
           "type": "link_list",
           "settings": {
-            "heading": "Menu",
+            "heading": "Comprar",
             "menu": "",
             "collapsible": true
           }
@@ -37,7 +37,23 @@
         "link_list_3H8mTj": {
           "type": "link_list",
           "settings": {
-            "heading": "Menu",
+            "heading": "El meu compte",
+            "menu": "",
+            "collapsible": true
+          }
+        },
+        "link_list_bC3x7r": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Ajuda i servei",
+            "menu": "",
+            "collapsible": true
+          }
+        },
+        "link_list_3wriYK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Sobre Sant Eloi",
             "menu": "",
             "collapsible": true
           }
@@ -58,6 +74,8 @@
         "image_and_text_AMCBwY",
         "link_list_yAXYbY",
         "link_list_3H8mTj",
+        "link_list_bC3x7r",
+        "link_list_3wriYK",
         "image_and_text_FFDePH"
       ],
       "settings": {
