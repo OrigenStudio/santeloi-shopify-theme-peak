@@ -29,7 +29,7 @@
         "link_list_yAXYbY": {
           "type": "link_list",
           "settings": {
-            "heading": "Comprar",
+            "heading": "Compra online",
             "menu": "footer-menu-1-comprar",
             "collapsible": true
           }
@@ -37,24 +37,16 @@
         "link_list_3H8mTj": {
           "type": "link_list",
           "settings": {
-            "heading": "El meu compte",
-            "menu": "",
+            "heading": "Ajuda",
+            "menu": "footer-menu-2-ajuda",
             "collapsible": true
           }
         },
         "link_list_bC3x7r": {
           "type": "link_list",
           "settings": {
-            "heading": "Ajuda i servei",
-            "menu": "",
-            "collapsible": true
-          }
-        },
-        "link_list_3wriYK": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Sobre Sant Eloi",
-            "menu": "",
+            "heading": "Grup Sant Eloi",
+            "menu": "footer-menu-3-grup-sant-eloi",
             "collapsible": true
           }
         },
@@ -76,7 +68,6 @@
         "link_list_yAXYbY",
         "link_list_3H8mTj",
         "link_list_bC3x7r",
-        "link_list_3wriYK",
         "image_and_text_FFDePH"
       ],
       "settings": {
@@ -84,7 +75,7 @@
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
-        "show_country_filter": false,
+        "show_country_filter": true,
         "enable_language_selector": true,
         "payment_enable": true,
         "color_scheme": "",
