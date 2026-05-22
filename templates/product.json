@@ -21,12 +21,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "product_badges_GqgbHh": {
-          "type": "product_badges",
-          "settings": {
-            "show_in_quickbuy": true
-          }
-        },
         "title_3qyCbh": {
           "type": "title",
           "settings": {
@@ -750,7 +744,6 @@
         }
       },
       "block_order": [
-        "product_badges_GqgbHh",
         "title_3qyCbh",
         "inventory_9DtJ9J",
         "description_njPpyQ",
