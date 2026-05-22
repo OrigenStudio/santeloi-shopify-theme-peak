@@ -506,6 +506,15 @@
             "color_scheme": "scheme-2"
           }
         },
+        "richtext_YRHbmy": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Valors mitjans per 100 g. Percentatges sobre la ingesta de referència d'un adult mitjà (8.400 kJ / 2.000 kcal).</p>",
+            "text_size": "t6",
+            "stock_visibility": "either",
+            "show_in_quickbuy": true
+          }
+        },
         "table_qc89Hn": {
           "type": "table",
           "settings": {
@@ -640,7 +649,7 @@
             "line_color": "#ededed"
           }
         },
-        "richtext_YRHbmy": {
+        "richtext_8gn38k": {
           "type": "richtext",
           "settings": {
             "text": "<p><em>*Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</em></p><p><em>† Not a significant source of saturated fat, trans fat, cholesterol, vitamin D, or added sugars.</em></p>",
@@ -770,11 +779,12 @@
         "spacer_VRXAYP",
         "key_info_CXEd6B",
         "panel_tKhpec",
+        "richtext_YRHbmy",
         "table_qc89Hn",
         "spacer_DhdtBm",
         "table_wkGMrW",
         "spacer_Rm3eQV",
-        "richtext_YRHbmy",
+        "richtext_8gn38k",
         "notification_message_wDLw6x",
         "panel_F8NdWV",
         "collapsible_tab_khyUdX",
