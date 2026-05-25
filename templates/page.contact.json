@@ -228,7 +228,7 @@
         "dropdown_P4adDJ": {
           "type": "dropdown",
           "settings": {
-            "title": "Motiu de contacte *",
+            "title": "Motiu de contacte",
             "tip": "",
             "options": "Consulta sobre una comanda\nEntrega o Click & Collect\nIncidència amb un producte\nFacturació\nSuggeriments\nAltres",
             "half_width_on_desktop": false,
@@ -238,7 +238,7 @@
         "email_FtqGFF": {
           "type": "email",
           "settings": {
-            "title": "Correu electrònic *",
+            "title": "Correu electrònic",
             "tip": "",
             "half_width_on_desktop": false
           }
@@ -246,7 +246,7 @@
         "textarea_jpK9X7": {
           "type": "textarea",
           "settings": {
-            "title": "Com et podem ajudar? *",
+            "title": "Com et podem ajudar?",
             "tip": "",
             "half_width_on_desktop": false,
             "required": true
