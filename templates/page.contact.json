@@ -191,7 +191,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always",
-            "heading": "Get in touch",
+            "heading": "Envia’ns un missatge",
             "heading_italic_convert": "",
             "heading_size": "h2",
             "heading_size_custom": 2.4,
@@ -203,7 +203,7 @@
           "type": "text",
           "settings": {
             "visibility": "always",
-            "text": "<p>We're available 24/7 to assist. Just let us know what we can help you with and we'll do our best.</p>",
+            "text": "<p>Explica’ns com et podem ajudar i et respondrem tan aviat com sigui possible.<br/></p>",
             "text_size": "t3"
           }
         },
@@ -230,7 +230,7 @@
           "settings": {
             "title": "Enquiry",
             "tip": "",
-            "options": "I want a refund\nWhere's my order?\nHelp\nQuestion\nOther",
+            "options": "Consulta sobre una comanda\nEntrega o Click & Collect\nIncidència amb un producte\nFacturació\nSuggeriments\nAltres",
             "half_width_on_desktop": false,
             "required": true
           }
@@ -256,7 +256,7 @@
           "type": "text",
           "settings": {
             "visibility": "always",
-            "text": "<p>We'll aim to get back to you within 24 hours.</p>",
+            "text": "<p>Intentarem respondre’t en menys de 24 hores laborables.</p>",
             "text_size": "t6"
           }
         }
@@ -413,10 +413,10 @@
         "mobile_heading_alignment": "left",
         "desktop_content_position": "md:justify-start md:items-end",
         "mobile_content_position": "justify-center items-center",
-        "title": "Where are we?",
+        "title": "On som?",
         "italic_convert": "",
         "heading_size": "h2",
-        "text": "<p>Although most of our trade is online via our website, we do have three outlets across the US to make returns that bit easier for you.</p>",
+        "text": "<p>Ens trobaràs a Sant Julià de Lòria, al centre comercial Sant Eloi.</p>",
         "text_size": "t3",
         "button_label": "",
         "button_link": "",
