@@ -413,6 +413,7 @@
         "buttons_iac9TH"
       ],
       "settings": {
+        "image": "shopify://shop_images/IMG_5467-scaled.jpg",
         "image_overlay_opacity": 0,
         "image_link": "",
         "fix_image": false,
