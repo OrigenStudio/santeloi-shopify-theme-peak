@@ -1056,7 +1056,7 @@
           "settings": {
             "heading": "Més que [<em>compra</em>|<em>proximitat</em>|<em>serveis</em>|<em>Andorra</em>]",
             "heading_italic_convert": "accent",
-            "heading_size": "h3",
+            "heading_size": "h2",
             "heading_size_custom": 2.4,
             "heading_line_height_custom": 1.2,
             "heading_tag": "h2"
@@ -1065,8 +1065,8 @@
         "text_icEhyV": {
           "type": "text",
           "settings": {
-            "text": "<p>Descobreix el Grup Sant Eloi i els serveis que formen part del dia a dia d’Andorra.</p>",
-            "text_size": "t3"
+            "text": "<p>Des de 1960, Grup Sant Eloi acompanya el dia a dia d’Andorra amb supermercats, estacions de servei, hoteleria i serveis pensats per estar sempre a prop teu.</p>",
+            "text_size": "t2"
           }
         },
         "buttons_DarprD": {
