@@ -25,7 +25,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always",
-            "heading": "Envia’ns un missatge",
+            "heading": "Com et podem ajudar?",
             "heading_italic_convert": "",
             "heading_size": "h2",
             "heading_size_custom": 2.4,
@@ -37,7 +37,7 @@
           "type": "text",
           "settings": {
             "visibility": "always",
-            "text": "<p>Explica’ns com et podem ajudar i et respondrem tan aviat com sigui possible.<br/></p>",
+            "text": "<p>Explica’ns el teu dubte sobre comandes, entregues, Click & Collect o productes i et respondrem tan aviat com sigui possible.</p>",
             "text_size": "t3"
           }
         },
@@ -158,11 +158,11 @@
         "desktop_heading_alignment": "center",
         "mobile_heading_alignment": "left",
         "custom_page_header": true,
-        "title": "Contacte",
+        "title": "Ajuda ràpida",
         "italic_convert": "",
         "heading_size": "h1",
         "custom_page_text": true,
-        "text": "<p>Estem aquí per ajudar-te amb la teva compra, entrega o qualsevol dubte.</p>",
+        "text": "<p>Accedeix ràpidament a la informació més consultada pels nostres clients.</p>",
         "text_size": "t2",
         "show_view_all_link": true,
         "view_all_link": "",
