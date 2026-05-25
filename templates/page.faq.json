@@ -22,10 +22,18 @@
     "image_banner_jp6nVT": {
       "type": "image-banner",
       "blocks": {
+        "caption_Dm8zny": {
+          "type": "caption",
+          "settings": {
+            "caption": "FAQ",
+            "caption_text_style": "caption-with-letter-spacing",
+            "caption_text_size": "t6"
+          }
+        },
         "heading_XexDPK": {
           "type": "heading",
           "settings": {
-            "heading": "FAQs",
+            "heading": "Preguntes freqüents",
             "heading_italic_convert": "",
             "heading_size": "h0",
             "heading_size_custom": 5.2,
@@ -36,12 +44,13 @@
         "text_ztDFB9": {
           "type": "text",
           "settings": {
-            "text": "<p>Got a question? We've got the answer.</p>",
+            "text": "<p><strong>Consulta informació sobre entregues, Click & Collect, comandes i servei a domicili.</strong></p>",
             "text_size": "t0"
           }
         }
       },
       "block_order": [
+        "caption_Dm8zny",
         "heading_XexDPK",
         "text_ztDFB9"
       ],
@@ -1002,10 +1011,10 @@
         "content_max_width": "xl",
         "desktop_heading_alignment": "left",
         "mobile_heading_alignment": "left",
-        "title": "Search",
+        "title": "Què estàs buscant?",
         "italic_convert": "",
         "heading_size": "h2",
-        "text": "<p>Can't see it? Try searching.</p>",
+        "text": "<p><strong>Troba ràpidament respostes sobre comandes, entregues o Click & Collect.</strong></p>",
         "text_size": "t3",
         "button_label": "",
         "button_link": "",
@@ -1055,7 +1064,7 @@
         "heading_Rt3FFB": {
           "type": "heading",
           "settings": {
-            "heading": "About us",
+            "heading": "Més que un supermercat",
             "heading_italic_convert": "",
             "heading_size": "h3",
             "heading_size_custom": 2.4,
@@ -1066,7 +1075,7 @@
         "text_texUmh": {
           "type": "text",
           "settings": {
-            "text": "<p>Want to know more about us? Hear our story.</p>",
+            "text": "<p>Descobreix el Grup Sant Eloi i els serveis que formen part del dia a dia d’Andorra.</p>",
             "text_size": "t3"
           }
         },
@@ -1074,8 +1083,8 @@
           "type": "buttons",
           "settings": {
             "button_text_size": "t3",
-            "button_label_1": "About us",
-            "button_link_1": "/",
+            "button_label_1": "Descobreix el grup",
+            "button_link_1": "/https://santeloi.com/",
             "button_style_1": "primary",
             "button_style_1_show_arrow": false,
             "button_style_1_show_gradient_border": false,
