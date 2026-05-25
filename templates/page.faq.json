@@ -47,7 +47,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/top-view-different-type-vegetables-dark-board-red-yellow-pepper-mushrooms-cherry-greens.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 20,
         "image_link": "",
         "fix_image": false,
         "skew_images": true,
