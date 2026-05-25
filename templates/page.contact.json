@@ -492,7 +492,7 @@
                 "heading_size_custom": 2.4,
                 "heading_line_height_custom": 1.2,
                 "heading_tag": "h3",
-                "text": "<p>Preparem moltes comandes el mateix dia per garantir la màxima frescor.</p>",
+                "text": "<p><strong>Preparem moltes comandes el mateix dia per garantir la màxima frescor.</strong></p>",
                 "text_size": "t3"
               },
               "blocks": {}
@@ -548,7 +548,7 @@
                 "heading_size_custom": 2.4,
                 "heading_line_height_custom": 1.2,
                 "heading_tag": "h3",
-                "text": "<p>Escull entre entrega a domicili o recollida a botiga segons el que et vagi millor.</p>",
+                "text": "<p><strong>Escull entre entrega a domicili o recollida a botiga segons el que et vagi millor.</strong></p>",
                 "text_size": "t3"
               },
               "blocks": {}
@@ -604,7 +604,7 @@
                 "heading_size_custom": 2.4,
                 "heading_line_height_custom": 1.2,
                 "heading_tag": "h3",
-                "text": "<p>Pagament segur i atenció local pensada per clients d’Andorra.</p>",
+                "text": "<p><strong>Pagament segur i atenció local pensada per clients d’Andorra.</strong></p>",
                 "text_size": "t3"
               },
               "blocks": {}
