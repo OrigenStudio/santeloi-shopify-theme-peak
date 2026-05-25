@@ -107,7 +107,7 @@
         "heading_ztecAF": {
           "type": "heading",
           "settings": {
-            "heading": "Orders",
+            "heading": "On Repartim",
             "heading_italic_convert": "",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
@@ -119,11 +119,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": true,
-            "heading": "What payment methods do you accept?",
-            "icon": "card",
+            "heading": "En quines zones feu lliurament a domicili?",
+            "icon": "map_pin",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Realitzem lliuraments a les següents poblacions i zones d'Andorra:</p><p>Canillo (centre urbà), Meritxell, Encamp (centre urbà), Les Bons, Ordino (centre urbà), Segudet, Sornàs, Ansalonga, La Cortinada, La Massana (centre urbà), Anyós, L'Aldosa de la Massana, Sispony, Escàs, Andorra la Vella (centre urbà), Santa Coloma, La Margineda, Sant Julià de Lòria, Aixovall, Aixirivall, Aubinyà, Bixessarri, Certés, Llumeneres, Nagol, Fontaneda, Juberri i Escaldes-Engordany.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -139,11 +139,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "What is your return policy?",
-            "icon": "return",
+            "heading": "Té cost el lliurament a domicili?",
+            "icon": "price_tag",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>No. El lliurament a domicili és gratuït per a totes les comandes que superin els 30 €.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -159,11 +159,31 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "Can I change or cancel my order?",
-            "icon": "question_mark",
+            "heading": "Quin és l'import mínim de comanda?",
+            "icon": "cash",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>L'import mínim per realitzar una comanda online és de 30 €.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_drhAQg": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Què passa si no estic a casa quan arriba la comanda?",
+            "icon": "home",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Si en el moment del lliurament no ets al teu domicili, el personal de repartiment deixarà la compra davant de la porta. Si prefereixes que no sigui així, indica-ho als comentaris en el moment de formalitzar la comanda.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -178,7 +198,7 @@
         "heading_BjrQWD": {
           "type": "heading",
           "settings": {
-            "heading": "Products",
+            "heading": "Horaris de Lliurament",
             "heading_italic_convert": "",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
@@ -190,11 +210,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How do I set up my new device?",
-            "icon": "key",
+            "heading": "Quan puc rebre la meva comanda?",
+            "icon": "clock",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Pots rebre la teva comanda l'endemà d'haver realitzat la compra, de dilluns a divendres en les franges següents:</p><ul><li><strong>De 09:00 h a 13:00 h</strong></li><li><strong>De 15:00 h a 19:00 h</strong></li></ul>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -210,11 +230,31 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "Do you offer warranties on your products?",
-            "icon": "storefront",
+            "heading": "Com selecciono la franja horària?",
+            "icon": "calendar",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Durant el procés de compra podràs escollir la franja horària que millor s'adapti a les teves necessitats, amb fins a una setmana d'antelació. Només es mostren les franges amb disponibilitat real.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_chGyYe": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Es fan lliuraments els caps de setmana?",
+            "icon": "car",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Actualment els lliuraments a domicili es realitzen de dilluns a divendres. Per a qualsevol consulta sobre disponibilitat, contacta amb el nostre Servei d'Atenció al Client.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -229,7 +269,7 @@
         "heading_WEpLJf": {
           "type": "heading",
           "settings": {
-            "heading": "Shipping",
+            "heading": "Click & Collect (Recollida a Botiga)",
             "heading_italic_convert": "",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
@@ -241,8 +281,321 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "Do you ship internationally?",
-            "icon": "airplane",
+            "heading": "Què és el Click & Collect?",
+            "icon": "storefront",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>És l'opció de comprar online i recollir la teva comanda directament a una de les nostres botigues, sense cap cost addicional d'enviament.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_wzzmgF": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Com funciona?",
+            "icon": "bag-check",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Durant el checkout selecciona \"Recollida a botiga\", tria el punt de recollida i la franja horària. Quan la teva comanda estigui llesta rebràs un SMS amb la finestra de recollida (aproximadament 24 hores després de realitzar la comanda).</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_Gn4iqd": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Què necessito per recollir la meva comanda?",
+            "icon": "clipboard",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Mostra el correu o SMS de confirmació de la comanda al mòbil o imprès en arribar a la botiga.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_UeExL9": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Puc enviar algú en el meu lloc a recollir la comanda?",
+            "icon": "people",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Sí, sempre que la persona que reculli disposi del correu o SMS de confirmació de la comanda.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "heading_qcWRpK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pagament",
+            "heading_italic_convert": "",
+            "heading_size": "h4",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h3"
+          }
+        },
+        "collapsible_row_jAJxmB": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Quins mètodes de pagament accepteu?",
+            "icon": "card",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Acceptem els mètodes de pagament següents:</p><ul><li><strong>Targeta bancària (Visa, Mastercard):</strong> es realitza una preautorització en el moment de la comanda. El càrrec definitiu s'efectua amb l'import final un cop preparada la comanda.</li><li><strong>Targeta Sant Eloi: </strong>si ets titular, pots pagar amb facturació a final de mes vinculada al teu compte de client.</li></ul>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_LgMYet": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Quan es realitza el càrrec a la meva targeta bancària?",
+            "icon": "clock",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>En el moment de fer la comanda es realitza una preautorització que reserva l'import estimat. El càrrec definitiu s'efectua només quan la comanda està completament preparada i l'import final confirmat. Això és especialment rellevant en productes frescos al pes.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_fY839a": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "És segur pagar a la web?",
+            "icon": "lock_closed",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Sí. La nostra botiga online utilitza connexió segura amb protocol SSL. La informació de la teva targeta viatja encriptada i mai s'emmagatzema als nostres servidors.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_Ey3c4f": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Puc pagar contra reemborsament?",
+            "icon": "check_mark_only",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>No, actualment no oferim aquesta opció.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "heading_fAQBAM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Com comprar",
+            "heading_italic_convert": "",
+            "heading_size": "h4",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h3"
+          }
+        },
+        "collapsible_row_7AQQV9": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Necessito crear un compte per comprar?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>No és obligatori. Pots fer la teva compra com a convidat sense registrar-te. Si vols gaudir d'avantatges com l'historial de comandes, el seguiment en temps real o l'ús de la Targeta Sant Eloi, et recomanem crear un compte gratuït.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_HcLc6X": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Com puc trobar els productes que busco?",
+            "icon": "search",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>T'oferim dues formes de localitzar els teus productes:</p><ul><li><strong>Passeja pel nostre Súper: </strong>utilitza el sistema de categories per descobrir productes nous per seccions.</li><li><strong>Cerques concretes: </strong>busca directament des del cercador a la part superior de la web.</li></ul><p>En ambdós casos podràs filtrar per varietat, marca, preu, calories, promocions i ofertes.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_zbCrVc": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Com afegeixo productes a la cistella?",
+            "icon": "cart",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Indica les unitats que vols i fes clic a \"Afegeix a la cistella\". Pots modificar les quantitats des del mateix producte o des de la cistella en qualsevol moment.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_fiLPAU": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Com funcionen els productes frescos o venuts al pes?",
+            "icon": "price_tags",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Els productes frescos (carn, peix, embotits, etc.) s'afegeixen a la cistella amb un pes estimat. El preu final s'ajustarà al pes real un cop preparada la comanda, per la qual cosa l'import cobrat pot variar lleugerament.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_Jtwwt4": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Els preus online són els mateixos que a la botiga?",
+            "icon": "check_mark_circle",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Sí. Els preus i promocions vigents a la web en el moment de confirmar la comanda són els que s'aplicaran sempre.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_WXcEpk": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Hi ha promocions i ofertes disponibles?",
+            "icon": "gift",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Sí, les promocions actives s'apliquen automàticament a la cistella. No cal introduir cap codi promocional.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "heading_YQwa9t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping",
+            "heading_italic_convert": "",
+            "heading_size": "h4",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h3"
+          }
+        },
+        "collapsible_row_kPRiGR": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
             "image_width": 20,
             "row_heading_tag": "h3",
             "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
@@ -257,7 +610,138 @@
             "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         },
-        "collapsible_row_wzzmgF": {
+        "collapsible_row_xJzzYP": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_PUU4PE": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_JWGXzW": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "heading_HcW4tM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping",
+            "heading_italic_convert": "",
+            "heading_size": "h4",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h3"
+          }
+        },
+        "collapsible_row_Qprkkf": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_Wg6Ayt": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_naXibX": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_kVxc6L": {
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
@@ -300,12 +784,38 @@
         "collapsible_row_UPgR8m",
         "collapsible_row_y93qxH",
         "collapsible_row_i3Pjqc",
+        "collapsible_row_drhAQg",
         "heading_BjrQWD",
         "collapsible_row_hk9DHw",
         "collapsible_row_3zyzVG",
+        "collapsible_row_chGyYe",
         "heading_WEpLJf",
         "collapsible_row_atEQfc",
         "collapsible_row_wzzmgF",
+        "collapsible_row_Gn4iqd",
+        "collapsible_row_UeExL9",
+        "heading_qcWRpK",
+        "collapsible_row_jAJxmB",
+        "collapsible_row_LgMYet",
+        "collapsible_row_fY839a",
+        "collapsible_row_Ey3c4f",
+        "heading_fAQBAM",
+        "collapsible_row_7AQQV9",
+        "collapsible_row_HcLc6X",
+        "collapsible_row_zbCrVc",
+        "collapsible_row_fiLPAU",
+        "collapsible_row_Jtwwt4",
+        "collapsible_row_WXcEpk",
+        "heading_YQwa9t",
+        "collapsible_row_kPRiGR",
+        "collapsible_row_xJzzYP",
+        "collapsible_row_PUU4PE",
+        "collapsible_row_JWGXzW",
+        "heading_HcW4tM",
+        "collapsible_row_Qprkkf",
+        "collapsible_row_Wg6Ayt",
+        "collapsible_row_naXibX",
+        "collapsible_row_kVxc6L",
         "spacer_zGqL4c",
         "text_PCJRbe"
       ],
