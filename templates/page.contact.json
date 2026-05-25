@@ -256,7 +256,7 @@
           "type": "text",
           "settings": {
             "visibility": "always",
-            "text": "<p>Intentarem respondre’t tan aviat com sigui possible, habitualment en menys de 24 hores laborables.</p>",
+            "text": "<p>Intentarem respondre’t tan aviat com sigui possible, <br/>habitualment en menys de 24 hores laborables.</p>",
             "text_size": "t6"
           }
         }
