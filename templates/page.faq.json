@@ -1046,8 +1046,8 @@
         "heading_DrPiFz": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_italic_convert": "",
+            "heading": "Més que un supermercat",
+            "heading_italic_convert": "outline_accent",
             "heading_size": "h3",
             "heading_size_custom": 2.4,
             "heading_line_height_custom": 1.2,
@@ -1057,7 +1057,7 @@
         "text_icEhyV": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Descobreix el Grup Sant Eloi i els serveis que formen part del dia a dia d’Andorra.</p>",
             "text_size": "t3"
           }
         },
@@ -1065,8 +1065,8 @@
           "type": "buttons",
           "settings": {
             "button_text_size": "t3",
-            "button_label_1": "Button label",
-            "button_link_1": "/",
+            "button_label_1": "Descobreix el grup",
+            "button_link_1": "/https://santeloi.com/",
             "button_style_1": "primary",
             "button_style_1_show_arrow": false,
             "button_style_1_show_gradient_border": false,
