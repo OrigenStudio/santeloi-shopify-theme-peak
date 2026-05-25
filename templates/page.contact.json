@@ -563,6 +563,7 @@
         "gallery_item_fG9CCX",
         "gallery_item_T6hLwm"
       ],
+      "disabled": true,
       "settings": {
         "columns_desktop": 3,
         "spacing_grid": 16,
@@ -663,6 +664,7 @@
         "icon_with_text_nGzfRe",
         "icon_with_text_xn8Win"
       ],
+      "disabled": true,
       "settings": {
         "placement": "beside",
         "content_vertical_alignment": "items-start",
