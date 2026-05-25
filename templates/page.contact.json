@@ -377,14 +377,14 @@
         "collapsible_row_wbNiEf": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Office 3",
-            "icon": "",
+            "heading": "Contacta amb nosaltres",
+            "icon": "chat_bubble",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>100 Tech Park Drive<br/>15th Floor<br/>New York, NY 10013<br/>USA</p>",
+            "row_content": "<p>+376 743 140<br/>info@santeloi.com</p>",
             "page": "",
             "button_text_size": "t6",
-            "button_label_1": "Get directions",
+            "button_label_1": "",
             "button_link_1": "https://www.google.com/maps/dir//Shopify,+620+King+St+W,+Toronto,+ON+M5V+1M7,+Canada/@43.6446531,-79.4033124,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882b3536229849ff:0xc35f5826d7229445!2m2!1d-79.4007628!2d43.6447152!3e0?entry=ttu",
             "button_style_1": "secondary",
             "button_style_1_show_arrow": true,
