@@ -1074,9 +1074,9 @@
           "settings": {
             "button_text_size": "t3",
             "button_label_1": "Descobreix el grup",
-            "button_link_1": "/https://santeloi.com/",
+            "button_link_1": "https://santeloi.com/",
             "button_style_1": "primary",
-            "button_style_1_show_arrow": false,
+            "button_style_1_show_arrow": true,
             "button_style_1_show_gradient_border": false,
             "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "button_label_2": "",
