@@ -113,7 +113,7 @@
         "image_overlay_opacity": 20,
         "desktop_section_height": 400,
         "mobile_section_height": 400,
-        "desktop_media_width": 50,
+        "desktop_media_width": 45,
         "layout": "media_first",
         "content_layout": "no-overlap",
         "show_header_beside": true,
