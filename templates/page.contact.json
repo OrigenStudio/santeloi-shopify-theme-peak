@@ -14,7 +14,8 @@
       "settings": {
         "spacing": 0,
         "color_scheme": "scheme-2",
-        "line_separator": ""
+        "line_separator": "",
+        "visibility": ""
       }
     },
     "main": {
@@ -25,7 +26,7 @@
         "desktop_heading_alignment": "center",
         "mobile_heading_alignment": "left",
         "custom_page_header": true,
-        "title": "Contact us",
+        "title": "Com et podem [ajudar?|orientar?|atendre?|acompanyar?]",
         "italic_convert": "",
         "heading_size": "h1",
         "custom_page_text": false,
@@ -58,14 +59,18 @@
             "icon_background_color": "#ededed",
             "background_gradient": "",
             "title": "Support",
+            "heading_tag": "h3",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
             "text": "<p>Already purchased and have a question about your product? Try our FAQs.</p>",
             "text_size": "t2",
             "button_text_size": "t3",
             "button_label": "FAQs",
+            "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": true,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-1",
             "color_scheme_bg_fix": false
@@ -87,14 +92,18 @@
             "icon_background_color": "#ededed",
             "background_gradient": "",
             "title": "Returns",
+            "heading_tag": "h3",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
             "text": "<p>We understand things don't always work out. Visit our returns pages for more.</p>",
             "text_size": "t2",
             "button_text_size": "t3",
             "button_label": "Returns",
+            "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": true,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-1",
             "color_scheme_bg_fix": false
@@ -116,14 +125,18 @@
             "icon_background_color": "#ededed",
             "background_gradient": "",
             "title": "Shipping",
+            "heading_tag": "h3",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
             "text": "<p>Want to track your order, or get an idea how long delivery may take or see our policy?</p>",
             "text_size": "t2",
             "button_text_size": "t3",
             "button_label": "Shipping",
+            "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": true,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-1",
             "color_scheme_bg_fix": false
@@ -161,7 +174,13 @@
         "line_separator": "",
         "top_padding": "pt-0",
         "bottom_padding": "pb-s",
+        "visibility": "",
         "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "heading_tag": "h1"
       }
     },
@@ -255,6 +274,7 @@
       "settings": {
         "preview_success": false,
         "show_standard_success_message": true,
+        "submit_button_text": "",
         "image_overlay_opacity": 20,
         "desktop_section_height": 500,
         "mobile_section_height": 400,
@@ -277,6 +297,8 @@
         "button_link": "/",
         "button_style": "secondary",
         "button_style_show_arrow": true,
+        "button_style_show_gradient_border": false,
+        "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_overlay_color_scheme": "scheme-6",
@@ -284,6 +306,12 @@
         "line_separator": "border-top",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
+        "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "heading_tag": "h3"
       }
     },
@@ -292,12 +320,17 @@
       "settings": {
         "full_width": false,
         "show_line_separator": true,
-        "visibility": "",
         "line_width": 100,
         "spacing_top": 0,
         "spacing_bottom": 0,
         "color_scheme": "",
-        "line_color": ""
+        "line_color": "",
+        "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "image_with_collapsible_content_cRgcML": {
@@ -309,13 +342,16 @@
             "heading": "Office 1",
             "icon": "",
             "image_width": 20,
+            "row_heading_tag": "h3",
             "row_content": "<p>250 Innovation Way<br/>Suite 300<br/>San Francisco, CA 94107<br/>USA</p>",
             "page": "",
             "button_text_size": "t6",
             "button_label_1": "Get directions",
             "button_link_1": "https://www.google.com/maps/dir//Shopify,+620+King+St+W,+Toronto,+ON+M5V+1M7,+Canada/@43.6446531,-79.4033124,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882b3536229849ff:0xc35f5826d7229445!2m2!1d-79.4007628!2d43.6447152!3e0?entry=ttu",
             "button_style_1": "secondary",
-            "button_style_1_show_arrow": true
+            "button_style_1_show_arrow": true,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         },
         "collapsible_row_EqzGTt": {
@@ -324,13 +360,16 @@
             "heading": "Office 2",
             "icon": "",
             "image_width": 20,
+            "row_heading_tag": "h3",
             "row_content": "<p>480 Tech Ridge Blvd<br/>Building B<br/>Austin, TX 78753<br/>USA</p>",
             "page": "",
             "button_text_size": "t6",
             "button_label_1": "Get directions",
             "button_link_1": "https://www.google.com/maps/dir//Shopify,+620+King+St+W,+Toronto,+ON+M5V+1M7,+Canada/@43.6446531,-79.4033124,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882b3536229849ff:0xc35f5826d7229445!2m2!1d-79.4007628!2d43.6447152!3e0?entry=ttu",
             "button_style_1": "secondary",
-            "button_style_1_show_arrow": true
+            "button_style_1_show_arrow": true,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         },
         "collapsible_row_wbNiEf": {
@@ -339,13 +378,16 @@
             "heading": "Office 3",
             "icon": "",
             "image_width": 20,
+            "row_heading_tag": "h3",
             "row_content": "<p>100 Tech Park Drive<br/>15th Floor<br/>New York, NY 10013<br/>USA</p>",
             "page": "",
             "button_text_size": "t6",
             "button_label_1": "Get directions",
             "button_link_1": "https://www.google.com/maps/dir//Shopify,+620+King+St+W,+Toronto,+ON+M5V+1M7,+Canada/@43.6446531,-79.4033124,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x882b3536229849ff:0xc35f5826d7229445!2m2!1d-79.4007628!2d43.6447152!3e0?entry=ttu",
             "button_style_1": "secondary",
-            "button_style_1_show_arrow": true
+            "button_style_1_show_arrow": true,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         }
       },
@@ -380,6 +422,8 @@
         "button_style": "secondary",
         "button_text_size": "t5",
         "button_style_show_arrow": true,
+        "button_style_show_gradient_border": false,
+        "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_overlay_color_scheme": "",
@@ -388,7 +432,13 @@
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
         "heading_tag": "h3",
-        "hide_when_empty": false
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "spacer_qWBT7U": {
@@ -396,12 +446,17 @@
       "settings": {
         "full_width": false,
         "show_line_separator": true,
-        "visibility": "",
         "line_width": 100,
         "spacing_top": 0,
         "spacing_bottom": 0,
         "color_scheme": "",
-        "line_color": ""
+        "line_color": "",
+        "visibility": "",
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "gallery_zLLKp8": {
@@ -420,7 +475,7 @@
             "icon_container": "none",
             "icon_size": 3.4,
             "icon_color": "",
-            "icon_background_color": "#EDEDED",
+            "icon_background_color": "#ededed",
             "background_gradient": "",
             "title": "Card 1",
             "heading_size": "h3",
@@ -432,6 +487,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-3"
           }
@@ -449,7 +506,7 @@
             "icon_container": "none",
             "icon_size": 3.4,
             "icon_color": "",
-            "icon_background_color": "#EDEDED",
+            "icon_background_color": "#ededed",
             "background_gradient": "",
             "title": "Card 2",
             "heading_size": "h3",
@@ -461,6 +518,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-3"
           }
@@ -478,7 +537,7 @@
             "icon_container": "none",
             "icon_size": 3.4,
             "icon_color": "",
-            "icon_background_color": "#EDEDED",
+            "icon_background_color": "#ededed",
             "background_gradient": "",
             "title": "Card 3",
             "heading_size": "h3",
@@ -490,6 +549,8 @@
             "button_link": "",
             "button_style": "primary",
             "button_style_show_arrow": false,
+            "button_style_show_gradient_border": false,
+            "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
             "card_link": "",
             "card_color_scheme": "scheme-3"
           }
@@ -503,11 +564,13 @@
       "settings": {
         "columns_desktop": 3,
         "spacing_grid": 16,
+        "spacing_grid_mobile": 16,
         "corner_rounding": "inner",
         "content_padding": 3,
         "desktop_section_height": 320,
         "mobile_section_height": 190,
         "mobile_layout": "grid",
+        "full_width": false,
         "content_max_width": "m",
         "desktop_heading_alignment": "left",
         "mobile_heading_alignment": "left",
@@ -523,7 +586,13 @@
         "line_separator": "",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
-        "hide_when_empty": false
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "icons_with_text_Wqxckf": {
@@ -604,7 +673,13 @@
         "columns_mobile": "2",
         "color_scheme": "scheme-5",
         "line_separator": "",
-        "hide_when_empty": false
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     }
   },
