@@ -1073,7 +1073,7 @@
           "type": "buttons",
           "settings": {
             "button_text_size": "t3",
-            "button_label_1": "Descobreix el grup",
+            "button_label_1": "Coneix el grup",
             "button_link_1": "https://santeloi.com/",
             "button_style_1": "primary",
             "button_style_1_show_arrow": true,
