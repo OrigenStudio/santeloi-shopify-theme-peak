@@ -1040,31 +1040,13 @@
         "show_time_night": true
       }
     },
-    "spacer_jCKFkK": {
-      "type": "spacer",
-      "settings": {
-        "full_width": false,
-        "show_line_separator": true,
-        "line_width": 100,
-        "spacing_top": 0,
-        "spacing_bottom": 0,
-        "color_scheme": "",
-        "line_color": "",
-        "visibility": "",
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true
-      }
-    },
-    "image_banner_w6Hndw": {
-      "type": "image-banner",
+    "image_with_text_VW8wiU": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_Rt3FFB": {
+        "heading_DrPiFz": {
           "type": "heading",
           "settings": {
-            "heading": "Més que un supermercat",
+            "heading": "Image with text",
             "heading_italic_convert": "",
             "heading_size": "h3",
             "heading_size_custom": 2.4,
@@ -1072,19 +1054,19 @@
             "heading_tag": "h2"
           }
         },
-        "text_texUmh": {
+        "text_icEhyV": {
           "type": "text",
           "settings": {
-            "text": "<p>Descobreix el Grup Sant Eloi i els serveis que formen part del dia a dia d’Andorra.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_size": "t3"
           }
         },
-        "buttons_iac9TH": {
+        "buttons_DarprD": {
           "type": "buttons",
           "settings": {
             "button_text_size": "t3",
-            "button_label_1": "Descobreix el grup",
-            "button_link_1": "/https://santeloi.com/",
+            "button_label_1": "Button label",
+            "button_link_1": "/",
             "button_style_1": "primary",
             "button_style_1_show_arrow": false,
             "button_style_1_show_gradient_border": false,
@@ -1099,36 +1081,49 @@
         }
       },
       "block_order": [
-        "heading_Rt3FFB",
-        "text_texUmh",
-        "buttons_iac9TH"
+        "heading_DrPiFz",
+        "text_icEhyV",
+        "buttons_DarprD"
       ],
+      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/IMG_5467-scaled.jpg",
-        "image_overlay_opacity": 0,
-        "image_link": "",
-        "fix_image": false,
-        "skew_images": false,
-        "stack_images_on_mobile": true,
-        "image_ratio": "landscape_wide",
         "desktop_section_height": 500,
         "mobile_section_height": 400,
-        "full_width": false,
-        "full_width_animate": false,
-        "desktop_content_position": "md:justify-center md:items-center",
-        "mobile_content_position": "justify-center items-center",
-        "content_max_width": "m",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "center",
-        "show_text_box": "desktop",
-        "show_text_below": true,
-        "color_scheme": "",
-        "container_color_scheme": "scheme-3",
+        "desktop_media_width": 50,
+        "desktop_media_scale": 100,
+        "layout": "media_first",
+        "image_cover": true,
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_max_width": "xs",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-2",
+        "show_content_shadow": true,
         "line_separator": "",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
         "visibility": "",
         "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
+    "spacer_jCKFkK": {
+      "type": "spacer",
+      "settings": {
+        "full_width": false,
+        "show_line_separator": true,
+        "line_width": 100,
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "",
+        "line_color": "",
+        "visibility": "",
         "show_at_specific_time_of_day": false,
         "show_time_morning": true,
         "show_time_afternoon": true,
@@ -1200,8 +1195,8 @@
     "image_banner_jp6nVT",
     "main",
     "collapsible_content_t3C4Tq",
+    "image_with_text_VW8wiU",
     "spacer_jCKFkK",
-    "image_banner_w6Hndw",
     "ribbon_banner_CzhgQT"
   ]
 }
