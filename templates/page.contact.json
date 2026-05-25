@@ -399,7 +399,7 @@
         "collapsible_row_wbNiEf"
       ],
       "settings": {
-        "show_line_separator": true,
+        "show_line_separator": false,
         "row_heading_size": "t0",
         "row_text_size": "t4",
         "image_overlay_opacity": 0,
