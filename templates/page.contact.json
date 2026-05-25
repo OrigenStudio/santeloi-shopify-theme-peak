@@ -443,6 +443,217 @@
         "show_time_night": true
       }
     },
+    "flexible_columns_dtnpbP": {
+      "type": "flexible-columns",
+      "blocks": {
+        "layout_column_FWyYGY": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 50,
+            "width": 33,
+            "height_mode": "full",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": false,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-center",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": false,
+            "color_scheme": "",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-1",
+            "custom_padding": 6,
+            "padding_desktop_only": true
+          },
+          "blocks": {
+            "icon_with_text_9TANB8": {
+              "type": "icon_with_text",
+              "settings": {
+                "icon_heading_gap": 2.5,
+                "text_max_width": 400,
+                "link": "",
+                "icon": "rocket",
+                "icon_container": "rounded",
+                "icon_size": 3,
+                "icon_vertical_position": 0.1,
+                "icon_color": "#188f65",
+                "icon_background_color": "#dffdef",
+                "background_gradient": "linear-gradient(54deg, rgba(223, 253, 239, 1) 13%, rgba(196, 250, 226, 1) 85%)",
+                "heading": "<strong>Highlight title 1</strong>",
+                "heading_italic_convert": "",
+                "heading_size": "h5",
+                "heading_size_custom": 2.4,
+                "heading_line_height_custom": 1.2,
+                "heading_tag": "h3",
+                "text": "<p>Summarize one of the main things that makes your business or offering exceptional.</p>",
+                "text_size": "t3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_with_text_9TANB8"
+          ]
+        },
+        "layout_column_kdhyBD": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 50,
+            "width": 33,
+            "height_mode": "full",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": false,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-center",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": false,
+            "color_scheme": "",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-1",
+            "custom_padding": 6,
+            "padding_desktop_only": true
+          },
+          "blocks": {
+            "icon_with_text_4bRyxJ": {
+              "type": "icon_with_text",
+              "settings": {
+                "icon_heading_gap": 2.5,
+                "text_max_width": 400,
+                "link": "",
+                "icon": "star",
+                "icon_container": "rounded",
+                "icon_size": 3,
+                "icon_vertical_position": 0.1,
+                "icon_color": "#8f1818",
+                "icon_background_color": "#fddfdf",
+                "background_gradient": "linear-gradient(54deg, rgba(255, 235, 235, 1) 13%, rgba(249, 214, 205, 1) 85%)",
+                "heading": "<strong>Highlight title 2</strong>",
+                "heading_italic_convert": "",
+                "heading_size": "h5",
+                "heading_size_custom": 2.4,
+                "heading_line_height_custom": 1.2,
+                "heading_tag": "h3",
+                "text": "<p>Share a short phrase or sentence that captures a customer-favourite aspect of what you do.</p>",
+                "text_size": "t3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_with_text_4bRyxJ"
+          ]
+        },
+        "layout_column_jR6bg4": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 50,
+            "width": 33,
+            "height_mode": "full",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": false,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-center",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": false,
+            "color_scheme": "",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-1",
+            "custom_padding": 6,
+            "padding_desktop_only": true
+          },
+          "blocks": {
+            "icon_with_text_YrGbHQ": {
+              "type": "icon_with_text",
+              "settings": {
+                "icon_heading_gap": 2.5,
+                "text_max_width": 400,
+                "link": "",
+                "icon": "shield_checkmark",
+                "icon_container": "rounded",
+                "icon_size": 3,
+                "icon_vertical_position": 0.1,
+                "icon_color": "#187a8f",
+                "icon_background_color": "#dff6fd",
+                "background_gradient": "linear-gradient(54deg, rgba(223, 246, 253, 1) 12%, rgba(196, 238, 250, 1) 85%)",
+                "heading": "<strong>Highlight title 3</strong>",
+                "heading_italic_convert": "",
+                "heading_size": "h5",
+                "heading_size_custom": 2.4,
+                "heading_line_height_custom": 1.2,
+                "heading_tag": "h3",
+                "text": "<p>Highlight a core strength or unique advantage that sets you apart from the competition.</p>",
+                "text_size": "t3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_with_text_YrGbHQ"
+          ]
+        }
+      },
+      "block_order": [
+        "layout_column_FWyYGY",
+        "layout_column_kdhyBD",
+        "layout_column_jR6bg4"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "gap_small": 38,
+        "gap_medium": 24,
+        "gap_desktop": 36,
+        "section_max_width": "xl",
+        "use_breakpoints": true,
+        "small_breakpoint_custom": "549",
+        "medium_breakpoint_custom": "1023",
+        "image_overlay_opacity": 0,
+        "content_max_width": "xl",
+        "desktop_heading_alignment": "left",
+        "mobile_heading_alignment": "left",
+        "title": "",
+        "italic_convert": "",
+        "heading_size": "h2",
+        "text": "",
+        "text_size": "t3",
+        "view_all_link": "",
+        "view_all_text": "",
+        "view_all_text_size": "t3",
+        "section_color_scheme": "scheme-13",
+        "line_separator": "",
+        "top_padding": "pt-s15",
+        "bottom_padding": "pb-s15",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
     "spacer_qWBT7U": {
       "type": "spacer",
       "settings": {
@@ -694,6 +905,7 @@
     "contact_form_QkxQTX",
     "spacer_3fgGzE",
     "image_with_collapsible_content_cRgcML",
+    "flexible_columns_dtnpbP",
     "spacer_qWBT7U",
     "gallery_zLLKp8",
     "icons_with_text_Wqxckf"
