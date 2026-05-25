@@ -341,11 +341,11 @@
           "type": "collapsible_row",
           "settings": {
             "side_image": "shopify://shop_images/IMG_5467-scaled.jpg",
-            "heading": "Centre Comercial Sant Eloi",
+            "heading": "Ubicació",
             "icon": "map_pin",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Carretera d’Espanya  <br/>AD600 Sant Julià de Lòria  <br/>Principat d’Andorra</p>",
+            "row_content": "<h6>Centre Comercial Sant Eloi</h6><p>Carretera d’Espanya  <br/>AD600 Sant Julià de Lòria  <br/>Principat d’Andorra</p>",
             "page": "",
             "button_text_size": "t6",
             "button_label_1": "Obrir Google Maps",
@@ -359,11 +359,11 @@
         "collapsible_row_EqzGTt": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Office 2",
-            "icon": "",
+            "heading": "Horaris d’atenció",
+            "icon": "calendar",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>480 Tech Ridge Blvd<br/>Building B<br/>Austin, TX 78753<br/>USA</p>",
+            "row_content": "<p><strong>Botiga online:</strong><br/>Disponible 24/7<br/><br/><strong>Atenció al client:</strong><br/>De dilluns a dissabte<br/>de 9 h a 20 h</p>",
             "page": "",
             "button_text_size": "t6",
             "button_label_1": "Get directions",
