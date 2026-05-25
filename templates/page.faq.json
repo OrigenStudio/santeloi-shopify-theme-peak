@@ -1154,8 +1154,8 @@
           "type": "buttons",
           "settings": {
             "button_text_size": "t2",
-            "button_label_1": "Get in touch",
-            "button_link_1": "/",
+            "button_label_1": "Contacta amb nosaltres",
+            "button_link_1": "shopify://pages/contacte",
             "button_style_1": "secondary",
             "button_style_1_show_arrow": true,
             "button_style_1_show_gradient_border": false,
