@@ -363,7 +363,7 @@
             "icon": "calendar",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p><strong>Botiga online:</strong><br/>Disponible 24/7<br/><br/><strong>Atenció al client:</strong><br/>De dilluns a dissabte<br/>de 9 h a 20 h</p>",
+            "row_content": "<p><strong>Dilluns a divendres</strong><br/>8:00 h – 20:30 h<br/><strong>Dissabte</strong><br/>8:00 h – 21:00 h<br/><strong>Diumenge</strong><br/>8:00 h – 20:30 h</p>",
             "page": "",
             "button_text_size": "t6",
             "button_label_1": "",
