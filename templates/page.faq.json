@@ -847,11 +847,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Com creo el meu compte?",
+            "icon": "silhouette",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Fes clic a \"Registra'm\", introdueix el teu correu electrònic i segueix els passos. Rebràs un codi de verificació al correu per completar el registre. El procés és ràpid i també es pot fer durant el checkout.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -867,11 +867,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "He oblidat la meva contrasenya, què faig?",
+            "icon": "key",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>A la pàgina d'inici de sessió, fes clic a \"Has oblidat la contrasenya?\" i introdueix el teu correu. T'enviarem un enllaç per restablir-la en pocs minuts.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -887,11 +887,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Quins avantatges té tenir un compte registrat?",
+            "icon": "star",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Amb compte registrat pots consultar l'historial complet de comandes, veure l'estat de cada comanda en temps real, gestionar les teves adreces desades i utilitzar la Targeta Sant Eloi com a mètode de pagament.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -907,11 +907,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Puc modificar les meves dades personals?",
+            "icon": "clipboard",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Sí, accedeix a la teva àrea de client per actualitzar el teu nom, adreça, telèfon o correu electrònic en qualsevol moment.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -936,7 +936,7 @@
         "text_PCJRbe": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Still can't see it? </em><a href=\"/\" title=\"Contact\"><em>Get in touch.</em></a></p>",
+            "text": "<p>No t'hem resolt el dubte? Posa't en contacte amb nosaltres.</p>",
             "text_size": "t4"
           }
         }
