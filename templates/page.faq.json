@@ -1107,7 +1107,7 @@
         "mobile_content_alignment": "left",
         "text_max_width": "xs",
         "content_layout": "no-overlap-separate",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-6",
         "color_scheme": "scheme-2",
         "show_content_shadow": true,
         "line_separator": "",
