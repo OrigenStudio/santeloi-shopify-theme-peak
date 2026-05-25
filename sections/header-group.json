@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Producte fresc i ofertes noves cada setmana",
+            "text": "<strong>Recull la teva compra o rep-la on vulguis a Andorra</strong>",
             "mobile_text": "",
             "announcement_pages": "",
             "color_scheme": "scheme-5"
@@ -26,7 +26,7 @@
         "01f1744f-4bdc-4966-8eb5-a7fdf375e9a5": {
           "type": "announcement",
           "settings": {
-            "text": "Recull la teva compra o rep-la on vulguis a Andorra",
+            "text": "<strong>Lliurament gratuït en comandes superiors a 30 €</strong>",
             "mobile_text": "",
             "announcement_pages": "",
             "color_scheme": "scheme-11"
