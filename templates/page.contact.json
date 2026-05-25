@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "spacing": 0,
+        "color_scheme": "scheme-1",
+        "line_separator": "",
+        "visibility": ""
+      }
+    },
     "contact_form_QkxQTX": {
       "type": "contact-form",
       "blocks": {
@@ -139,15 +148,6 @@
         "show_time_evening": true,
         "show_time_night": true,
         "heading_tag": "h3"
-      }
-    },
-    "breadcrumbs": {
-      "type": "breadcrumbs",
-      "settings": {
-        "spacing": 0,
-        "color_scheme": "scheme-2",
-        "line_separator": "",
-        "visibility": ""
       }
     },
     "main": {
@@ -899,8 +899,8 @@
     }
   },
   "order": [
-    "contact_form_QkxQTX",
     "breadcrumbs",
+    "contact_form_QkxQTX",
     "main",
     "multicolumn_YGQgDi",
     "spacer_3fgGzE",
