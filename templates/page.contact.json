@@ -37,7 +37,7 @@
           "type": "text",
           "settings": {
             "visibility": "always",
-            "text": "<p>Explica’ns el teu dubte sobre comandes, entregues, Click & Collect o productes i et respondrem tan aviat com sigui possible.</p>",
+            "text": "<p>Explica’ns el teu dubte sobre comandes, entregues o Click & Collect.</p>",
             "text_size": "t3"
           }
         },
