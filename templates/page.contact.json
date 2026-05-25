@@ -381,7 +381,7 @@
             "icon": "chat_bubble",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>+376 743 140<br/>info@santeloi.com</p>",
+            "row_content": "<p><a href=\"tel:+376743140\" title=\"tel:+376743140\">+376 743 140</a><br/><a href=\"mailto:info@santeloi.com\" title=\"mailto:info@santeloi.com\">info@santeloi.com</a></p>",
             "page": "",
             "button_text_size": "t6",
             "button_label_1": "",
