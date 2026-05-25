@@ -210,7 +210,7 @@
         "custom_text_jwjaKd": {
           "type": "custom_text",
           "settings": {
-            "title": "First name",
+            "title": "Nom",
             "tip": "",
             "half_width_on_desktop": true,
             "required": false
@@ -219,7 +219,7 @@
         "custom_text_JRhyfF": {
           "type": "custom_text",
           "settings": {
-            "title": "Last name",
+            "title": "Cognoms",
             "tip": "",
             "half_width_on_desktop": true,
             "required": false
@@ -228,7 +228,7 @@
         "dropdown_P4adDJ": {
           "type": "dropdown",
           "settings": {
-            "title": "Enquiry",
+            "title": "Motiu de contacte *",
             "tip": "",
             "options": "Consulta sobre una comanda\nEntrega o Click & Collect\nIncidència amb un producte\nFacturació\nSuggeriments\nAltres",
             "half_width_on_desktop": false,
@@ -238,7 +238,7 @@
         "email_FtqGFF": {
           "type": "email",
           "settings": {
-            "title": "Email",
+            "title": "Correu electrònic *",
             "tip": "",
             "half_width_on_desktop": false
           }
@@ -246,7 +246,7 @@
         "textarea_jpK9X7": {
           "type": "textarea",
           "settings": {
-            "title": "Message",
+            "title": "Com et podem ajudar? *",
             "tip": "",
             "half_width_on_desktop": false,
             "required": true
@@ -256,7 +256,7 @@
           "type": "text",
           "settings": {
             "visibility": "always",
-            "text": "<p>Intentarem respondre’t en menys de 24 hores laborables.</p>",
+            "text": "<p>Intentarem respondre’t tan aviat com sigui possible, habitualment en menys de 24 hores laborables.</p>",
             "text_size": "t6"
           }
         }
