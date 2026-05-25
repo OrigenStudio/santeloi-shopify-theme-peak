@@ -582,7 +582,7 @@
         "heading_YQwa9t": {
           "type": "heading",
           "settings": {
-            "heading": "Shipping",
+            "heading": "Estat de la Comanda",
             "heading_italic_convert": "",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
@@ -594,11 +594,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Com sé l'estat de la meva comanda?",
+            "icon": "box",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Rebràs notificacions per correu electrònic amb les actualitzacions de l'estat de la teva comanda. Si tens compte registrat, també pots consultar-ho a la teva àrea de client en temps real.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -614,11 +614,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Què significa cada estat de la comanda?",
+            "icon": "clipboard",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p><strong>Rebuda: </strong>hem rebut la teva comanda correctament.</p><p><strong>En preparació: </strong>el nostre equip està preparant la teva comanda.</p><p><strong>Llesta per recollir (només Click & Collect): </strong>rebràs un SMS quan puguis passar a buscar-la.</p><p><strong>Enviada:</strong> la comanda ha sortit i està en camí.</p><p><strong>Lliurada: </strong>la comanda ha estat lliurada.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -634,11 +634,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Puc modificar la meva comanda un cop realitzada?",
+            "icon": "options",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Sí, pots modificar la teva comanda informant dels canvis abans del dia previst per al lliurament. Contacta amb el nostre <strong>Servei d'Atenció al Client per telèfon al 743 140 o per correu a </strong><a href=\"mailto:online@santeloi.com\"><strong>online@santeloi.com</strong></a><strong>.</strong></p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -654,11 +654,31 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Puc cancel·lar la meva comanda?",
+            "icon": "ban",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Sí, sempre que la comanda no hagi començat a preparar-se. Contacta amb nosaltres com més aviat millor amb el número de comanda.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_UKWk34": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Què passa si un producte de la meva comanda no està disponible?",
+            "icon": "warning",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Si algun producte no està disponible durant la preparació, ens posarem en contacte amb tu per oferir-te una alternativa o, si ho prefereixes, eliminar-lo de la comanda amb l'ajust corresponent a l'import final.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -673,7 +693,7 @@
         "heading_HcW4tM": {
           "type": "heading",
           "settings": {
-            "heading": "Shipping",
+            "heading": "Devolucions i Incidències",
             "heading_italic_convert": "",
             "heading_size": "h4",
             "heading_size_custom": 2.4,
@@ -685,11 +705,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Puc retornar un producte?",
+            "icon": "return",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Si reps un producte en mal estat, incorrecte o deteriorat, contacta amb nosaltres en un termini màxim de 24 hores des de la recepció de la comanda.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -705,11 +725,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "How can I track my order?",
-            "icon": "truck",
+            "heading": "Com gestiono una incidència?",
+            "icon": "chat_bubble",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "row_content": "<p>Contacta amb el nostre Servei d'Atenció al Client per telèfon al<strong> 743 140</strong> o per correu a <a href=\"mailto:online@santeloi.com\"><strong>online@santeloi.com</strong></a><strong> </strong>indicant el número de comanda i una descripció del problema.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -722,6 +742,108 @@
           }
         },
         "collapsible_row_naXibX": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Em retornen els diners si hi ha una incidència?",
+            "icon": "wallet",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Sí. En cas de devolució o incidència validada, tramitarem el reemborsament de l'import corresponent pel mateix mètode de pagament utilitzat.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "heading_NhxbJf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Targeta Sant Eloi",
+            "heading_italic_convert": "",
+            "heading_size": "h4",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h3"
+          }
+        },
+        "collapsible_row_kVxc6L": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Què és la Targeta Sant Eloi?",
+            "icon": "card",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>La Targeta Sant Eloi és la nostra targeta de client que et permet comprar online amb facturació a final de mes, sense necessitat de pagar en el moment de la compra. Totes les teves compres del mes, tant online com als establiments del Grup Sant Eloi, s'agrupen en una única factura mensual.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_jXNMxa": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Com activo la meva Targeta Sant Eloi per comprar online?",
+            "icon": "add",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Durant el procés de compra, selecciona \"Targeta Sant Eloi\" com a mètode de pagament. Es realitzarà una validació automàtica del número de client i correu electrònic. Si tens dubtes sobre l'activació, contacta amb la teva botiga més propera.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_xKW9TT": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Necessito compte registrat per usar la Targeta Sant Eloi?",
+            "icon": "silhouette",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Sí. La Targeta Sant Eloi requereix compte registrat, ja que està vinculada al teu perfil de client per gestionar la facturació mensual.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "heading_4LUcMQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "El Meu Compte",
+            "heading_italic_convert": "",
+            "heading_size": "h4",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h3"
+          }
+        },
+        "collapsible_row_Jg98jr": {
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
@@ -741,7 +863,47 @@
             "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
           }
         },
-        "collapsible_row_kVxc6L": {
+        "collapsible_row_QUMqTD": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_bbiUCx": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "How can I track my order?",
+            "icon": "truck",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your text here to answer the question. Where possible, it's best to keep text roughly the same length across all the answers.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_B6DkPc": {
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
@@ -811,11 +973,20 @@
         "collapsible_row_xJzzYP",
         "collapsible_row_PUU4PE",
         "collapsible_row_JWGXzW",
+        "collapsible_row_UKWk34",
         "heading_HcW4tM",
         "collapsible_row_Qprkkf",
         "collapsible_row_Wg6Ayt",
         "collapsible_row_naXibX",
+        "heading_NhxbJf",
         "collapsible_row_kVxc6L",
+        "collapsible_row_jXNMxa",
+        "collapsible_row_xKW9TT",
+        "heading_4LUcMQ",
+        "collapsible_row_Jg98jr",
+        "collapsible_row_QUMqTD",
+        "collapsible_row_bbiUCx",
+        "collapsible_row_B6DkPc",
         "spacer_zGqL4c",
         "text_PCJRbe"
       ],
