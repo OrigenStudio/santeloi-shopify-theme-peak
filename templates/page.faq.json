@@ -1043,11 +1043,19 @@
     "image_with_text_VW8wiU": {
       "type": "image-with-text",
       "blocks": {
+        "caption_WzdEqJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "GRUP SANT ELOI",
+            "caption_text_style": "caption-with-letter-spacing",
+            "caption_text_size": "t6"
+          }
+        },
         "heading_DrPiFz": {
           "type": "heading",
           "settings": {
-            "heading": "Més que un supermercat",
-            "heading_italic_convert": "outline_accent",
+            "heading": "Més que [<em>compra</em>|<em>proximitat</em>|<em>serveis</em>|<em>Andorra</em>]",
+            "heading_italic_convert": "accent",
             "heading_size": "h3",
             "heading_size_custom": 2.4,
             "heading_line_height_custom": 1.2,
@@ -1081,6 +1089,7 @@
         }
       },
       "block_order": [
+        "caption_WzdEqJ",
         "heading_DrPiFz",
         "text_icEhyV",
         "buttons_DarprD"
