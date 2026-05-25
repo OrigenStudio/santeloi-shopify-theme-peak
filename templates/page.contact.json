@@ -111,7 +111,7 @@
         "submit_button_text": "",
         "image": "shopify://shop_images/courier-delivering-groceries-home.jpg",
         "image_overlay_opacity": 20,
-        "desktop_section_height": 400,
+        "desktop_section_height": 320,
         "mobile_section_height": 400,
         "desktop_media_width": 40,
         "layout": "media_first",
