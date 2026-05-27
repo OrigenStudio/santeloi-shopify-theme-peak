@@ -151,6 +151,7 @@
     "cart_drawer_promo_text_alignment": "left",
     "cart_drawer_custom_message_show": true,
     "cart_drawer_custom_message_message": "<p>Els productes congelats i de peix fresc només estan disponibles amb recollida a botiga.</p>",
+    "cart_drawer_custom_message_color_scheme": "scheme-5",
     "cart_show_shipping_calculator": true,
     "seo_title_tag_store_name": true,
     "tab_message": "No t’oblidis de la teva compra 🛒",
