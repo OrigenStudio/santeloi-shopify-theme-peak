@@ -258,6 +258,53 @@
         "show_time_evening": true,
         "show_time_night": true
       }
+    },
+    "rich_text_bbaMmc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RXiqbQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Informació important",
+            "heading_italic_convert": "",
+            "heading_size": "h3",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h2"
+          }
+        },
+        "text_XwXYnK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Import mínim de compra: 30 €<br/>• Les entregues es realitzen de dilluns a divendres<br/>• Els productes congelats i peix fresc només estan disponibles amb recollida<br/>• T’avisarem per correu quan la comanda estigui preparada</p>",
+            "text_size": "t3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RXiqbQ",
+        "text_XwXYnK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_max_width": "m",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-11",
+        "container_color_scheme": "scheme-11",
+        "show_content_shadow": false,
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
     }
   },
   "order": [
@@ -265,6 +312,7 @@
     "main",
     "image_banner_6ryRGn",
     "image_with_text_mm9CY6",
-    "image_with_text_TQxDYb"
+    "image_with_text_TQxDYb",
+    "rich_text_bbaMmc"
   ]
 }
