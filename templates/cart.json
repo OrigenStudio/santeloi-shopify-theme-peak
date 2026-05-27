@@ -13,13 +13,17 @@
       "type": "breadcrumbs",
       "disabled": true,
       "settings": {
+        "spacing": 0,
         "color_scheme": "",
-        "line_separator": ""
+        "line_separator": "",
+        "visibility": ""
       }
     },
     "cart": {
       "type": "main-cart",
       "settings": {
+        "color_scheme": "",
+        "cart_summary_color_scheme": ""
       }
     },
     "featured-collection": {
@@ -48,7 +52,15 @@
         "color_scheme": "scheme-1",
         "view_all_color_scheme": "",
         "line_separator": "border-top",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
         "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
         "heading_tag": "h2"
       }
     }
