@@ -114,11 +114,157 @@
         "show_time_evening": true,
         "show_time_night": true
       }
+    },
+    "image_with_text_mm9CY6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NWpYjW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Entrega a domicili",
+            "heading_italic_convert": "",
+            "heading_size": "h3",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h2"
+          }
+        },
+        "text_kpqVye": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Entrega disponible a tot Andorra de dilluns a divendres.</p><p>Pots seleccionar franja de matí (09:00–13:00) o tarda (15:00–19:00).</p>",
+            "text_size": "t3"
+          }
+        },
+        "buttons_M4JYcd": {
+          "type": "buttons",
+          "settings": {
+            "button_text_size": "t3",
+            "button_label_1": "Button label",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "button_style_2_show_arrow": false,
+            "button_style_2_show_gradient_border": false,
+            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NWpYjW",
+        "text_kpqVye",
+        "buttons_M4JYcd"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "desktop_section_height": 500,
+        "mobile_section_height": 400,
+        "desktop_media_width": 50,
+        "desktop_media_scale": 100,
+        "layout": "media_first",
+        "image_cover": true,
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_max_width": "xs",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "show_content_shadow": false,
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
+    "image_with_text_TQxDYb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aE64rt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Click & Collect",
+            "heading_italic_convert": "",
+            "heading_size": "h3",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h2"
+          }
+        },
+        "text_4WyjHp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Recull la teva comanda al centre Sant Eloi quan et vagi millor.</p><p>Els productes congelats i de peix fresc només estan disponibles amb recollida a botiga.</p>",
+            "text_size": "t3"
+          }
+        },
+        "buttons_dNGDFB": {
+          "type": "buttons",
+          "settings": {
+            "button_text_size": "t3",
+            "button_label_1": "Button label",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "button_style_2_show_arrow": false,
+            "button_style_2_show_gradient_border": false,
+            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aE64rt",
+        "text_4WyjHp",
+        "buttons_dNGDFB"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "desktop_section_height": 500,
+        "mobile_section_height": 400,
+        "desktop_media_width": 50,
+        "desktop_media_scale": 100,
+        "layout": "text_first",
+        "image_cover": true,
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_max_width": "xs",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "show_content_shadow": false,
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main",
-    "image_banner_6ryRGn"
+    "image_banner_6ryRGn",
+    "image_with_text_mm9CY6",
+    "image_with_text_TQxDYb"
   ]
 }
