@@ -141,6 +141,8 @@
     "cart_drawer_promo_text_size": "h6-size",
     "cart_drawer_promo_text_position": "justify-start items-start",
     "cart_drawer_promo_text_alignment": "left",
+    "cart_drawer_custom_message_show": true,
+    "cart_drawer_custom_message_message": "<p>Si la teva comanda inclou productes congelats o peix fresc, només podràs seleccionar recollida a botiga.</p>",
     "cart_show_shipping_calculator": true,
     "seo_title_tag_store_name": true,
     "tab_message": "No t’oblidis de la teva compra 🛒",
