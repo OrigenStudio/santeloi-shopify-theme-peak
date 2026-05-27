@@ -144,7 +144,7 @@
     "cart_shipping_bar_background": "linear-gradient(92deg, rgba(1, 57, 28, 1) 7%, rgba(41, 207, 150, 1) 94%)",
     "cart_shipping_bar_msg_standard": "Et falten <strong>[amount]</strong> per obtenir <strong>enviament gratuït</strong>.",
     "cart_shipping_bar_msg_close": "Ja gairebé ho tens! Només falten <strong>[amount] </strong>per <strong>enviament gratuït</strong>.",
-    "cart_shipping_bar_msg_free": "Perfecte! Tens enviament gratuït.",
+    "cart_shipping_bar_msg_free": "Perfecte! Tens <strong>enviament gratuït</strong>.",
     "cart_drawer_promo_show": false,
     "cart_drawer_promo_text_size": "h6-size",
     "cart_drawer_promo_text_position": "justify-start items-start",
