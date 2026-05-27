@@ -103,7 +103,7 @@
         "cta_icon_size": 2.6,
         "cta_heading": "CLICK & COLLECT",
         "cta_label": "Disponible a Sant Eloi.",
-        "cta_url": "",
+        "cta_url": "shopify://pages/entregues-i-click-collect",
         "cta_text_size": "t6",
         "custom_icon": "chat_bubbles",
         "custom_icon_url": "/",
