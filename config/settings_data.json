@@ -125,7 +125,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_suggested_searches": "Wine\nVitamins\nCoffee\nProtein powder",
     "currency_code_enabled": true,
-    "cart_icon": "bag",
+    "cart_icon": "basket",
     "cart_drawer_enabled": true,
     "cart_drawer_ctas": "checkout",
     "cart_show_cart_note": true,
