@@ -25,7 +25,7 @@
           "type": "vendor",
           "settings": {
             "text_style": "uppercase",
-            "use_link_color": false,
+            "use_link_color": true,
             "text_size": "t7",
             "visibility": ""
           }
