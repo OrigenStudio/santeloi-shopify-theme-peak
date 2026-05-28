@@ -46,6 +46,15 @@
             "show_in_quickbuy": true
           }
         },
+        "richtext_qbjezG": {
+          "type": "richtext",
+          "settings": {
+            "text": "{{ product.description }}",
+            "text_size": "t3",
+            "stock_visibility": "either",
+            "show_in_quickbuy": true
+          }
+        },
         "product_icons_qcqXA3": {
           "type": "product_icons",
           "settings": {
@@ -747,6 +756,7 @@
         "title_3qyCbh",
         "inventory_9DtJ9J",
         "description_njPpyQ",
+        "richtext_qbjezG",
         "product_icons_qcqXA3",
         "spacer_p7PC6z",
         "nutri_score_TwjkRf",
