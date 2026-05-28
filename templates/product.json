@@ -106,7 +106,7 @@
         "richtext_VJ6qQw": {
           "type": "richtext",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.calories_per_100.value }} Kcal</p>",
+            "text": "<p><strong>{{ product.metafields.custom.calories_per_100.value }}</strong><strong> Kcal</strong></p>",
             "text_size": "t3",
             "stock_visibility": "either",
             "show_in_quickbuy": true
