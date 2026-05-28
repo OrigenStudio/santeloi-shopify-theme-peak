@@ -698,7 +698,7 @@
             "row_heading_weight": "medium",
             "icon": "clipboard",
             "image_width": 20,
-            "content": "<p>{{ product.metafields.custom.short_description.value }}</p>",
+            "content": "{{ product.description }}",
             "page": "",
             "content_embed": "",
             "stock_visibility": "either",
