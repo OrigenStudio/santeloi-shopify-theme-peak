@@ -547,7 +547,7 @@
             "label_alignment": "left",
             "value_alignment": "left",
             "label_1": "<h6><strong>Valors mitjans per:</strong></h6>",
-            "value_1": "<h6><strong>Per </strong>{{ product.metafields.custom.serving_size.value }}<strong> g</strong></h6>",
+            "value_1": "<h6><strong>Per </strong><strong>{{ product.metafields.custom.serving_size.value }}</strong><strong> g</strong></h6>",
             "label_2": "",
             "value_2": "<p><strong>% IR *</strong></p>",
             "label_3": "<p><strong>Valor energètic </strong>{{ product.metafields.custom.joules_per_100.value }} kJ / {{ product.metafields.custom.calories_per_100.value }} kcal</p>",
