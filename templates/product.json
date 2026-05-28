@@ -40,9 +40,19 @@
         },
         "description_njPpyQ": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "text_size": "t3",
             "max_height": 0,
+            "show_in_quickbuy": true
+          }
+        },
+        "richtext_pcgaCQ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.short_description.value }}</p>",
+            "text_size": "t3",
+            "stock_visibility": "either",
             "show_in_quickbuy": true
           }
         },
@@ -747,6 +757,7 @@
         "title_3qyCbh",
         "inventory_9DtJ9J",
         "description_njPpyQ",
+        "richtext_pcgaCQ",
         "product_icons_qcqXA3",
         "spacer_p7PC6z",
         "nutri_score_TwjkRf",
