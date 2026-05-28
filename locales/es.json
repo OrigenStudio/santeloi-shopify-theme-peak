@@ -84,9 +84,9 @@
     }
   },
   "newsletter": {
-    "label": "Correo electrónico",
-    "success": "Gracias por suscribirte",
-    "button_label": "Suscribirse"
+    "label": "Correu electrònic",
+    "success": "Gràcies per subscriure’t",
+    "button_label": "Subscriu-te"
   },
   "accessibility": {
     "skip_to_text": "Ir directamente al contenido",
