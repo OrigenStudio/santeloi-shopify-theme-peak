@@ -10,22 +10,22 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Entrar a la tienda usando contraseña:",
-      "login_password_button": "Entrar usando contraseña",
-      "login_form_password_label": "Contraseña",
-      "login_form_password_placeholder": "Tu contraseña",
-      "login_form_error": "Contraseña incorrecta",
-      "login_form_submit": "Ingresar",
-      "admin_link_html": "¿Eres el propietario de la tienda? <a href=\"/admin\" class=\"link underlined-link\">Inicia sesión aquí</a>",
-      "powered_by_shopify_html": "Esta tienda contará con tecnología Shopify {{ shopify }}"
+      "login_form_heading": "Entrar a la botiga amb contrasenya:",
+      "login_password_button": "Entrar amb contrasenya",
+      "login_form_password_label": "Contrasenya",
+      "login_form_password_placeholder": "La teva contrasenya",
+      "login_form_error": "Contrasenya incorrecta",
+      "login_form_submit": "Entrar",
+      "admin_link_html": "Ets el propietari de la botiga?? <a href=\"/admin\" class=\"link underlined-link\">Inicia sessió aquí</a>",
+      "powered_by_shopify_html": "Aquesta botiga funcionarà amb tecnologia Shopify {{ shopify }}"
     },
     "social": {
       "alt_text": {
-        "share_on_facebook": "Compartir en Facebook",
-        "share_on_twitter": "Compartir en Twitter",
-        "share_on_pinterest": "Guardar en Pinterest",
-        "share_on_whatsapp": "Compartir en WhatsApp",
-        "share_on_linkedin": "Compartir en LinkedIn"
+        "share_on_facebook": "Compartir a Facebook",
+        "share_on_twitter": "Compartir a Twitter",
+        "share_on_pinterest": "Desar a Pinterest",
+        "share_on_whatsapp": "Compartir a WhatsApp",
+        "share_on_linkedin": "Compartir a LinkedIn"
       },
       "links": {
         "twitter": "Twitter",
@@ -42,45 +42,45 @@
         "linkedin": "LinkedIn"
       }
     },
-    "continue_shopping": "Seguir comprando",
+    "continue_shopping": "Continuar comprant",
     "pagination": {
-      "label": "Paginación",
-      "page": "Página {{ number }}",
-      "next": "Página siguiente",
-      "previous": "Pagina anterior",
-      "show_more": "Mostrar más",
-      "loading_text": "Por favor, espere..."
+      "label": "Paginació",
+      "page": "Pàgina {{ number }}",
+      "next": "Pàgina següent",
+      "previous": "Pàgina anterior",
+      "show_more": "Mostrar més",
+      "loading_text": "Si us plau, espera..."
     },
     "search": {
-      "search": "Búsqueda",
-      "reset": "Borrar término de búsqueda",
-      "product_type": "Seleccionar tipo de producto",
-      "all_product_types": "Todos",
-      "search_placeholder": "Búsqueda"
+      "search": "Cerca",
+      "reset": "Esborrar terme de cerca",
+      "product_type": "Selecciona el tipus de producte",
+      "all_product_types": "Tots",
+      "search_placeholder": "Cerca"
     },
     "cart": {
-      "view": "Ver carrito ({{ count }})",
-      "item_added": "Artículo agregado a tu carrito",
-      "view_empty_cart": "Ver carrito"
+      "view": "Veure carret ({{ count }})",
+      "item_added": "Article afegit al teu carret",
+      "view_empty_cart": "Veure carret"
     },
     "share": {
-      "copy_to_clipboard": "Copiar enlace",
-      "share_url": "Enlace",
-      "success_message": "Enlace copiado al portapapeles",
-      "close": "Cerrar compartición"
+      "copy_to_clipboard": "Copiar enllaç",
+      "share_url": "Enllaç",
+      "success_message": "Enllaç copiat al porta-retalls",
+      "close": "Tancar compartició"
     },
     "slider": {
       "of": "de",
-      "next_slide": "Diapositiva a la derecha",
-      "previous_slide": "Diapositiva a la izquierda",
+      "next_slide": "Diapositiva següent",
+      "previous_slide": "Diapositiva anterior",
       "name": "Carrusel"
     },
     "discount_code": {
-      "close": "Cerrar código de descuento",
-      "copy_to_clipboard": "Copiar descuento",
-      "discount_code": "Código de descuento",
-      "success_message": "Copiado",
-      "discount_gated": "Iniciar sesión"
+      "close": "Tancar codi de descompte",
+      "copy_to_clipboard": "Copiar descompte",
+      "discount_code": "Codi de descompte",
+      "success_message": "Copiat",
+      "discount_gated": "Inicia sessió"
     }
   },
   "newsletter": {
