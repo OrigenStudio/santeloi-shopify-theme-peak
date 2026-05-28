@@ -304,7 +304,7 @@
           "type": "enquiry_back_in_stock",
           "settings": {
             "icon": "",
-            "text": "<h5>Sorry, it's out of stock.</h5><p>But we can let you know when it's back in.</p>",
+            "text": "<h5>Aquest producte està esgotat</h5><p>T’avisarem quan torni a estar disponible.</p>",
             "text_size": "t3",
             "text_padding": 0,
             "stock_visibility": "out_of_stock",
