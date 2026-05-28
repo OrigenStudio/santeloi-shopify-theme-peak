@@ -46,15 +46,6 @@
             "show_in_quickbuy": true
           }
         },
-        "richtext_qbjezG": {
-          "type": "richtext",
-          "settings": {
-            "text": "{{ product.description }}",
-            "text_size": "t3",
-            "stock_visibility": "either",
-            "show_in_quickbuy": true
-          }
-        },
         "product_icons_qcqXA3": {
           "type": "product_icons",
           "settings": {
@@ -707,7 +698,7 @@
             "row_heading_weight": "medium",
             "icon": "clipboard",
             "image_width": 20,
-            "content": "<p>Anacards torrats i salats, ideals per aperitius, amanides o snacks del dia a dia.</p>",
+            "content": "<p>{{ product.metafields.custom.short_description.value }}</p>",
             "page": "",
             "content_embed": "",
             "stock_visibility": "either",
@@ -756,7 +747,6 @@
         "title_3qyCbh",
         "inventory_9DtJ9J",
         "description_njPpyQ",
-        "richtext_qbjezG",
         "product_icons_qcqXA3",
         "spacer_p7PC6z",
         "nutri_score_TwjkRf",
