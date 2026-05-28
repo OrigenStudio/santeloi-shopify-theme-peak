@@ -751,6 +751,28 @@
             "show_in_quickbuy": true,
             "heading_tag": "h2"
           }
+        },
+        "panel_36WGFN": {
+          "type": "panel",
+          "settings": {
+            "padding": 0,
+            "panel_icon": "",
+            "panel_heading": "Informació del fabricant",
+            "heading_tag": "h2",
+            "heading_style": "text-heading",
+            "heading_text_size": "t0",
+            "heading_text_weight": "medium",
+            "below_media": false,
+            "visibility": "",
+            "show_at_specific_time_of_day": false,
+            "show_time_morning": true,
+            "show_time_afternoon": true,
+            "show_time_evening": true,
+            "show_time_night": true,
+            "stock_visibility": "either",
+            "show_in_quickbuy": true,
+            "color_scheme": "scheme-2"
+          }
         }
       },
       "block_order": [
@@ -794,7 +816,8 @@
         "panel_F8NdWV",
         "collapsible_tab_khyUdX",
         "collapsible_tab_peXURx",
-        "collapsible_tab_BipL7W"
+        "collapsible_tab_BipL7W",
+        "panel_36WGFN"
       ],
       "settings": {
         "gallery_layout": "slider",
