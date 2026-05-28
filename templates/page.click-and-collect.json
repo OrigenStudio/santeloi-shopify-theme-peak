@@ -162,6 +162,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image": "shopify://shop_images/2149722284.jpg",
         "desktop_section_height": 500,
         "mobile_section_height": 400,
         "desktop_media_width": 50,
@@ -291,7 +292,7 @@
         "content_max_width": "m",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-6",
+        "section_color_scheme": "scheme-2",
         "container_color_scheme": "scheme-11",
         "show_content_shadow": false,
         "line_separator": "",
