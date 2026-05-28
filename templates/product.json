@@ -21,6 +21,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "vendor_Mi444W": {
+          "type": "vendor",
+          "settings": {
+            "text_style": "uppercase",
+            "use_link_color": false,
+            "text_size": "t7",
+            "visibility": ""
+          }
+        },
         "title_3qyCbh": {
           "type": "title",
           "settings": {
@@ -785,6 +794,7 @@
         }
       },
       "block_order": [
+        "vendor_Mi444W",
         "title_3qyCbh",
         "inventory_9DtJ9J",
         "description_njPpyQ",
