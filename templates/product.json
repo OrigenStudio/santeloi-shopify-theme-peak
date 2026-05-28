@@ -121,7 +121,7 @@
             "button_text_font_weight": "font-normal",
             "button_text_size": "t4",
             "show_inline": false,
-            "content": "<h3>Informació sobre al·lèrgens</h3><p>Conté fruits secs.<br/>Pot contenir traces de cacauet i altres fruits secs.</p>",
+            "content": "<h3>Informació sobre al·lèrgens</h3>{{ product.metafields.custom.diet_badges | metafield_tag }}",
             "page": ""
           }
         },
