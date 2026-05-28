@@ -744,7 +744,7 @@
             "row_heading_weight": "medium",
             "icon": "serving_dish",
             "image_width": 20,
-            "content": "<p>Conservar en un lloc fresc i sec.<br/>Un cop obert, mantenir l’envàs ben tancat.</p>",
+            "content": "<p>{{ product.metafields.custom.storage_conditions | metafield_tag }}</p><p>{{ product.metafields.custom.advisory_info | metafield_tag }}</p>",
             "page": "",
             "content_embed": "",
             "stock_visibility": "either",
