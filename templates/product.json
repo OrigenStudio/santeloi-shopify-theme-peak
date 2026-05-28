@@ -550,7 +550,7 @@
             "value_1": "<h6><strong>Per 100 g</strong></h6>",
             "label_2": "",
             "value_2": "<p><strong>% IR *</strong></p>",
-            "label_3": "<p><strong>Valor energètic </strong>1.505 kJ / 365 kcal</p>",
+            "label_3": "<p><strong>Valor energètic </strong>{{ product.metafields.custom.joules_per_100.value }} / {{ product.metafields.custom.calories_per_100.value }}</p>",
             "value_3": "<p><strong>18 %</strong></p>",
             "label_4": "",
             "value_4": "",
