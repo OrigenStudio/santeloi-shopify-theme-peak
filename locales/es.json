@@ -89,29 +89,29 @@
     "button_label": "Subscriu-te"
   },
   "accessibility": {
-    "skip_to_text": "Ir directamente al contenido",
-    "close": "Cerrar",
-    "unit_price_separator": "por",
-    "vendor": "Proveedor:",
+    "skip_to_text": "Anar directament al contingut",
+    "close": "Tancar",
+    "unit_price_separator": "per",
+    "vendor": "Proveïdor:",
     "error": "Error",
-    "refresh_page": "Al seleccionar una opción, se actualiza toda la página.",
+    "refresh_page": "En seleccionar una opció, s’actualitza tota la pàgina.",
     "link_messages": {
-      "new_window": "Se abre en una nueva ventana.",
-      "external": "Se abre el sitio web externo."
+      "new_window": "S’obre en una finestra nova.",
+      "external": "S’obre el lloc web extern."
     },
-    "loading": "Cargando...",
-    "skip_to_product_info": "Ir directamente a la información del producto",
-    "total_reviews": "reseñas totales",
-    "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas",
-    "collapsible_content_title": "Contenido desplegable",
-    "complementary_products": "Productos complementarios",
-    "scroll_to_top": "Desplazarse hasta la parte superior de la página",
-    "popup": "Notificación del sitio",
-    "search": "Buscar en nuestra tienda",
-    "change_language": "Cambiar idioma",
-    "change_country": "Cambiar país",
-    "change_country_language": "Cambiar país/idioma",
-    "view_hotspot": "Ver punto de acceso"
+    "loading": "Carregant...",
+    "skip_to_product_info": "Anar directament a la informació del producte",
+    "total_reviews": "ressenyes totals",
+    "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrelles",
+    "collapsible_content_title": "Contingut desplegable",
+    "complementary_products": "Productes complementaris",
+    "scroll_to_top": "Desplaçar-se fins a la part superior de la pàgina",
+    "popup": "Notificació del lloc",
+    "search": "Cercar a la nostra botiga",
+    "change_language": "Canviar idioma",
+    "change_country": "Canviar país",
+    "change_country_language": "Canviar país/idioma",
+    "view_hotspot": "Veure punt d’accés"
   },
   "blogs": {
     "article": {
