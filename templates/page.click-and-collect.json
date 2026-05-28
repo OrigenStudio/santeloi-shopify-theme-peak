@@ -336,7 +336,7 @@
             "button_style_1": "secondary",
             "button_style_1_show_arrow": true,
             "button_style_1_show_gradient_border": true,
-            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "button_1_border_gradient": "linear-gradient(118deg, rgba(204, 151, 65, 1) 14%, rgba(212, 217, 190, 1) 85%)",
             "button_label_2": "",
             "button_link_2": "",
             "button_style_2": "secondary",
