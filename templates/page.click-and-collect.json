@@ -138,6 +138,7 @@
         },
         "buttons_M4JYcd": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_text_size": "t3",
             "button_label_1": "Button label",
@@ -211,6 +212,7 @@
         },
         "buttons_dNGDFB": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_text_size": "t3",
             "button_label_1": "Button label",
