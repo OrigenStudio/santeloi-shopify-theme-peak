@@ -773,6 +773,15 @@
             "show_in_quickbuy": true,
             "color_scheme": "scheme-2"
           }
+        },
+        "richtext_XgEtUD": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.manufacturer_name.value }}</p>",
+            "text_size": "t3",
+            "stock_visibility": "either",
+            "show_in_quickbuy": true
+          }
         }
       },
       "block_order": [
@@ -817,7 +826,8 @@
         "collapsible_tab_khyUdX",
         "collapsible_tab_peXURx",
         "collapsible_tab_BipL7W",
-        "panel_36WGFN"
+        "panel_36WGFN",
+        "richtext_XgEtUD"
       ],
       "settings": {
         "gallery_layout": "slider",
