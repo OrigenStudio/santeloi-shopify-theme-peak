@@ -103,6 +103,15 @@
             "show_in_quickbuy": true
           }
         },
+        "richtext_VJ6qQw": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.calories_per_100.value }}</p>",
+            "text_size": "t3",
+            "stock_visibility": "either",
+            "show_in_quickbuy": true
+          }
+        },
         "highlights_YcNQiX": {
           "type": "highlights",
           "settings": {
@@ -802,6 +811,7 @@
         "product_icons_qcqXA3",
         "spacer_p7PC6z",
         "nutri_score_TwjkRf",
+        "richtext_VJ6qQw",
         "highlights_YcNQiX",
         "popup_CBtXPA",
         "spacer_CDFfHN",
