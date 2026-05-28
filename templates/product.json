@@ -777,7 +777,7 @@
         "richtext_XgEtUD": {
           "type": "richtext",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.manufacturer_name.value }}</p><p>{{ product.metafields.custom.legal_info | metafield_tag }}</p>",
+            "text": "<p>{{ product.metafields.custom.manufacturer_name.value }}<br/>{{ product.metafields.custom.legal_info | metafield_tag }}</p>",
             "text_size": "t3",
             "stock_visibility": "either",
             "show_in_quickbuy": true
