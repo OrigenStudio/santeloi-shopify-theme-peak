@@ -305,6 +305,72 @@
         "show_time_evening": true,
         "show_time_night": true
       }
+    },
+    "rich_text_wzQaqn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kCCNNV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Comença la teva compra online",
+            "heading_italic_convert": "",
+            "heading_size": "h2",
+            "heading_size_custom": 2.4,
+            "heading_line_height_custom": 1.2,
+            "heading_tag": "h2"
+          }
+        },
+        "text_JcAxCC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Producte fresc, entrega flexible i recollida fàcil des d’Andorra.</p>",
+            "text_size": "t2"
+          }
+        },
+        "buttons_xw7bQK": {
+          "type": "buttons",
+          "settings": {
+            "button_text_size": "t3",
+            "button_label_1": "Veure productes",
+            "button_link_1": "shopify://collections/all",
+            "button_style_1": "secondary",
+            "button_style_1_show_arrow": true,
+            "button_style_1_show_gradient_border": true,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "button_style_2_show_arrow": false,
+            "button_style_2_show_gradient_border": false,
+            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kCCNNV",
+        "text_JcAxCC",
+        "buttons_xw7bQK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_max_width": "m",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-5",
+        "container_color_scheme": "scheme-5",
+        "show_content_shadow": false,
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
     }
   },
   "order": [
@@ -313,6 +379,7 @@
     "image_banner_6ryRGn",
     "image_with_text_mm9CY6",
     "image_with_text_TQxDYb",
-    "rich_text_bbaMmc"
+    "rich_text_bbaMmc",
+    "rich_text_wzQaqn"
   ]
 }
