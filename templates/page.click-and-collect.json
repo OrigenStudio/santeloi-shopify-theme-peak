@@ -206,7 +206,7 @@
         "text_4WyjHp": {
           "type": "text",
           "settings": {
-            "text": "<p>Recull la teva comanda al centre Sant Eloi quan et vagi millor.</p><p>Els productes congelats i de peix fresc només estan disponibles amb recollida a botiga.</p>",
+            "text": "<p>Fes la compra online i recull-la al centre Sant Eloi de Sant Julià de Lòria quan et vagi millor. Sense esperes, sense cost addicional.</p><p><strong>Dies disponibles?</strong> de dilluns a diumenge<br/><strong>Com funciona? </strong>Quan la teva comanda estigui preparada rebràs un SMS de confirmació amb la finestra de recollida, aproximadament 24 hores després de fer la comanda. Presenta el correu o SMS de confirmació en arribar a la botiga.</p><p><strong>Important:</strong> els productes congelats i el peix fresc només estan disponibles amb Click & Collect, per garantir la cadena de fred en tot moment. Si el teu carret inclou aquests productes, el sistema t'indicarà automàticament que has de seleccionar aquesta opció.</p>",
             "text_size": "t3"
           }
         },
@@ -280,7 +280,7 @@
         "text_XwXYnK": {
           "type": "text",
           "settings": {
-            "text": "<p>• Import mínim de compra: 30 €<br/>• Les entregues es realitzen de dilluns a divendres<br/>• Els productes congelats i peix fresc només estan disponibles amb recollida<br/>• T’avisarem per correu quan la comanda estigui preparada</p>",
+            "text": "<ul><li>Entrega gratuïta a partir de 30 €</li><li>Import mínim de comanda: 30 €</li><li>Cobertura a totes les parròquies d'Andorra</li><li>Tria la franja horària que millor t'encaixi</li><li>SMS quan la comanda estigui llesta</li><li>Productes congelats: només disponibles amb Click & Collect</li><li>El preu dels frescos s'ajusta al pes real servit</li></ul>",
             "text_size": "t3"
           }
         }
@@ -296,7 +296,7 @@
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-2",
-        "container_color_scheme": "scheme-11",
+        "container_color_scheme": "scheme-5",
         "show_content_shadow": false,
         "line_separator": "",
         "top_padding": "pt-s",
@@ -317,11 +317,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": true,
-            "heading": "Collapsible row",
-            "icon": "heart",
+            "heading": "On feu les entregues a domicili?",
+            "icon": "map_pin",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "row_content": "<p>Lliurem a totes les parròquies del Principat d'Andorra, des de Canillo fins a Sant Julià de Lòria. Durant el checkout podràs confirmar si la teva adreça és dins de la zona de cobertura abans de finalitzar la compra.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -337,11 +337,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "Collapsible row",
-            "icon": "leaf",
+            "heading": "Quan rebré la meva comanda?",
+            "icon": "timer",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "row_content": "<p>Les entregues a domicili es fan l'endemà de realitzar la comanda, de dilluns a divendres, en franja de matí (09:00–13:00 h) o tarda (15:00–19:00 h). Els caps de setmana l'única opció disponible és el Click & Collect.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -357,11 +357,11 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "Collapsible row",
-            "icon": "pants",
+            "heading": "Té cost l'entrega a domicili?",
+            "icon": "home",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "row_content": "<p>L'entrega és completament gratuïta per a totes les comandes superiors a 30 €, que és també l'import mínim per fer una comanda online.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -377,11 +377,31 @@
           "type": "collapsible_row",
           "settings": {
             "row_open": false,
-            "heading": "Collapsible row",
-            "icon": "recycle",
+            "heading": "Els productes congelats es poden rebre a domicili?",
+            "icon": "ice_cream",
             "image_width": 20,
             "row_heading_tag": "h3",
-            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "row_content": "<p>No. Els congelats i el peix fresc només estan disponibles amb Click & Collect per garantir la cadena de fred. Si el teu carret inclou aquests productes, el sistema t'ho indicarà automàticament durant el checkout.</p>",
+            "page": "",
+            "content_embed": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_AXUn7t": {
+          "type": "collapsible_row",
+          "settings": {
+            "row_open": false,
+            "heading": "Puc modificar o cancel·lar la meva comanda?",
+            "icon": "options",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Sí, sempre que no hagi començat a preparar-se. Contacta amb nosaltres al +376 743 140 o a <a href=\"mailto:online@santeloi.com\">online@santeloi.com</a> com més aviat millor.</p>",
             "page": "",
             "content_embed": "",
             "button_text_size": "t3",
@@ -398,7 +418,8 @@
         "collapsible_row_htGKNP",
         "collapsible_row_M7rHck",
         "collapsible_row_LadddX",
-        "collapsible_row_zyLfGX"
+        "collapsible_row_zyLfGX",
+        "collapsible_row_AXUn7t"
       ],
       "name": "Collapsible rows",
       "settings": {
@@ -416,7 +437,7 @@
         "title": "FAQ",
         "italic_convert": "",
         "heading_size": "h2",
-        "text": "<p>Answer common questions with the collapsible content section.</p>",
+        "text": "<p>Tot el que necessites saber abans de fer la comanda</p>",
         "text_size": "t3",
         "button_label": "VEURE TOTES LES FAQ",
         "button_link": "shopify://pages/faq",
