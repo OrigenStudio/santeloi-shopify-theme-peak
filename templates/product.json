@@ -726,7 +726,7 @@
             "row_heading_weight": "medium",
             "icon": "serving_dish",
             "image_width": 20,
-            "content": "<p>Anacards fregits (95%), oli de gira-sol, sal.</p>",
+            "content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
             "page": "",
             "content_embed": "",
             "stock_visibility": "either",
