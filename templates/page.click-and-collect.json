@@ -235,6 +235,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image": "shopify://shop_images/2148238224.jpg",
         "desktop_section_height": 500,
         "mobile_section_height": 400,
         "desktop_media_width": 50,
