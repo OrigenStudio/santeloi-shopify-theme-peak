@@ -626,16 +626,16 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "Este es el saldo de tu tarjeta de regalo de {{ value }} para {{ shop }}.",
-      "subtext": "Tu tarjeta de regalo",
-      "gift_card_code": "Código de tarjeta de regalo",
-      "shop_link": "Visitar la tienda online",
-      "add_to_apple_wallet": "Agregar a Apple Wallet",
-      "qr_image_alt": "Código QR: escanea para canjear la tarjeta de regalo",
-      "copy_code": "Copiar el código de la tarjeta de regalo",
-      "expired": "Vencido",
-      "copy_code_success": "El código se copió correctamente",
-      "how_to_use_gift_card": "Usar el código de la tarjeta de regalo online o el código QR en la tienda",
+      "title": "Aquest és el saldo de la teva targeta regal de {{ value }} per a {{ shop }}.",
+      "subtext": "La teva targeta regal",
+      "gift_card_code": "Codi de la targeta regal",
+      "shop_link": "Visita la botiga en línia",
+      "add_to_apple_wallet": "Afegeix a Apple Wallet",
+      "qr_image_alt": "Codi QR: escaneja per bescanviar la targeta regal",
+      "copy_code": "Copia el codi de la targeta regal",
+      "expired": "Caducat",
+      "copy_code_success": "El codi s’ha copiat correctament",
+      "how_to_use_gift_card": "Utilitza el codi de la targeta regal en línia o el codi QR a la botiga",
       "expiration_date": "Caduca el {{ expires_on }}"
     }
   },
