@@ -116,29 +116,29 @@
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Más información: {{ title }}",
+      "read_more_title": "Més informació: {{ title }}",
       "comments": {
-        "one": "{{ count }} comentario",
-        "other": "{{ count }} comentarios",
+        "one": "{{ count }} comentari",
+        "other": "{{ count }} comentaris",
         "many": "{{ count }} comentarios"
       },
-      "moderated": "Ten en cuenta que los comentarios deben aprobarse antes de que se publiquen.",
-      "comment_form_title": "Deja un comentario",
-      "name": "Nombre",
-      "email": "Correo electrónico",
-      "message": "Comentario",
-      "post": "Publicar comentario",
-      "back_to_blog": "Regresar al blog",
-      "share": "Compartir este artículo",
-      "success": "Tu comentario se publicó correctamente. ¡Gracias!",
-      "success_moderated": "Tu comentario se publicó correctamente. Lo publicaremos en breve, cuando se modere nuestro blog.",
-      "author": "Por {{ author }}",
+      "moderated": "Tingues en compte que els comentaris s’han d’aprovar abans de publicar-se.",
+      "comment_form_title": "Deixa un comentari",
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "message": "Comentari",
+      "post": "Publica el comentari",
+      "back_to_blog": "Torna al blog",
+      "share": "Comparteix aquest article",
+      "success": "El teu comentari s’ha publicat correctament. Gràcies!",
+      "success_moderated": "El teu comentari s’ha publicat correctament. El publicarem aviat, un cop el nostre blog l’hagi moderat.",
+      "author": "Per {{ author }}",
       "read_estimate": "{{ minutes }} min de lectura",
-      "next_article": "Siguiente",
+      "next_article": "Següent",
       "previous_article": "Anterior"
     },
     "filter": {
-      "all": "Todos"
+      "all": "Tots"
     }
   },
   "onboarding": {
