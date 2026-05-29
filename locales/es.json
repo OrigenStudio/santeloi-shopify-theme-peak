@@ -288,7 +288,7 @@
   },
   "templates": {
     "404": {
-      "title": "Página no encontrada",
+      "title": "Pàgina no trobada",
       "subtext": "404"
     },
     "search": {
@@ -303,8 +303,8 @@
       "products": "Productes",
       "search_for": "Cerca “{{ terms }}”",
       "results_with_count_and_term": {
-        "one": "Se ha encontrado {{ count }} resultado para \"{{ terms }}\"",
-        "other": "Se han encontrado {{ count }} resultados para \"{{ terms }}\"",
+        "one": "S’ha trobat {{ count }} resultat per a \"{{ terms }}\"",
+        "other": "S’han trobat {{ count }} resultats per a \"{{ terms }}\"",
         "many": "Se han encontrado {{ count }} resultados para \"{{ terms }}\""
       },
       "results_pages_with_count": {
@@ -334,18 +334,18 @@
       "no_results_short": "No s’han trobat resultats."
     },
     "cart": {
-      "cart": "Carrito"
+      "cart": "Carret"
     },
     "contact": {
       "form": {
-        "name": "Nombre",
-        "email": "Correo electrónico",
+        "name": "Nom",
+        "email": "Correu electrònic",
         "phone": "Número de teléfono",
-        "comment": "Comentario",
+        "comment": "Comentari",
         "send": "Enviar",
-        "post_success": "Gracias por contactarnos. Te responderemos lo antes posible.",
-        "error_heading": "Por favor, ajusta lo siguiente:",
-        "title": "Formulario de contacto"
+        "post_success": "Gràcies per contactar-nos. Et respondrem tan aviat com sigui possible.",
+        "error_heading": "Si us plau, corregeix el següent:",
+        "title": "Formulari de contacte"
       }
     }
   },
