@@ -93,6 +93,7 @@
         },
         "nutri_score_TwjkRf": {
           "type": "nutri_score",
+          "disabled": true,
           "settings": {
             "score": "B",
             "score_size": "t1",
@@ -105,6 +106,7 @@
         },
         "richtext_VJ6qQw": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>{{ product.metafields.custom.calories_per_100.value }}</strong><strong> Kcal ·  </strong><strong>{{ product.metafields.custom.serving_size.value }}</strong><strong> g</strong></p>",
             "text_size": "t3",
@@ -508,6 +510,7 @@
         "panel_tKhpec": {
           "type": "panel",
           "name": "--- PANEL (PRODUCT HIGHLIGHTS) ---",
+          "disabled": true,
           "settings": {
             "padding": 0,
             "panel_icon": "clipboard",
@@ -530,6 +533,7 @@
         },
         "richtext_YRHbmy": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p>Valors mitjans per 100 g. Percentatges sobre la ingesta de referència d'un adult mitjà (8.400 kJ / 2.000 kcal).</p>",
             "text_size": "t6",
@@ -539,6 +543,7 @@
         },
         "table_qc89Hn": {
           "type": "table",
+          "disabled": true,
           "settings": {
             "value_when_empty": "",
             "hide_if_cell2_empty": false,
@@ -592,6 +597,7 @@
         },
         "spacer_DhdtBm": {
           "type": "spacer",
+          "disabled": true,
           "settings": {
             "show_line_separator": true,
             "full_width": false,
@@ -606,6 +612,7 @@
         },
         "table_wkGMrW": {
           "type": "table",
+          "disabled": true,
           "settings": {
             "value_when_empty": "-",
             "hide_if_cell2_empty": false,
@@ -659,6 +666,7 @@
         },
         "spacer_Rm3eQV": {
           "type": "spacer",
+          "disabled": true,
           "settings": {
             "show_line_separator": true,
             "full_width": false,
@@ -673,6 +681,7 @@
         },
         "richtext_8gn38k": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p>(*) IR: Ingesta de referència d'un adult mitjà (8.400 kJ / 2.000 kcal).</p><p>Informació facilitada pel fabricant. </p>",
             "text_size": "t6",
@@ -736,6 +745,7 @@
         },
         "collapsible_tab_peXURx": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "row_open": false,
             "line_separator": "border-top border-bottom",
@@ -754,6 +764,7 @@
         },
         "collapsible_tab_BipL7W": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "row_open": false,
             "line_separator": "border-top",
