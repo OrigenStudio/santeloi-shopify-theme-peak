@@ -503,14 +503,14 @@
     }
   },
   "localization": {
-    "country_label": "País/región",
+    "country_label": "País/regió",
     "language_label": "Idioma",
-    "update_language": "Actualizar idioma",
-    "update_country": "Actualizar país/región",
-    "search": "Buscar",
-    "popular_countries_regions": "Países o regiones populares",
-    "country_results_count": "{{ count }} países o regiones encontrados",
-    "no_countries": "No se encontraron países"
+    "update_language": "Actualitza idioma",
+    "update_country": "Actualitza el país/regió",
+    "search": "Cerca",
+    "popular_countries_regions": "Països o regions populars",
+    "country_results_count": "{{ count }} països o regions trobats",
+    "no_countries": "No s’han trobat països"
   },
   "customer": {
     "account": {
