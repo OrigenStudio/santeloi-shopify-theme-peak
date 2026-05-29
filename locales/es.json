@@ -292,46 +292,46 @@
       "subtext": "404"
     },
     "search": {
-      "no_results": "No se encontraron resultados para “{{ terms }}” Revisa la ortografía o usa una palabra o frase diferente.",
+      "no_results": "No s’han trobat resultats per a “{{ terms }}”. Revisa l’ortografia o utilitza una paraula o frase diferent.",
       "results_with_count": {
-        "one": "{{ count }} resultado",
-        "other": "{{ count }} resultados",
+        "one": "{{ count }} resultat",
+        "other": "{{ count }} resultats",
         "many": "{{ count }} resultados"
       },
-      "title": "Resultados de búsqueda",
-      "page": "Página",
-      "products": "Productos",
-      "search_for": "Buscar “{{ terms }}”",
+      "title": "Resultats de cerca",
+      "page": "Pàgina",
+      "products": "Productes",
+      "search_for": "Cerca “{{ terms }}”",
       "results_with_count_and_term": {
         "one": "Se ha encontrado {{ count }} resultado para \"{{ terms }}\"",
         "other": "Se han encontrado {{ count }} resultados para \"{{ terms }}\"",
         "many": "Se han encontrado {{ count }} resultados para \"{{ terms }}\""
       },
       "results_pages_with_count": {
-        "one": "{{ count }} página",
-        "other": "{{ count }} páginas",
+        "one": "{{ count }} pàgina",
+        "other": "{{ count }} pàgines",
         "many": "{{ count }} páginas"
       },
       "results_products_with_count": {
-        "one": "{{ count }} producto",
-        "other": "{{ count }} productos",
+        "one": "{{ count }} producte",
+        "other": "{{ count }} productes",
         "many": "{{ count }} productos"
       },
-      "suggestions": "Sugerencias",
-      "pages": "Páginas",
+      "suggestions": "Suggeriments",
+      "pages": "Pàgines",
       "results_suggestions_with_count": {
-        "one": "{{ count }} sugerencia",
-        "other": "{{ count }} sugerencias",
+        "one": "{{ count }} suggeriment",
+        "other": "{{ count }} suggeriments",
         "many": "{{ count }} sugerencias"
       },
       "results_items_with_count": {
-        "one": "Mostrar {{ count }} artículo",
-        "other": "Mostrar {{ count }} artículos"
+        "one": "Mostrar {{ count }} article",
+        "other": "Mostrar {{ count }} articles"
       },
-      "articles": "Artículos",
-      "collections": "Colecciones",
-      "popular_searches": "Términos de búsqueda populares",
-      "no_results_short": "No se encontraron resultados."
+      "articles": "Articles",
+      "collections": "Col·leccions",
+      "popular_searches": "Termes de cerca populars",
+      "no_results_short": "No s’han trobat resultats."
     },
     "cart": {
       "cart": "Carrito"
