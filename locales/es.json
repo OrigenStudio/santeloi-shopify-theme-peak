@@ -142,9 +142,9 @@
     }
   },
   "onboarding": {
-    "product_title": "Ejemplo de nombre del producto",
-    "collection_title": "Nombre de tu colección",
-    "example_link": "Enlace de ejemplo"
+    "product_title": "Exemple de nom del producte",
+    "collection_title": "Títol de la col·lecció",
+    "example_link": "Enllaç d’exemple"
   },
   "products": {
     "product": {
