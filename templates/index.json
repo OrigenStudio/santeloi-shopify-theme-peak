@@ -1953,7 +1953,7 @@
     "featured_collection_EKHARr": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "parafarmacia",
         "products_to_show": 10,
         "desktop_layout": "grid",
         "mobile_layout": "carousel",
@@ -1963,7 +1963,7 @@
         "content_max_width": "m",
         "desktop_heading_alignment": "center",
         "mobile_heading_alignment": "left",
-        "title": "Energize your everyday",
+        "title": "Parafarmàcia",
         "italic_convert": "",
         "heading_size": "h1",
         "text": "",
@@ -1973,8 +1973,8 @@
         "view_all_text_size": "t3",
         "view_all_card_visibility": "off",
         "view_all_card_text": "There's plenty more",
-        "color_scheme": "scheme-3",
-        "view_all_color_scheme": "",
+        "color_scheme": "scheme-5",
+        "view_all_color_scheme": "scheme-5",
         "line_separator": "border-top",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
