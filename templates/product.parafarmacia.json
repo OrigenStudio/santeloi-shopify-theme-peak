@@ -745,7 +745,6 @@
         },
         "collapsible_tab_peXURx": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "row_open": false,
             "line_separator": "border-top border-bottom",
@@ -764,7 +763,6 @@
         },
         "collapsible_tab_BipL7W": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "row_open": false,
             "line_separator": "border-top",
