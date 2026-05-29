@@ -641,19 +641,19 @@
   },
   "recipient": {
     "form": {
-      "checkbox": "Quiero enviar esto como un regalo.",
-      "email_label": "Correo electrónico de la persona destinataria",
-      "email": "Correo electrónico",
-      "name_label": "Nombre de la persona destinataria (opcional)",
-      "name": "Nombre",
-      "message_label": "Mensaje (opcional)",
-      "message": "Mensaje",
-      "max_characters": "{{ max_chars }} caracteres máx.",
-      "email_label_optional_for_no_js_behavior": "Correo electrónico de la persona destinataria (opcional)",
+      "checkbox": "Vull enviar això com a regal.",
+      "email_label": "Correu electrònic de la persona destinatària",
+      "email": "Correu electrònic",
+      "name_label": "Nom de la persona destinatària (opcional)",
+      "name": "Nom",
+      "message_label": "Missatge (opcional)",
+      "message": "Missatge",
+      "max_characters": "{{ max_chars }} caràcters màx.",
+      "email_label_optional_for_no_js_behavior": "Correu electrònic de la persona destinatària (opcional)",
       "send_on": "AAAA-MM-DD",
-      "send_on_label": "Enviar el (opcional)",
-      "expanded": "Formulario del destinatario de la tarjeta de regalo expandido",
-      "collapsed": "Formulario del destinatario de tarjeta de regalo contraído"
+      "send_on_label": "Envia el (opcional)",
+      "expanded": "Formulari del destinatari de la targeta regal expandit",
+      "collapsed": "Formulari del destinatari de la targeta regal reduït"
     }
   },
   "breadcrumbs": {
