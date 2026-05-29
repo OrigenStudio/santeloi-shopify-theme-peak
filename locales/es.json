@@ -657,10 +657,10 @@
     }
   },
   "breadcrumbs": {
-    "title": "Migas de pan",
-    "home": "Inicio",
-    "cart": "Carrito",
-    "collections": "Colecciones",
-    "search": "Búsqueda"
+    "title": "Títol",
+    "home": "Inici",
+    "cart": "Carret",
+    "collections": "Col·leccions",
+    "search": "Cerca"
   }
 }
