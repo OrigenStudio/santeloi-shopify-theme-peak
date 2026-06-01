@@ -1,44 +1,48 @@
 {%- assign nutrition = product.metafields.custom.nutrition_info.value -%}
 {%- if nutrition and nutrition.size > 0 -%}
 
-{%- assign has_per_unit = false -%}
-{%- assign has_ref = false -%}
+{%- assign has_quantity_per_unit = false -%}
+{%- assign has_reference_percentage = false -%}
 {%- for row in nutrition -%}
-  {%- if row.perUnit != blank -%}{%- assign has_per_unit = true -%}{%- endif -%}
-  {%- if row.referencePct != blank -%}{%- assign has_ref = true -%}{%- endif -%}
+  {%- if row.quantityPerUnit != blank -%}{%- assign has_quantity_per_unit = true -%}{%- endif -%}
+  {%- if row.referencePercentage != blank -%}{%- assign has_reference_percentage = true -%}{%- endif -%}
 {%- endfor -%}
 
-<table class="theme-table mt-2px t5 lh-15">
+{%- assign sorted_nutrition = nutrition | sort: "order" -%}
+
+<table class="theme-table table--striped mt-2px t5 lh-15" style="--theme-table-column-width: 35%">
   <tbody>
     <tr>
       <th>Valors mitjans per</th>
       <td><strong>100 g / 100 ml</strong></td>
-      {%- if has_per_unit -%}<td><strong>Porció</strong></td>{%- endif -%}
-      {%- if has_ref -%}<td><strong>%IR*</strong></td>{%- endif -%}
+      {%- if has_quantity_per_unit -%}<td><strong>Porció</strong></td>{%- endif -%}
+      {%- if has_reference_percentage -%}<td><strong>%IR* / %VRN**</strong></td>{%- endif -%}
     </tr>
-    {%- for row in nutrition -%}
+    {%- for row in sorted_nutrition -%}
       <tr>
         <th>{{ row.name }}</th>
         <td>
           {%- if row.quantityPer100 != blank -%}
             {{ row.quantityPer100 }} {{ row.unit }}
-          {%- else -%}
-            —
-          {%- endif -%}
+          {%- else -%}—{%- endif -%}
         </td>
-        {%- if has_per_unit -%}
-          <td>{%- if row.perUnit != blank -%}{{ row.perUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}</td>
+        {%- if has_quantity_per_unit -%}
+          <td>
+            {%- if row.quantityPerUnit != blank -%}{{ row.quantityPerUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
+          </td>
         {%- endif -%}
-        {%- if has_ref -%}
-          <td>{%- if row.referencePct != blank -%}{{ row.referencePct }}%{%- else -%}—{%- endif -%}</td>
+        {%- if has_reference_percentage -%}
+          <td>
+            {%- if row.referencePercentage != blank -%}{{ row.referencePercentage }}%{%- else -%}—{%- endif -%}
+          </td>
         {%- endif -%}
       </tr>
     {%- endfor -%}
   </tbody>
 </table>
 
-{%- if has_ref -%}
-  <p class="t6 mt-05" style="opacity:0.65">(*) IR: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)</p>
+{%- if has_reference_percentage -%}
+  <p class="t6 mt-05" style="opacity:0.65">(*) IR / VRN: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)</p>
 {%- endif -%}
 
 {%- endif -%}
