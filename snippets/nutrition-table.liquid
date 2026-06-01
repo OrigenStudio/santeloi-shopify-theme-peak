@@ -1,47 +1,135 @@
 {%- assign nutrition = product.metafields.custom.nutrition_info.value -%}
 {%- if nutrition and nutrition.size > 0 -%}
 
-{%- assign has_quantity_per_unit = false -%}
-{%- assign has_reference_percentage = false -%}
-{%- for row in nutrition -%}
-  {%- if row.quantityPerUnit != blank -%}{%- assign has_quantity_per_unit = true -%}{%- endif -%}
-  {%- if row.referencePercentage != blank -%}{%- assign has_reference_percentage = true -%}{%- endif -%}
-{%- endfor -%}
-
 {%- assign sorted_nutrition = nutrition | sort: "order" -%}
 
-<table class="theme-table table--striped mt-2px t5 lh-15" style="--theme-table-column-width: 35%">
-  <tbody>
-    <tr>
-      <th>Valors mitjans per</th>
-      <td><strong>100 g / 100 ml</strong></td>
-      {%- if has_quantity_per_unit -%}<td><strong>Porció</strong></td>{%- endif -%}
-      {%- if has_reference_percentage -%}<td><strong>%IR* / %VRN**</strong></td>{%- endif -%}
-    </tr>
-    {%- for row in sorted_nutrition -%}
-      <tr>
-        <th>{{ row.name }}</th>
-        <td>
-          {%- if row.quantityPer100 != blank -%}
-            {{ row.quantityPer100 }} {{ row.unit }}
-          {%- else -%}—{%- endif -%}
-        </td>
-        {%- if has_quantity_per_unit -%}
-          <td>
-            {%- if row.quantityPerUnit != blank -%}{{ row.quantityPerUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
-          </td>
-        {%- endif -%}
-        {%- if has_reference_percentage -%}
-          <td>
-            {%- if row.referencePercentage != blank -%}{{ row.referencePercentage }}%{%- else -%}—{%- endif -%}
-          </td>
-        {%- endif -%}
-      </tr>
-    {%- endfor -%}
-  </tbody>
-</table>
+{%- comment -%}Split into nutrients (type=0) and vitamins/minerals (type=1){%- endcomment -%}
+{%- assign nutrients = "" | split: "" -%}
+{%- assign vitamins = "" | split: "" -%}
+{%- for row in sorted_nutrition -%}
+  {%- if row.nutritional_type == "1" -%}
+    {%- assign vitamins = vitamins | push: row -%}
+  {%- else -%}
+    {%- assign nutrients = nutrients | push: row -%}
+  {%- endif -%}
+{%- endfor -%}
 
-{%- if has_reference_percentage -%}
+{%- comment -%}Check which optional columns are present in nutrients{%- endcomment -%}
+{%- assign nutrients_has_per_unit = false -%}
+{%- assign nutrients_has_reference = false -%}
+{%- for row in nutrients -%}
+  {%- if row.quantityPerUnit != blank -%}{%- assign nutrients_has_per_unit = true -%}{%- endif -%}
+  {%- if row.referencePercentage != blank -%}{%- assign nutrients_has_reference = true -%}{%- endif -%}
+{%- endfor -%}
+
+{%- comment -%}Check which optional columns are present in vitamins{%- endcomment -%}
+{%- assign vitamins_has_per_unit = false -%}
+{%- assign vitamins_has_reference = false -%}
+{%- for row in vitamins -%}
+  {%- if row.quantityPerUnit != blank -%}{%- assign vitamins_has_per_unit = true -%}{%- endif -%}
+  {%- if row.referencePercentage != blank -%}{%- assign vitamins_has_reference = true -%}{%- endif -%}
+{%- endfor -%}
+
+{%- comment -%}
+  Column width logic (applied per table):
+  - 4 columns: name=35%
+  - 3 columns: name=40%
+  - 2 columns: name=50%
+{%- endcomment -%}
+
+{%- if nutrients.size > 0 -%}
+  {%- if nutrients_has_per_unit and nutrients_has_reference -%}
+    {%- assign nutrients_col_width = "35%" -%}
+  {%- elsif nutrients_has_per_unit or nutrients_has_reference -%}
+    {%- assign nutrients_col_width = "40%" -%}
+  {%- else -%}
+    {%- assign nutrients_col_width = "50%" -%}
+  {%- endif -%}
+
+  <table class="theme-table table--striped t5 lh-15" style="--theme-table-column-width: {{ nutrients_col_width }}">
+    <tbody>
+      <tr>
+        <th class="rte text-left"><h6><strong>Valors mitjans per:</strong></h6></th>
+        <td class="text-left"><strong>100 g / 100 ml</strong></td>
+        {%- if nutrients_has_per_unit -%}<td class="text-left"><strong>Porció</strong></td>{%- endif -%}
+        {%- if nutrients_has_reference -%}<td class="text-left"><strong>%IR* / %VRN**</strong></td>{%- endif -%}
+      </tr>
+      {%- for row in nutrients -%}
+        {%- comment -%}Subcategory detection: codes ending in 00 are top-level (200, 300...), single/short codes like 101, 102 also top-level{%- endcomment -%}
+        {%- assign code_mod = row.code | modulo: 100 -%}
+        {%- assign is_subcategory = false -%}
+        {%- if code_mod != 0 and row.code != "101" and row.code != "102" -%}
+          {%- assign is_subcategory = true -%}
+        {%- endif -%}
+        <tr>
+          <th class="rte text-left">
+            {%- if is_subcategory -%}
+              <span style="padding-left:1em">{{ row.name }}</span>
+            {%- else -%}
+              {{ row.name }}
+            {%- endif -%}
+          </th>
+          <td class="text-left">
+            {%- if row.quantityPer100 != blank -%}{{ row.quantityPer100 }} {{ row.unit }}{%- else -%}—{%- endif -%}
+          </td>
+          {%- if nutrients_has_per_unit -%}
+            <td class="text-left">
+              {%- if row.quantityPerUnit != blank -%}{{ row.quantityPerUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
+            </td>
+          {%- endif -%}
+          {%- if nutrients_has_reference -%}
+            <td class="text-left">
+              {%- if row.referencePercentage != blank -%}{{ row.referencePercentage }}%{%- else -%}—{%- endif -%}
+            </td>
+          {%- endif -%}
+        </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+{%- endif -%}
+
+{%- if nutrients.size > 0 and vitamins.size > 0 -%}<hr class="mt-1 mb-1">{%- endif -%}
+
+{%- if vitamins.size > 0 -%}
+  {%- if vitamins_has_per_unit and vitamins_has_reference -%}
+    {%- assign vitamins_col_width = "35%" -%}
+  {%- elsif vitamins_has_per_unit or vitamins_has_reference -%}
+    {%- assign vitamins_col_width = "40%" -%}
+  {%- else -%}
+    {%- assign vitamins_col_width = "50%" -%}
+  {%- endif -%}
+
+  <table class="theme-table table--striped mt-1 t5 lh-15" style="--theme-table-column-width: {{ vitamins_col_width }}">
+    <tbody>
+      <tr>
+        <th class="rte text-left"><h6><strong>Vitamines i minerals:</strong></h6></th>
+        <td class="text-left"><strong>100 g / 100 ml</strong></td>
+        {%- if vitamins_has_per_unit -%}<td class="text-left"><strong>Porció</strong></td>{%- endif -%}
+        {%- if vitamins_has_reference -%}<td class="text-left"><strong>%IR* / %VRN**</strong></td>{%- endif -%}
+      </tr>
+      {%- for row in vitamins -%}
+        <tr>
+          <th class="rte text-left">{{ row.name }}</th>
+          <td class="text-left">
+            {%- if row.quantityPer100 != blank -%}{{ row.quantityPer100 }} {{ row.unit }}{%- else -%}—{%- endif -%}
+          </td>
+          {%- if vitamins_has_per_unit -%}
+            <td class="text-left">
+              {%- if row.quantityPerUnit != blank -%}{{ row.quantityPerUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
+            </td>
+          {%- endif -%}
+          {%- if vitamins_has_reference -%}
+            <td class="text-left">
+              {%- if row.referencePercentage != blank -%}{{ row.referencePercentage }}%{%- else -%}—{%- endif -%}
+            </td>
+          {%- endif -%}
+        </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+{%- endif -%}
+
+{%- if nutrients_has_reference or vitamins_has_reference -%}
   <p class="t6 mt-05" style="opacity:0.65">(*) IR / VRN: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)</p>
 {%- endif -%}
 
