@@ -537,6 +537,13 @@
             "show_in_quickbuy": true
           }
         },
+        "custom_liquid_rQNGag": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'nutrition-table' %}",
+            "stock_visibility": "either"
+          }
+        },
         "table_qc89Hn": {
           "type": "table",
           "settings": {
@@ -836,6 +843,7 @@
         "key_info_CXEd6B",
         "panel_tKhpec",
         "richtext_YRHbmy",
+        "custom_liquid_rQNGag",
         "table_qc89Hn",
         "spacer_DhdtBm",
         "table_wkGMrW",
