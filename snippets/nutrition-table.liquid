@@ -84,38 +84,17 @@
 {%- if nutrients.size > 0 and vitamins.size > 0 -%}<hr class="mt-1 mb-1">{%- endif -%}
 
 {%- if vitamins.size > 0 -%}
-  {%- if vitamins_has_per_unit and vitamins_has_reference -%}
-    {%- assign vitamins_col_width = "35%" -%}
-  {%- elsif vitamins_has_per_unit or vitamins_has_reference -%}
-    {%- assign vitamins_col_width = "40%" -%}
-  {%- else -%}
-    {%- assign vitamins_col_width = "50%" -%}
-  {%- endif -%}
-
-  <table class="theme-table table--striped mt-1 t5 lh-15" style="--theme-table-column-width: {{ vitamins_col_width }}">
+  <h6 class="mt-1 mb-0"><strong>Vitamines i minerals</strong></h6>
+  <table class="theme-table table--striped mt-2px t5 lh-15" style="--theme-table-column-width: 50%">
     <tbody>
-      <tr>
-        <th class="rte text-left"><h6><strong>Vitamines i minerals:</strong></h6></th>
-        <td class="text-left"><strong>100 g / 100 ml</strong></td>
-        {%- if vitamins_has_per_unit -%}<td class="text-left"><strong>Porció</strong></td>{%- endif -%}
-        {%- if vitamins_has_reference -%}<td class="text-left"><strong>%IR* / %VRN**</strong></td>{%- endif -%}
-      </tr>
       {%- for row in vitamins -%}
         <tr>
-          <th class="rte text-left">{{ row.name }}</th>
-          <td class="text-left">
-            {%- if row.quantityPer100 != blank -%}{{ row.quantityPer100 }} {{ row.unit }}{%- else -%}—{%- endif -%}
+          <th class="rte text-left">
+            <p><strong>{{ row.name }}</strong>{%- if row.quantityPer100 != blank -%} {{ row.quantityPer100 }} {{ row.unit }}{%- endif -%}</p>
+          </th>
+          <td class="rte text-left">
+            {%- if row.referencePercentage != blank -%}<p><strong>{{ row.referencePercentage }} %</strong></p>{%- else -%}—{%- endif -%}
           </td>
-          {%- if vitamins_has_per_unit -%}
-            <td class="text-left">
-              {%- if row.quantityPerUnit != blank -%}{{ row.quantityPerUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
-            </td>
-          {%- endif -%}
-          {%- if vitamins_has_reference -%}
-            <td class="text-left">
-              {%- if row.referencePercentage != blank -%}{{ row.referencePercentage }}%{%- else -%}—{%- endif -%}
-            </td>
-          {%- endif -%}
         </tr>
       {%- endfor -%}
     </tbody>
