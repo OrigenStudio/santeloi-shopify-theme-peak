@@ -1,0 +1,57 @@
+{%- assign nutrition = product.metafields.custom.nutrition_info.value -%}
+{%- if nutrition and nutrition.size > 0 -%}
+
+<div class="nutrition-table">
+  <p class="t6 mb-05" style="color: var(--color-foreground-75)">
+    (*) IR: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)
+  </p>
+
+  <table style="width:100%; border-collapse:collapse; font-size:0.875rem;">
+    <thead>
+      <tr style="border-bottom: 2px solid currentColor;">
+        <th style="text-align:left; padding: 6px 4px;">Valors per</th>
+        <th style="text-align:right; padding: 6px 4px;">100 g</th>
+        {%- assign has_per_unit = false -%}
+        {%- for row in nutrition -%}
+          {%- if row.perUnit != blank -%}{%- assign has_per_unit = true -%}{%- endif -%}
+        {%- endfor -%}
+        {%- if has_per_unit -%}
+          <th style="text-align:right; padding: 6px 4px;">Porció</th>
+        {%- endif -%}
+        {%- assign has_ref = false -%}
+        {%- for row in nutrition -%}
+          {%- if row.referencePct != blank -%}{%- assign has_ref = true -%}{%- endif -%}
+        {%- endfor -%}
+        {%- if has_ref -%}
+          <th style="text-align:right; padding: 6px 4px;">%IR*</th>
+        {%- endif -%}
+      </tr>
+    </thead>
+    <tbody>
+      {%- for row in nutrition -%}
+        <tr style="border-bottom: 1px solid rgba(var(--color-foreground), 0.1);">
+          <td style="padding: 6px 4px;">{{ row.name }}</td>
+          <td style="text-align:right; padding: 6px 4px;">
+            {%- if row.per100 != blank -%}{{ row.per100 }} {{ row.unit }}{%- else -%}—{%- endif -%}
+          </td>
+          {%- if has_per_unit -%}
+            <td style="text-align:right; padding: 6px 4px;">
+              {%- if row.perUnit != blank -%}{{ row.perUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
+            </td>
+          {%- endif -%}
+          {%- if has_ref -%}
+            <td style="text-align:right; padding: 6px 4px;">
+              {%- if row.referencePct != blank -%}{{ row.referencePct }}%{%- else -%}—{%- endif -%}
+            </td>
+          {%- endif -%}
+        </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+
+  <p class="t6 mt-05" style="color: var(--color-foreground-75)">
+    (*) IR: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)
+  </p>
+</div>
+
+{%- endif -%}
