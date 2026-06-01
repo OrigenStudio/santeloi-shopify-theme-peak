@@ -4,15 +4,8 @@
 {%- assign sorted_nutrition = nutrition | sort: "order" -%}
 
 {%- comment -%}Split into nutrients (type=0) and vitamins/minerals (type=1){%- endcomment -%}
-{%- assign nutrients = "" | split: "" -%}
-{%- assign vitamins = "" | split: "" -%}
-{%- for row in sorted_nutrition -%}
-  {%- if row.nutritional_type == "1" -%}
-    {%- assign vitamins = vitamins | push: row -%}
-  {%- else -%}
-    {%- assign nutrients = nutrients | push: row -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- assign vitamins = sorted_nutrition | where: "nutritionalType", "1" -%}
+{%- assign nutrients = sorted_nutrition | where: "nutritionalType", "0" -%}
 
 {%- comment -%}Check which optional columns are present in nutrients{%- endcomment -%}
 {%- assign nutrients_has_per_unit = false -%}
