@@ -546,6 +546,7 @@
         },
         "table_qc89Hn": {
           "type": "table",
+          "disabled": true,
           "settings": {
             "value_when_empty": "",
             "hide_if_cell2_empty": false,
@@ -599,6 +600,7 @@
         },
         "spacer_DhdtBm": {
           "type": "spacer",
+          "disabled": true,
           "settings": {
             "show_line_separator": true,
             "full_width": false,
@@ -613,6 +615,7 @@
         },
         "table_wkGMrW": {
           "type": "table",
+          "disabled": true,
           "settings": {
             "value_when_empty": "-",
             "hide_if_cell2_empty": false,
