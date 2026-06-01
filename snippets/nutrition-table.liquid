@@ -1,57 +1,82 @@
 {%- assign nutrition = product.metafields.custom.nutrition_info.value -%}
 {%- if nutrition and nutrition.size > 0 -%}
 
-<div class="nutrition-table">
-  <p class="t6 mb-05" style="color: var(--color-foreground-75)">
-    (*) IR: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)
-  </p>
+{%- assign has_per_unit = false -%}
+{%- assign has_ref = false -%}
+{%- for row in nutrition -%}
+  {%- if row.perUnit != blank -%}{%- assign has_per_unit = true -%}{%- endif -%}
+  {%- if row.referencePct != blank -%}{%- assign has_ref = true -%}{%- endif -%}
+{%- endfor -%}
 
-  <table style="width:100%; border-collapse:collapse; font-size:0.875rem;">
-    <thead>
-      <tr style="border-bottom: 2px solid currentColor;">
-        <th style="text-align:left; padding: 6px 4px;">Valors per</th>
-        <th style="text-align:right; padding: 6px 4px;">100 g</th>
-        {%- assign has_per_unit = false -%}
-        {%- for row in nutrition -%}
-          {%- if row.perUnit != blank -%}{%- assign has_per_unit = true -%}{%- endif -%}
-        {%- endfor -%}
+<style>
+  .nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+    line-height: 1.4;
+  }
+  .nutrition-table th,
+  .nutrition-table td {
+    padding: 7px 10px;
+    border: 1px solid rgba(0,0,0,0.12);
+    text-align: left;
+  }
+  .nutrition-table thead tr {
+    background-color: rgba(0,0,0,0.06);
+    font-weight: 600;
+  }
+  .nutrition-table tbody tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.03);
+  }
+  .nutrition-table td:not(:first-child),
+  .nutrition-table th:not(:first-child) {
+    text-align: right;
+    white-space: nowrap;
+  }
+  .nutrition-table__note {
+    font-size: 0.75rem;
+    margin-top: 6px;
+    opacity: 0.65;
+  }
+</style>
+
+<table class="nutrition-table">
+  <thead>
+    <tr>
+      <th>Valors mitjans per</th>
+      <th>100 g / 100 ml</th>
+      {%- if has_per_unit -%}<th>Porció</th>{%- endif -%}
+      {%- if has_ref -%}<th>%IR*</th>{%- endif -%}
+    </tr>
+  </thead>
+  <tbody>
+    {%- for row in nutrition -%}
+      <tr>
+        <td>{{ row.name }}</td>
+        <td>
+          {%- if row.quantityPer100 != blank -%}
+            {{ row.quantityPer100 }} {{ row.unit }}
+          {%- else -%}
+            —
+          {%- endif -%}
+        </td>
         {%- if has_per_unit -%}
-          <th style="text-align:right; padding: 6px 4px;">Porció</th>
+          <td>
+            {%- if row.perUnit != blank -%}{{ row.perUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
+          </td>
         {%- endif -%}
-        {%- assign has_ref = false -%}
-        {%- for row in nutrition -%}
-          {%- if row.referencePct != blank -%}{%- assign has_ref = true -%}{%- endif -%}
-        {%- endfor -%}
         {%- if has_ref -%}
-          <th style="text-align:right; padding: 6px 4px;">%IR*</th>
+          <td>
+            {%- if row.referencePct != blank -%}{{ row.referencePct }}%{%- else -%}—{%- endif -%}
+          </td>
         {%- endif -%}
       </tr>
-    </thead>
-    <tbody>
-      {%- for row in nutrition -%}
-        <tr style="border-bottom: 1px solid rgba(var(--color-foreground), 0.1);">
-          <td style="padding: 6px 4px;">{{ row.name }}</td>
-          <td style="text-align:right; padding: 6px 4px;">
-            {%- if row.per100 != blank -%}{{ row.per100 }} {{ row.unit }}{%- else -%}—{%- endif -%}
-          </td>
-          {%- if has_per_unit -%}
-            <td style="text-align:right; padding: 6px 4px;">
-              {%- if row.perUnit != blank -%}{{ row.perUnit }} {{ row.unit }}{%- else -%}—{%- endif -%}
-            </td>
-          {%- endif -%}
-          {%- if has_ref -%}
-            <td style="text-align:right; padding: 6px 4px;">
-              {%- if row.referencePct != blank -%}{{ row.referencePct }}%{%- else -%}—{%- endif -%}
-            </td>
-          {%- endif -%}
-        </tr>
-      {%- endfor -%}
-    </tbody>
-  </table>
+    {%- endfor -%}
+  </tbody>
+</table>
 
-  <p class="t6 mt-05" style="color: var(--color-foreground-75)">
-    (*) IR: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)
-  </p>
-</div>
+{%- if has_ref -%}
+  <p class="nutrition-table__note">(*) IR: Ingesta de referència d'un adult mitjà (8400 kJ/2000 kcal)</p>
+{%- endif -%}
 
 {%- endif -%}
