@@ -1,8 +1,4 @@
 {%- assign nutrition = product.metafields.custom.nutrition_info.value -%}
-{%- if nutrition == blank -%}
-  {%- assign nutrition = '[{"name":"Greixos","per100":"14.00","unit":"g","referencePct":"20"}]' | parse_json -%}
-{%- endif -%}
-
 {%- if nutrition and nutrition.size > 0 -%}
 
 <div class="nutrition-table">
