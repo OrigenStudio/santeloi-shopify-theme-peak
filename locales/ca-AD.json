@@ -7,4 +7,10 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{}
+{
+  "general": {
+    "password_page": {
+      "login_form_password_label": "Contrasenya"
+    }
+  }
+}
