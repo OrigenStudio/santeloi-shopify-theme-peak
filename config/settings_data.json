@@ -139,7 +139,7 @@
     "cart_related_limit": 6,
     "cart_related_heading": "Completa la teva compra",
     "cart_shipping_bar_show": true,
-    "cart_shipping_bar_threshold": "EUR:30",
+    "cart_shipping_bar_threshold": "EUR:70",
     "cart_shipping_bar_background_color": "#0a9331",
     "cart_shipping_bar_background": "linear-gradient(92deg, rgba(1, 57, 28, 1) 7%, rgba(41, 207, 150, 1) 94%)",
     "cart_shipping_bar_msg_standard": "ET FALTEN <strong>[amount]</strong> PER OBTENIR <strong>ENVIAMENT GRATUÏT</strong>.",
