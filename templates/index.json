@@ -462,6 +462,217 @@
         "heading_tag": "h2"
       }
     },
+    "flexible_columns_DEpDhn": {
+      "type": "flexible-columns",
+      "blocks": {
+        "layout_column_g76bRD": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 50,
+            "width": 33,
+            "height_mode": "full",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": false,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-center",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": false,
+            "color_scheme": "",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-1",
+            "custom_padding": 6,
+            "padding_desktop_only": true
+          },
+          "blocks": {
+            "icon_with_text_gpBHQr": {
+              "type": "icon_with_text",
+              "settings": {
+                "icon_heading_gap": 2.5,
+                "text_max_width": 400,
+                "link": "",
+                "icon": "bag-check",
+                "icon_container": "rounded",
+                "icon_size": 3,
+                "icon_vertical_position": 0.1,
+                "icon_color": "#188f65",
+                "icon_background_color": "#dffdef",
+                "background_gradient": "linear-gradient(54deg, rgba(223, 253, 239, 1) 13%, rgba(196, 250, 226, 1) 85%)",
+                "heading": "<strong>Preparació diària</strong>",
+                "heading_italic_convert": "",
+                "heading_size": "h5",
+                "heading_size_custom": 2.4,
+                "heading_line_height_custom": 1.2,
+                "heading_tag": "h3",
+                "text": "<p>Preparem la teva comanda el mateix dia</p>",
+                "text_size": "t3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_with_text_gpBHQr"
+          ]
+        },
+        "layout_column_97MQAA": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 50,
+            "width": 33,
+            "height_mode": "full",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": false,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-center",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": false,
+            "color_scheme": "",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-1",
+            "custom_padding": 6,
+            "padding_desktop_only": true
+          },
+          "blocks": {
+            "icon_with_text_4eadXK": {
+              "type": "icon_with_text",
+              "settings": {
+                "icon_heading_gap": 2.5,
+                "text_max_width": 400,
+                "link": "",
+                "icon": "check_mark_circle",
+                "icon_container": "rounded",
+                "icon_size": 3,
+                "icon_vertical_position": 0.1,
+                "icon_color": "#b7791f",
+                "icon_background_color": "#f8e9d8",
+                "background_gradient": "linear-gradient(54deg, rgba(248, 233, 216, 1) 13%, rgba(243, 217, 177, 1) 85%)",
+                "heading": "<strong>Producte seleccionat</strong>",
+                "heading_italic_convert": "",
+                "heading_size": "h5",
+                "heading_size_custom": 2.4,
+                "heading_line_height_custom": 1.2,
+                "heading_tag": "h3",
+                "text": "<p>Substitucions només quan cal, sempre amb qualitat equivalent</p>",
+                "text_size": "t3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_with_text_4eadXK"
+          ]
+        },
+        "layout_column_6zcbXt": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 50,
+            "width": 33,
+            "height_mode": "full",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": false,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-center",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": false,
+            "color_scheme": "",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-1",
+            "custom_padding": 6,
+            "padding_desktop_only": true
+          },
+          "blocks": {
+            "icon_with_text_PVFGWT": {
+              "type": "icon_with_text",
+              "settings": {
+                "icon_heading_gap": 2.5,
+                "text_max_width": 400,
+                "link": "",
+                "icon": "shield_checkmark",
+                "icon_container": "rounded",
+                "icon_size": 3,
+                "icon_vertical_position": 0.1,
+                "icon_color": "#187a8f",
+                "icon_background_color": "#dff6fd",
+                "background_gradient": "linear-gradient(54deg, rgba(223, 246, 253, 1) 12%, rgba(196, 238, 250, 1) 85%)",
+                "heading": "<strong>Transparència</strong>",
+                "heading_italic_convert": "",
+                "heading_size": "h5",
+                "heading_size_custom": 2.4,
+                "heading_line_height_custom": 1.2,
+                "heading_tag": "h3",
+                "text": "<p>Ajustos de pes i preu en productes frescos</p>",
+                "text_size": "t3"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "icon_with_text_PVFGWT"
+          ]
+        }
+      },
+      "block_order": [
+        "layout_column_g76bRD",
+        "layout_column_97MQAA",
+        "layout_column_6zcbXt"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "gap_small": 38,
+        "gap_medium": 24,
+        "gap_desktop": 36,
+        "section_max_width": "xl",
+        "use_breakpoints": true,
+        "small_breakpoint_custom": "549",
+        "medium_breakpoint_custom": "1023",
+        "image_overlay_opacity": 0,
+        "content_max_width": "xl",
+        "desktop_heading_alignment": "left",
+        "mobile_heading_alignment": "left",
+        "title": "Compromís amb la frescor",
+        "italic_convert": "",
+        "heading_size": "h2",
+        "text": "",
+        "text_size": "t3",
+        "view_all_link": "",
+        "view_all_text": "",
+        "view_all_text_size": "t3",
+        "section_color_scheme": "scheme-12",
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
     "gallery_4FwdyU": {
       "type": "gallery",
       "blocks": {
@@ -760,217 +971,6 @@
         "show_time_evening": true,
         "show_time_night": true,
         "heading_tag": "h2"
-      }
-    },
-    "flexible_columns_DEpDhn": {
-      "type": "flexible-columns",
-      "blocks": {
-        "layout_column_g76bRD": {
-          "type": "_layout-column",
-          "settings": {
-            "column_link": "",
-            "column_link_text": "",
-            "small_breakpoint_width": 100,
-            "medium_breakpoint_width": 50,
-            "width": 33,
-            "height_mode": "full",
-            "min_height": 500,
-            "vertical_alignment": "self-start",
-            "sticky": false,
-            "desktop_content_alignment": "left",
-            "mobile_content_alignment": "left",
-            "content_max_width": 1000,
-            "content_vertical_alignment": "items-start",
-            "content_horizontal_alignment": "justify-center",
-            "image_overlay_opacity": 0,
-            "use_color_scheme": false,
-            "color_scheme": "",
-            "card_shadow": true,
-            "round_corners": true,
-            "padding": "p-1",
-            "custom_padding": 6,
-            "padding_desktop_only": true
-          },
-          "blocks": {
-            "icon_with_text_gpBHQr": {
-              "type": "icon_with_text",
-              "settings": {
-                "icon_heading_gap": 2.5,
-                "text_max_width": 400,
-                "link": "",
-                "icon": "bag-check",
-                "icon_container": "rounded",
-                "icon_size": 3,
-                "icon_vertical_position": 0.1,
-                "icon_color": "#188f65",
-                "icon_background_color": "#dffdef",
-                "background_gradient": "linear-gradient(54deg, rgba(223, 253, 239, 1) 13%, rgba(196, 250, 226, 1) 85%)",
-                "heading": "<strong>Preparació diària</strong>",
-                "heading_italic_convert": "",
-                "heading_size": "h5",
-                "heading_size_custom": 2.4,
-                "heading_line_height_custom": 1.2,
-                "heading_tag": "h3",
-                "text": "<p>Preparem la teva comanda el mateix dia</p>",
-                "text_size": "t3"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "icon_with_text_gpBHQr"
-          ]
-        },
-        "layout_column_97MQAA": {
-          "type": "_layout-column",
-          "settings": {
-            "column_link": "",
-            "column_link_text": "",
-            "small_breakpoint_width": 100,
-            "medium_breakpoint_width": 50,
-            "width": 33,
-            "height_mode": "full",
-            "min_height": 500,
-            "vertical_alignment": "self-start",
-            "sticky": false,
-            "desktop_content_alignment": "left",
-            "mobile_content_alignment": "left",
-            "content_max_width": 1000,
-            "content_vertical_alignment": "items-start",
-            "content_horizontal_alignment": "justify-center",
-            "image_overlay_opacity": 0,
-            "use_color_scheme": false,
-            "color_scheme": "",
-            "card_shadow": true,
-            "round_corners": true,
-            "padding": "p-1",
-            "custom_padding": 6,
-            "padding_desktop_only": true
-          },
-          "blocks": {
-            "icon_with_text_4eadXK": {
-              "type": "icon_with_text",
-              "settings": {
-                "icon_heading_gap": 2.5,
-                "text_max_width": 400,
-                "link": "",
-                "icon": "check_mark_circle",
-                "icon_container": "rounded",
-                "icon_size": 3,
-                "icon_vertical_position": 0.1,
-                "icon_color": "#b7791f",
-                "icon_background_color": "#f8e9d8",
-                "background_gradient": "linear-gradient(54deg, rgba(248, 233, 216, 1) 13%, rgba(243, 217, 177, 1) 85%)",
-                "heading": "<strong>Producte seleccionat</strong>",
-                "heading_italic_convert": "",
-                "heading_size": "h5",
-                "heading_size_custom": 2.4,
-                "heading_line_height_custom": 1.2,
-                "heading_tag": "h3",
-                "text": "<p>Substitucions només quan cal, sempre amb qualitat equivalent</p>",
-                "text_size": "t3"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "icon_with_text_4eadXK"
-          ]
-        },
-        "layout_column_6zcbXt": {
-          "type": "_layout-column",
-          "settings": {
-            "column_link": "",
-            "column_link_text": "",
-            "small_breakpoint_width": 100,
-            "medium_breakpoint_width": 50,
-            "width": 33,
-            "height_mode": "full",
-            "min_height": 500,
-            "vertical_alignment": "self-start",
-            "sticky": false,
-            "desktop_content_alignment": "left",
-            "mobile_content_alignment": "left",
-            "content_max_width": 1000,
-            "content_vertical_alignment": "items-start",
-            "content_horizontal_alignment": "justify-center",
-            "image_overlay_opacity": 0,
-            "use_color_scheme": false,
-            "color_scheme": "",
-            "card_shadow": true,
-            "round_corners": true,
-            "padding": "p-1",
-            "custom_padding": 6,
-            "padding_desktop_only": true
-          },
-          "blocks": {
-            "icon_with_text_PVFGWT": {
-              "type": "icon_with_text",
-              "settings": {
-                "icon_heading_gap": 2.5,
-                "text_max_width": 400,
-                "link": "",
-                "icon": "shield_checkmark",
-                "icon_container": "rounded",
-                "icon_size": 3,
-                "icon_vertical_position": 0.1,
-                "icon_color": "#187a8f",
-                "icon_background_color": "#dff6fd",
-                "background_gradient": "linear-gradient(54deg, rgba(223, 246, 253, 1) 12%, rgba(196, 238, 250, 1) 85%)",
-                "heading": "<strong>Transparència</strong>",
-                "heading_italic_convert": "",
-                "heading_size": "h5",
-                "heading_size_custom": 2.4,
-                "heading_line_height_custom": 1.2,
-                "heading_tag": "h3",
-                "text": "<p>Ajustos de pes i preu en productes frescos</p>",
-                "text_size": "t3"
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "icon_with_text_PVFGWT"
-          ]
-        }
-      },
-      "block_order": [
-        "layout_column_g76bRD",
-        "layout_column_97MQAA",
-        "layout_column_6zcbXt"
-      ],
-      "name": "Highlights",
-      "settings": {
-        "gap_small": 38,
-        "gap_medium": 24,
-        "gap_desktop": 36,
-        "section_max_width": "xl",
-        "use_breakpoints": true,
-        "small_breakpoint_custom": "549",
-        "medium_breakpoint_custom": "1023",
-        "image_overlay_opacity": 0,
-        "content_max_width": "xl",
-        "desktop_heading_alignment": "left",
-        "mobile_heading_alignment": "left",
-        "title": "Compromís amb la frescor",
-        "italic_convert": "",
-        "heading_size": "h2",
-        "text": "",
-        "text_size": "t3",
-        "view_all_link": "",
-        "view_all_text": "",
-        "view_all_text_size": "t3",
-        "section_color_scheme": "scheme-12",
-        "line_separator": "",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
-        "visibility": "",
-        "hide_when_empty": false,
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true
       }
     },
     "rich_text_tTfVYC": {
@@ -2532,10 +2532,10 @@
     "collection_list_3EHKmq",
     "featured_collection_raicD4",
     "featured_collection_PWgTkH",
+    "flexible_columns_DEpDhn",
     "gallery_4FwdyU",
     "ribbon_banner_A8JHia",
     "featured_collection_EKHARr",
-    "flexible_columns_DEpDhn",
     "rich_text_tTfVYC",
     "multicolumn_zkUi9b",
     "video_banner_dGUdeU",
