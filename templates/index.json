@@ -451,7 +451,7 @@
         "view_all_color_scheme": "",
         "line_separator": "border-top",
         "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
+        "bottom_padding": "pb-0",
         "visibility": "",
         "hide_when_empty": false,
         "show_at_specific_time_of_day": false,
