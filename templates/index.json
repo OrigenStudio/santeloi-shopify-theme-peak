@@ -402,7 +402,7 @@
         "title": "Ofertes i destacats",
         "italic_convert": "",
         "heading_size": "h2",
-        "text": "<p>Descobreix promocions i productes seleccionats</p>",
+        "text": "<p>Promocions i productes seleccionats per a tu.</p>",
         "text_size": "t3",
         "show_view_all_link": false,
         "view_all_text": "View more",
@@ -410,6 +410,44 @@
         "view_all_card_visibility": "off",
         "view_all_card_text": "There's plenty more",
         "color_scheme": "",
+        "view_all_color_scheme": "",
+        "line_separator": "border-top",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true,
+        "heading_tag": "h2"
+      }
+    },
+    "featured_collection_PWgTkH": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products_to_show": 11,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "columns_desktop": "6",
+        "columns_mobile": "2",
+        "full_width": false,
+        "content_max_width": "m",
+        "desktop_heading_alignment": "left",
+        "mobile_heading_alignment": "left",
+        "title": "Mercat fresc",
+        "italic_convert": "",
+        "heading_size": "h2",
+        "text": "<p>Productes seleccionats cada dia.</p>",
+        "text_size": "t3",
+        "show_view_all_link": false,
+        "view_all_text": "View more",
+        "view_all_text_size": "t3",
+        "view_all_card_visibility": "off",
+        "view_all_card_text": "There's plenty more",
+        "color_scheme": "scheme-8",
         "view_all_color_scheme": "",
         "line_separator": "border-top",
         "top_padding": "pt-s",
@@ -988,6 +1026,7 @@
         "text_zeWdfC",
         "buttons_rP6cyy"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_max_width": "m",
@@ -1327,6 +1366,7 @@
         "heading_LVFfnU",
         "buttons_UxP7VE"
       ],
+      "disabled": true,
       "settings": {
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "show_play_pause": true,
@@ -1398,6 +1438,7 @@
         "text_kF8JFw",
         "countdown_mPxnAA"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "closable": true,
@@ -1617,6 +1658,7 @@
         "gallery_item_kDjxNd",
         "gallery_item_iHmdCi"
       ],
+      "disabled": true,
       "settings": {
         "columns_desktop": 4,
         "spacing_grid": 4,
@@ -1651,205 +1693,6 @@
         "show_time_night": true
       }
     },
-    "product_compare_kc3xBH": {
-      "type": "product-compare",
-      "blocks": {
-        "product_switcher_fYRxg8": {
-          "type": "product_switcher",
-          "settings": {
-            "candidate_products": [],
-            "compare_label": "",
-            "line_separator": "",
-            "top_padding": "pt-0",
-            "bottom_padding": "pb-2",
-            "cell_visibility": ""
-          }
-        },
-        "product_summary_kDJNwt": {
-          "type": "product_summary",
-          "settings": {
-            "card_image_ratio": "square",
-            "card_image_cover": false,
-            "card_image_secondary_image": true,
-            "show_product_labels": true,
-            "card_image_scale": 100,
-            "card_image_replace_background": false,
-            "card_image_background": "",
-            "swatch_enabled": true,
-            "swatch_alignment": "center",
-            "swatch_size": 1.6,
-            "swatch_limit": 6,
-            "swatch_hide_singles": false,
-            "show_title": true,
-            "show_price": true,
-            "card_title_size": "t0",
-            "card_title_weight": "bold",
-            "card_price_size": "t2",
-            "card_title_transform": "none",
-            "compare_enable_quick_add": true,
-            "compare_enable_learn_more": true,
-            "line_separator": "border-bottom",
-            "top_padding": "pt-2",
-            "bottom_padding": "pb-2",
-            "cell_visibility": ""
-          }
-        },
-        "variants_text_jyaHAL": {
-          "type": "variants_text",
-          "settings": {
-            "text_style": "body",
-            "text_size": "t4",
-            "compare_label": "Available in",
-            "text_when_empty": "",
-            "line_separator": "border-bottom",
-            "top_padding": "pt-2",
-            "bottom_padding": "pb-2",
-            "cell_visibility": ""
-          }
-        },
-        "type_pgepw3": {
-          "type": "type",
-          "settings": {
-            "text_style": "body",
-            "text_size": "t4",
-            "compare_label": "Type",
-            "text_when_empty": "",
-            "line_separator": "border-bottom",
-            "top_padding": "pt-2",
-            "bottom_padding": "pb-2",
-            "cell_visibility": ""
-          }
-        },
-        "vendor_gBXfA7": {
-          "type": "vendor",
-          "settings": {
-            "text_style": "uppercase",
-            "use_link_color": false,
-            "text_size": "t7",
-            "compare_label": "Vendor",
-            "text_when_empty": "",
-            "line_separator": "border-bottom",
-            "top_padding": "pt-2",
-            "bottom_padding": "pb-2",
-            "cell_visibility": ""
-          }
-        },
-        "description_iGjNwd": {
-          "type": "description",
-          "settings": {
-            "max_words": 0,
-            "text_style": "body",
-            "text_size": "t4",
-            "compare_label": "Description",
-            "text_when_empty": "",
-            "line_separator": "border-bottom",
-            "top_padding": "pt-2",
-            "bottom_padding": "pb-2",
-            "cell_visibility": ""
-          }
-        },
-        "icon_QyWCHF": {
-          "type": "icon",
-          "settings": {
-            "icon": "price_tags",
-            "icon_container": "none",
-            "icon_size": 3.4,
-            "icon_color": "",
-            "icon_background_color": "#ededed",
-            "background_gradient": "",
-            "compare_label": "",
-            "line_separator": "",
-            "top_padding": "pt-2",
-            "bottom_padding": "pb-1",
-            "cell_visibility": ""
-          }
-        },
-        "product_price_i7LtmY": {
-          "type": "product_price",
-          "settings": {
-            "price_color": "#ea0707",
-            "text_size": "t3",
-            "compare_label": "",
-            "text_when_empty": "",
-            "line_separator": "border-bottom",
-            "top_padding": "pt-0",
-            "bottom_padding": "pb-2",
-            "cell_visibility": ""
-          }
-        },
-        "buttons_nKa3za": {
-          "type": "buttons",
-          "settings": {
-            "button_text_size": "t3",
-            "button_label_1": "Learn more",
-            "button_link_1": "",
-            "button_style_1": "link",
-            "button_style_1_show_arrow": true,
-            "button_style_1_show_gradient_border": false,
-            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_2": "secondary",
-            "button_style_2_show_arrow": false,
-            "button_style_2_show_gradient_border": false,
-            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "compare_label": "",
-            "line_separator": "",
-            "top_padding": "pt-2",
-            "bottom_padding": "pb-0",
-            "cell_visibility": ""
-          }
-        }
-      },
-      "block_order": [
-        "product_switcher_fYRxg8",
-        "product_summary_kDJNwt",
-        "variants_text_jyaHAL",
-        "type_pgepw3",
-        "vendor_gBXfA7",
-        "description_iGjNwd",
-        "icon_QyWCHF",
-        "product_price_i7LtmY",
-        "buttons_nKa3za"
-      ],
-      "settings": {
-        "products": [],
-        "text_when_empty": "-",
-        "compare_text_alignment": "center",
-        "label_text_size": "t3",
-        "label_text_weight": "bold",
-        "label_text_transform": "uppercase",
-        "columns_desktop": "3",
-        "columns_mobile": "1",
-        "full_width": false,
-        "content_max_width": "m",
-        "desktop_heading_alignment": "center",
-        "mobile_heading_alignment": "left",
-        "title": "Compare<em> Products</em>",
-        "italic_convert": "accent",
-        "heading_size": "h1",
-        "text": "<p>Confused by the options? That's where we come in...</p>",
-        "text_size": "t3",
-        "show_view_all_link": false,
-        "view_all_link": "",
-        "view_all_text": "View more",
-        "view_all_text_size": "t3",
-        "color_scheme": "scheme-1",
-        "card_color_scheme": "scheme-2",
-        "card_shadow": true,
-        "line_separator": "border-top border-bottom",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s05",
-        "visibility": "",
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true,
-        "heading_tag": "h2",
-        "ai_description": ""
-      }
-    },
     "scrolling_text_N9GHHx": {
       "type": "scrolling-text",
       "blocks": {
@@ -1880,6 +1723,7 @@
         "heading_drLkck",
         "icon_nBRaEL"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "spacing": 2.4,
@@ -2389,6 +2233,7 @@
         "spacer_MQQ8Xj",
         "buttons_DbRD48"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 0,
         "image_link": "",
@@ -2484,6 +2329,7 @@
         "collapsible_row_FKdyBi",
         "collapsible_row_nJqLPU"
       ],
+      "disabled": true,
       "settings": {
         "show_line_separator": true,
         "row_heading_size": "t0",
@@ -2684,6 +2530,7 @@
     "slideshow_hKELGY",
     "collection_list_3EHKmq",
     "featured_collection_raicD4",
+    "featured_collection_PWgTkH",
     "gallery_4FwdyU",
     "ribbon_banner_A8JHia",
     "featured_collection_EKHARr",
@@ -2693,7 +2540,6 @@
     "video_banner_dGUdeU",
     "ribbon_banner_EiYXmj",
     "gallery_9XYaNx",
-    "product_compare_kc3xBH",
     "scrolling_text_N9GHHx",
     "image_banner_aXy4Bx",
     "stats_EWQrPp",
