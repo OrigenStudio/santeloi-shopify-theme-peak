@@ -132,7 +132,7 @@
         "text_kpqVye": {
           "type": "text",
           "settings": {
-            "text": "<p>Portem la compra fins a casa teva l'endemà de fer la comanda. Sense cues, sense desplaçaments i amb tota la frescor garantida.</p><p><strong>Quan t'entreguem?</strong> De dilluns a divendres, en dues franges horàries:</p><ul><li>Matí: de 09:00 a 13:00 h</li><li>Tarda: de 15:00 a 19:00 h</li></ul><p>Durant el checkout podràs triar la franja que millor t'encaixi, amb fins a una setmana d'antelació.</p><p><strong>Quant costa?</strong> L'entrega és completament <strong>gratuïta</strong> per a totes les comandes superiors a 30 €.</p><p><strong>On lliurem?</strong> A totes les parròquies del Principat d'Andorra. Cobrim més de 30 poblacions, des de Canillo fins a Sant Julià de Lòria, incloent Andorra la Vella, Escaldes-Engordany, Encamp, La Massana i Ordino amb totes les seves poblacions respectives.</p><p><em>Poblacions amb cobertura: Canillo (centre urbà), Meritxell, Encamp (centre urbà), Les Bons, Ordino (centre urbà), Segudet, Sornàs, Ansalonga, La Cortinada, La Massana (centre urbà), Anyós, L'Aldosa de la Massana, Sispony, Escàs, Andorra la Vella (centre urbà), Santa Coloma, La Margineda, Sant Julià de Lòria, Aixovall, Aixirivall, Aubinyà, Bixessarri, Certés, Llumeneres, Nagol, Fontaneda, Juberri i Escaldes-Engordany.</em></p>",
+            "text": "<p> Recull la teva comanda al centre Sant Eloi quan et vagi millor.<br/></p><p>Els productes congelats i de peix fresc només estan disponibles amb recollida a botiga.</p>",
             "text_size": "t3"
           }
         },
@@ -206,7 +206,7 @@
         "text_4WyjHp": {
           "type": "text",
           "settings": {
-            "text": "<p>Fes la compra online i recull-la al centre Sant Eloi de Sant Julià de Lòria quan et vagi millor. Sense esperes, sense cost addicional.</p><p><strong>Dies disponibles?</strong> de dilluns a diumenge<br/><strong>Com funciona? </strong>Quan la teva comanda estigui preparada rebràs un SMS de confirmació amb la finestra de recollida, aproximadament 24 hores després de fer la comanda. Presenta el correu o SMS de confirmació en arribar a la botiga.</p><p><strong>Important:</strong> els productes congelats i el peix fresc només estan disponibles amb Click & Collect, per garantir la cadena de fred en tot moment. Si el teu carret inclou aquests productes, el sistema t'indicarà automàticament que has de seleccionar aquesta opció.</p>",
+            "text": "<p>Recull la teva comanda al centre Sant Eloi quan et vagi millor.</p><p>Els productes congelats i de peix fresc només estan disponibles amb recollida a botiga.</p>",
             "text_size": "t3"
           }
         },
@@ -280,7 +280,7 @@
         "text_XwXYnK": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Entrega gratuïta a partir de 30 €</li><li>Import mínim de comanda: 30 €</li><li>Cobertura a totes les parròquies d'Andorra</li><li>Tria la franja horària que millor t'encaixi</li><li>SMS quan la comanda estigui llesta</li><li>Productes congelats: només disponibles amb Click & Collect</li><li>El preu dels frescos s'ajusta al pes real servit</li></ul>",
+            "text": "<p>• Import mínim de compra: 30 €<br/>• Les entregues es realitzen de dilluns a divendres<br/>• Els productes congelats i peix fresc només estan disponibles amb recollida<br/>• T’avisarem per correu quan la comanda estigui preparada</p>",
             "text_size": "t3"
           }
         }
@@ -392,6 +392,7 @@
         "collapsible_row_kXxLri",
         "collapsible_row_L8bJwn"
       ],
+      "disabled": true,
       "name": "Image with collapsed rows",
       "settings": {
         "show_line_separator": false,
