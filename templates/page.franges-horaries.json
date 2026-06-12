@@ -35,6 +35,135 @@
         "heading_tag": "h1"
       }
     },
+    "image_with_collapsible_content_pixdKF": {
+      "type": "image-with-collapsible-content",
+      "blocks": {
+        "collapsible_row_FNYEHF": {
+          "type": "collapsible_row",
+          "settings": {
+            "side_image": "shopify://shop_images/mapa-de-parroquias-andorra-con-etiqueta-color-pais-europeo-179212946.webp",
+            "heading": "Collapsible row",
+            "icon": "heart",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "page": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_QXHr69": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "leaf",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "page": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_JGF4yC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "pants",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "page": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "collapsible_row_hMKDtX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "recycle",
+            "image_width": 20,
+            "row_heading_tag": "h3",
+            "row_content": "<p>Add your collapsible row content here. If it's set to open one row at a time, consider keeping the content in each row about the same length.</p>",
+            "page": "",
+            "button_text_size": "t3",
+            "button_label_1": "",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_FNYEHF",
+        "collapsible_row_QXHr69",
+        "collapsible_row_JGF4yC",
+        "collapsible_row_hMKDtX"
+      ],
+      "name": "Image with collapsed rows",
+      "settings": {
+        "show_line_separator": false,
+        "row_heading_size": "t1",
+        "row_text_size": "t3",
+        "image_overlay_opacity": 0,
+        "desktop_section_height": 480,
+        "mobile_section_height": 280,
+        "desktop_media_width": 40,
+        "layout": "media_first",
+        "content_layout": "no-overlap-separate",
+        "show_header_beside": false,
+        "content_max_width": "m",
+        "desktop_heading_alignment": "left",
+        "mobile_heading_alignment": "left",
+        "desktop_content_position": "md:justify-start md:items-end",
+        "mobile_content_position": "justify-center items-center",
+        "title": "Image with collapsed rows",
+        "italic_convert": "",
+        "heading_size": "h2",
+        "text": "<p>Introduce the section here.</p>",
+        "text_size": "t3",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "button_text_size": "t5",
+        "button_style_show_arrow": true,
+        "button_style_show_gradient_border": false,
+        "button_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_overlay_color_scheme": "",
+        "show_content_shadow": true,
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "heading_tag": "h3",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
+    },
     "flexible_columns_pkRc8g": {
       "type": "flexible-columns",
       "blocks": {
@@ -587,6 +716,7 @@
   "order": [
     "breadcrumbs",
     "main",
+    "image_with_collapsible_content_pixdKF",
     "flexible_columns_pkRc8g"
   ]
 }
