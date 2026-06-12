@@ -11,15 +11,582 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {}
+      "settings": {
+        "spacing": 0,
+        "color_scheme": "",
+        "line_separator": "",
+        "visibility": ""
+      }
     },
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "page_width": "narrow",
+        "content_max_width": "xl",
+        "custom_page_header": false,
+        "title": "Section heading",
+        "italic_convert": "",
+        "heading_size": "h1",
+        "show_view_all_link": true,
+        "view_all_link": "",
+        "view_all_text": "",
+        "view_all_text_size": "t3",
+        "color_scheme": "",
+        "heading_tag": "h1"
+      }
+    },
+    "flexible_columns_pkRc8g": {
+      "type": "flexible-columns",
+      "blocks": {
+        "layout_column_YpjfwC": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 30,
+            "width": 30,
+            "height_mode": "auto",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": true,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-start",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": false,
+            "color_scheme": "",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-1",
+            "custom_padding": 6,
+            "padding_desktop_only": true
+          },
+          "blocks": {
+            "heading_ekaPpP": {
+              "type": "heading",
+              "settings": {
+                "heading": "Side highlights",
+                "heading_italic_convert": "",
+                "heading_size": "h3",
+                "heading_size_custom": 2.4,
+                "heading_line_height_custom": 1.2,
+                "heading_tag": "h2"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_ekaPpP"
+          ]
+        },
+        "layout_column_XwryL4": {
+          "type": "_layout-column",
+          "settings": {
+            "column_link": "",
+            "column_link_text": "",
+            "small_breakpoint_width": 100,
+            "medium_breakpoint_width": 70,
+            "width": 70,
+            "height_mode": "auto",
+            "min_height": 500,
+            "vertical_alignment": "self-start",
+            "sticky": false,
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "content_max_width": 1000,
+            "content_vertical_alignment": "items-start",
+            "content_horizontal_alignment": "justify-center",
+            "image_overlay_opacity": 0,
+            "use_color_scheme": true,
+            "color_scheme": "scheme-2",
+            "card_shadow": true,
+            "round_corners": true,
+            "padding": "p-4",
+            "custom_padding": 6,
+            "padding_desktop_only": false
+          },
+          "blocks": {
+            "layout_row_JMMyeK": {
+              "type": "_layout-row",
+              "settings": {},
+              "blocks": {
+                "layout_column_UGmYRq": {
+                  "type": "_layout-column",
+                  "settings": {
+                    "column_link": "",
+                    "column_link_text": "",
+                    "small_breakpoint_width": 100,
+                    "medium_breakpoint_width": 100,
+                    "width": 50,
+                    "height_mode": "auto",
+                    "min_height": 500,
+                    "vertical_alignment": "self-start",
+                    "sticky": false,
+                    "desktop_content_alignment": "left",
+                    "mobile_content_alignment": "left",
+                    "content_max_width": 1000,
+                    "content_vertical_alignment": "items-start",
+                    "content_horizontal_alignment": "justify-center",
+                    "image_overlay_opacity": 0,
+                    "use_color_scheme": false,
+                    "color_scheme": "",
+                    "card_shadow": true,
+                    "round_corners": true,
+                    "padding": "p-0",
+                    "custom_padding": 6,
+                    "padding_desktop_only": false
+                  },
+                  "blocks": {
+                    "icon_with_text_HgNagc": {
+                      "type": "icon_with_text",
+                      "settings": {
+                        "icon_heading_gap": 2.5,
+                        "text_max_width": 400,
+                        "link": "",
+                        "icon": "bulb",
+                        "icon_container": "rounded",
+                        "icon_size": 3,
+                        "icon_vertical_position": 0.1,
+                        "icon_color": "#188f65",
+                        "icon_background_color": "#dffdef",
+                        "background_gradient": "linear-gradient(54deg, rgba(223, 253, 239, 1) 13%, rgba(196, 250, 226, 1) 85%)",
+                        "heading": "<strong>Sant Julià de Lòria</strong>",
+                        "heading_italic_convert": "",
+                        "heading_size": "h5",
+                        "heading_size_custom": 2.4,
+                        "heading_line_height_custom": 1.2,
+                        "heading_tag": "h3",
+                        "text": "<p>Dilluns a divendres<br/>Matí i tarda</p>",
+                        "text_size": "t3"
+                      },
+                      "blocks": {}
+                    },
+                    "spacer_frjUi4": {
+                      "type": "spacer",
+                      "settings": {
+                        "show_line_separator": true,
+                        "spacing_top": 2.4,
+                        "spacing_bottom": 0.5,
+                        "spacer_visibility": "mobile",
+                        "line_color": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_with_text_HgNagc",
+                    "spacer_frjUi4"
+                  ]
+                },
+                "layout_column_G4YrUK": {
+                  "type": "_layout-column",
+                  "settings": {
+                    "column_link": "",
+                    "column_link_text": "",
+                    "small_breakpoint_width": 100,
+                    "medium_breakpoint_width": 100,
+                    "width": 50,
+                    "height_mode": "auto",
+                    "min_height": 500,
+                    "vertical_alignment": "self-start",
+                    "sticky": false,
+                    "desktop_content_alignment": "left",
+                    "mobile_content_alignment": "left",
+                    "content_max_width": 1000,
+                    "content_vertical_alignment": "items-start",
+                    "content_horizontal_alignment": "justify-center",
+                    "image_overlay_opacity": 0,
+                    "use_color_scheme": false,
+                    "color_scheme": "",
+                    "card_shadow": true,
+                    "round_corners": true,
+                    "padding": "p-0",
+                    "custom_padding": 6,
+                    "padding_desktop_only": false
+                  },
+                  "blocks": {
+                    "icon_with_text_KTjqnb": {
+                      "type": "icon_with_text",
+                      "settings": {
+                        "icon_heading_gap": 2.5,
+                        "text_max_width": 400,
+                        "link": "",
+                        "icon": "cloud_done",
+                        "icon_container": "rounded",
+                        "icon_size": 3,
+                        "icon_vertical_position": 0.1,
+                        "icon_color": "#8f1818",
+                        "icon_background_color": "#fddfdf",
+                        "background_gradient": "linear-gradient(54deg, rgba(255, 235, 235, 1) 13%, rgba(249, 214, 205, 1) 85%)",
+                        "heading": "<strong>Ordino i La Massana</strong>",
+                        "heading_italic_convert": "",
+                        "heading_size": "h5",
+                        "heading_size_custom": 2.4,
+                        "heading_line_height_custom": 1.2,
+                        "heading_tag": "h3",
+                        "text": "<p>Dilluns, dimecres i divendres<br/>Només matí</p>",
+                        "text_size": "t3"
+                      },
+                      "blocks": {}
+                    },
+                    "spacer_gemjWf": {
+                      "type": "spacer",
+                      "settings": {
+                        "show_line_separator": true,
+                        "spacing_top": 2.4,
+                        "spacing_bottom": 0.5,
+                        "spacer_visibility": "mobile",
+                        "line_color": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_with_text_KTjqnb",
+                    "spacer_gemjWf"
+                  ]
+                }
+              },
+              "block_order": [
+                "layout_column_UGmYRq",
+                "layout_column_G4YrUK"
+              ]
+            },
+            "layout_row_NgtpE6": {
+              "type": "_layout-row",
+              "settings": {},
+              "blocks": {
+                "layout_column_f6WdcK": {
+                  "type": "_layout-column",
+                  "settings": {
+                    "column_link": "",
+                    "column_link_text": "",
+                    "small_breakpoint_width": 100,
+                    "medium_breakpoint_width": 100,
+                    "width": 50,
+                    "height_mode": "auto",
+                    "min_height": 500,
+                    "vertical_alignment": "self-start",
+                    "sticky": false,
+                    "desktop_content_alignment": "left",
+                    "mobile_content_alignment": "left",
+                    "content_max_width": 1000,
+                    "content_vertical_alignment": "items-start",
+                    "content_horizontal_alignment": "justify-center",
+                    "image_overlay_opacity": 0,
+                    "use_color_scheme": false,
+                    "color_scheme": "",
+                    "card_shadow": true,
+                    "round_corners": true,
+                    "padding": "p-0",
+                    "custom_padding": 6,
+                    "padding_desktop_only": false
+                  },
+                  "blocks": {
+                    "icon_with_text_LVb7Nf": {
+                      "type": "icon_with_text",
+                      "settings": {
+                        "icon_heading_gap": 2.5,
+                        "text_max_width": 400,
+                        "link": "",
+                        "icon": "shield_checkmark",
+                        "icon_container": "rounded",
+                        "icon_size": 3,
+                        "icon_vertical_position": 0.1,
+                        "icon_color": "#187a8f",
+                        "icon_background_color": "#dff6fd",
+                        "background_gradient": "linear-gradient(54deg, rgba(223, 246, 253, 1) 12%, rgba(196, 238, 250, 1) 85%)",
+                        "heading": "<strong>Parròquies principals</strong>",
+                        "heading_italic_convert": "",
+                        "heading_size": "h5",
+                        "heading_size_custom": 2.4,
+                        "heading_line_height_custom": 1.2,
+                        "heading_tag": "h3",
+                        "text": "<p>Dilluns a divendres<br/>Només matí</p>",
+                        "text_size": "t3"
+                      },
+                      "blocks": {}
+                    },
+                    "spacer_P3AHWk": {
+                      "type": "spacer",
+                      "settings": {
+                        "show_line_separator": true,
+                        "spacing_top": 2.4,
+                        "spacing_bottom": 0.5,
+                        "spacer_visibility": "mobile",
+                        "line_color": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_with_text_LVb7Nf",
+                    "spacer_P3AHWk"
+                  ]
+                },
+                "layout_column_A7t9KJ": {
+                  "type": "_layout-column",
+                  "settings": {
+                    "column_link": "",
+                    "column_link_text": "",
+                    "small_breakpoint_width": 100,
+                    "medium_breakpoint_width": 100,
+                    "width": 50,
+                    "height_mode": "auto",
+                    "min_height": 500,
+                    "vertical_alignment": "self-start",
+                    "sticky": false,
+                    "desktop_content_alignment": "left",
+                    "mobile_content_alignment": "left",
+                    "content_max_width": 1000,
+                    "content_vertical_alignment": "items-start",
+                    "content_horizontal_alignment": "justify-center",
+                    "image_overlay_opacity": 0,
+                    "use_color_scheme": false,
+                    "color_scheme": "",
+                    "card_shadow": true,
+                    "round_corners": true,
+                    "padding": "p-0",
+                    "custom_padding": 6,
+                    "padding_desktop_only": false
+                  },
+                  "blocks": {
+                    "icon_with_text_eBbpRd": {
+                      "type": "icon_with_text",
+                      "settings": {
+                        "icon_heading_gap": 2.5,
+                        "text_max_width": 400,
+                        "link": "",
+                        "icon": "code_slash",
+                        "icon_container": "rounded",
+                        "icon_size": 3,
+                        "icon_vertical_position": 0.1,
+                        "icon_color": "#91910b",
+                        "icon_background_color": "#fffe9b",
+                        "background_gradient": "linear-gradient(54deg, rgba(252, 255, 138, 1) 12%, rgba(241, 239, 163, 1) 85%)",
+                        "heading": "<strong>Canillo i Encamp</strong>",
+                        "heading_italic_convert": "",
+                        "heading_size": "h5",
+                        "heading_size_custom": 2.4,
+                        "heading_line_height_custom": 1.2,
+                        "heading_tag": "h3",
+                        "text": "<p>Dimarts i dijous<br/>Només matí</p>",
+                        "text_size": "t3"
+                      },
+                      "blocks": {}
+                    },
+                    "spacer_npB9j3": {
+                      "type": "spacer",
+                      "settings": {
+                        "show_line_separator": true,
+                        "spacing_top": 2.4,
+                        "spacing_bottom": 0.5,
+                        "spacer_visibility": "mobile",
+                        "line_color": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_with_text_eBbpRd",
+                    "spacer_npB9j3"
+                  ]
+                }
+              },
+              "block_order": [
+                "layout_column_f6WdcK",
+                "layout_column_A7t9KJ"
+              ]
+            },
+            "layout_row_rwy9U8": {
+              "type": "_layout-row",
+              "settings": {},
+              "blocks": {
+                "layout_column_Dt7Cz6": {
+                  "type": "_layout-column",
+                  "disabled": true,
+                  "settings": {
+                    "column_link": "",
+                    "column_link_text": "",
+                    "small_breakpoint_width": 100,
+                    "medium_breakpoint_width": 100,
+                    "width": 50,
+                    "height_mode": "auto",
+                    "min_height": 500,
+                    "vertical_alignment": "self-start",
+                    "sticky": false,
+                    "desktop_content_alignment": "left",
+                    "mobile_content_alignment": "left",
+                    "content_max_width": 1000,
+                    "content_vertical_alignment": "items-start",
+                    "content_horizontal_alignment": "justify-center",
+                    "image_overlay_opacity": 0,
+                    "use_color_scheme": false,
+                    "color_scheme": "",
+                    "card_shadow": true,
+                    "round_corners": true,
+                    "padding": "p-0",
+                    "custom_padding": 6,
+                    "padding_desktop_only": false
+                  },
+                  "blocks": {
+                    "icon_with_text_qNMJ9T": {
+                      "type": "icon_with_text",
+                      "settings": {
+                        "icon_heading_gap": 2.5,
+                        "text_max_width": 400,
+                        "link": "",
+                        "icon": "ribbon",
+                        "icon_container": "rounded",
+                        "icon_size": 3,
+                        "icon_vertical_position": 0.1,
+                        "icon_color": "#6b188f",
+                        "icon_background_color": "#f2e8fc",
+                        "background_gradient": "linear-gradient(54deg, rgba(242, 232, 252, 1) 12%, rgba(238, 220, 252, 1) 85%)",
+                        "heading": "<strong>Ordino i La Massana</strong>",
+                        "heading_italic_convert": "",
+                        "heading_size": "h5",
+                        "heading_size_custom": 2.4,
+                        "heading_line_height_custom": 1.2,
+                        "heading_tag": "h3",
+                        "text": "<p>Dilluns, dimecres i divendres<br/>Només matí</p>",
+                        "text_size": "t3"
+                      },
+                      "blocks": {}
+                    },
+                    "spacer_PGn3X6": {
+                      "type": "spacer",
+                      "settings": {
+                        "show_line_separator": true,
+                        "spacing_top": 2.4,
+                        "spacing_bottom": 0.5,
+                        "spacer_visibility": "mobile",
+                        "line_color": ""
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_with_text_qNMJ9T",
+                    "spacer_PGn3X6"
+                  ]
+                },
+                "layout_column_iij4hr": {
+                  "type": "_layout-column",
+                  "disabled": true,
+                  "settings": {
+                    "column_link": "",
+                    "column_link_text": "",
+                    "small_breakpoint_width": 100,
+                    "medium_breakpoint_width": 100,
+                    "width": 50,
+                    "height_mode": "auto",
+                    "min_height": 500,
+                    "vertical_alignment": "self-start",
+                    "sticky": false,
+                    "desktop_content_alignment": "left",
+                    "mobile_content_alignment": "left",
+                    "content_max_width": 1000,
+                    "content_vertical_alignment": "items-start",
+                    "content_horizontal_alignment": "justify-center",
+                    "image_overlay_opacity": 0,
+                    "use_color_scheme": false,
+                    "color_scheme": "",
+                    "card_shadow": true,
+                    "round_corners": true,
+                    "padding": "p-0",
+                    "custom_padding": 6,
+                    "padding_desktop_only": false
+                  },
+                  "blocks": {
+                    "icon_with_text_TwJJdP": {
+                      "type": "icon_with_text",
+                      "settings": {
+                        "icon_heading_gap": 2.5,
+                        "text_max_width": 400,
+                        "link": "",
+                        "icon": "apps",
+                        "icon_container": "rounded",
+                        "icon_size": 3,
+                        "icon_vertical_position": 0.1,
+                        "icon_color": "#b47d0c",
+                        "icon_background_color": "#fadfc4",
+                        "background_gradient": "linear-gradient(54deg, rgba(253, 240, 223, 1) 12%, rgba(250, 223, 196, 1) 85%)",
+                        "heading": "<strong>Highlight title 6</strong>",
+                        "heading_italic_convert": "",
+                        "heading_size": "h5",
+                        "heading_size_custom": 2.4,
+                        "heading_line_height_custom": 1.2,
+                        "heading_tag": "h3",
+                        "text": "<p>Describe a key part of your process, service, or product that your customers love.</p>",
+                        "text_size": "t3"
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "icon_with_text_TwJJdP"
+                  ]
+                }
+              },
+              "block_order": [
+                "layout_column_Dt7Cz6",
+                "layout_column_iij4hr"
+              ]
+            }
+          },
+          "block_order": [
+            "layout_row_JMMyeK",
+            "layout_row_NgtpE6",
+            "layout_row_rwy9U8"
+          ]
+        }
+      },
+      "block_order": [
+        "layout_column_YpjfwC",
+        "layout_column_XwryL4"
+      ],
+      "name": "Side highlights",
+      "settings": {
+        "gap_small": 24,
+        "gap_medium": 36,
+        "gap_desktop": 44,
+        "section_max_width": "xl",
+        "use_breakpoints": true,
+        "small_breakpoint_custom": "749",
+        "medium_breakpoint_custom": "989",
+        "image_overlay_opacity": 0,
+        "content_max_width": "xl",
+        "desktop_heading_alignment": "left",
+        "mobile_heading_alignment": "left",
+        "title": "",
+        "italic_convert": "",
+        "heading_size": "h2",
+        "text": "",
+        "text_size": "t3",
+        "view_all_link": "",
+        "view_all_text": "",
+        "view_all_text_size": "t3",
+        "section_color_scheme": "",
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
+      }
     }
   },
   "order": [
     "breadcrumbs",
-    "main"
+    "main",
+    "flexible_columns_pkRc8g"
   ]
 }
