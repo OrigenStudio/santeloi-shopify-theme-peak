@@ -158,7 +158,6 @@
       "preorder": "Pre-order",
       "add_to_cart_card": "Cart",
       "choose_options": "Quick view",
-      "bulk_order": "Bulk order",
       "notify_me": "Notify me",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
