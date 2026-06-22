@@ -196,7 +196,7 @@
     "blocks": {
       "10111608272286102450": {
         "type": "shopify://apps/pickeasy/blocks/app-embed/7e06b047-cfd1-4df7-add1-81e9a842022c",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "enable_network_listeners": false,
           "xhrRequestExactMatch": "",
@@ -211,6 +211,11 @@
           "buttonClickTimeout": 500,
           "additionalJavascriptAndCss": ""
         }
+      },
+      "16015553545834452532": {
+        "type": "shopify://apps/bird-pickup-delivery/blocks/app-embed/6e8f5020-fc3a-4acd-a31a-fb627c0270cf",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
