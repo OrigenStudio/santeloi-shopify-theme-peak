@@ -401,7 +401,7 @@
       },
       "scheme-11": {
         "settings": {
-          "background": "#cc9741",
+          "background": "#D9A04D",
           "background_gradient": "",
           "background_accent": "",
           "text": "#ffffff",
@@ -411,7 +411,7 @@
           "accent_gradient": "",
           "heading": "#ffffff",
           "heading_background_gradient": "",
-          "button_label": "#cc9741",
+          "button_label": "#D9A04D",
           "button": "#ffffff",
           "button_background_gradient": "",
           "secondary_button_label": "#ffffff"
