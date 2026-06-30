@@ -250,9 +250,9 @@
           "heading": "#2a2a28",
           "heading_background_gradient": "",
           "button_label": "#f3f3f3",
-          "button": "#188f65",
+          "button": "#4F8A63",
           "button_background_gradient": "linear-gradient(50deg, rgba(77, 167, 111, 1) 13%, rgba(56, 180, 103, 1) 84%)",
-          "secondary_button_label": "#188f65"
+          "secondary_button_label": "#4F8A63"
         }
       },
       "scheme-3": {
