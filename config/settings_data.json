@@ -323,7 +323,7 @@
           "heading_background_gradient": "",
           "button_label": "#ffffff",
           "button": "#4F8A63",
-          "button_background_gradient": "linear-gradient(50deg, rgba(121, 167, 70, 1) 13%, rgba(138, 186, 75, 1) 86%)",
+          "button_background_gradient": "",
           "secondary_button_label": "#ffffff"
         }
       },
