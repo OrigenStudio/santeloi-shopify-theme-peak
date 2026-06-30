@@ -422,17 +422,17 @@
           "background": "#D4DBBE",
           "background_gradient": "",
           "background_accent": "",
-          "text": "#595951",
-          "link": "#0d52b1",
-          "caption": "#121212",
-          "accent": "#187a8f",
+          "text": "#3A3A36",
+          "link": "#3A3A36",
+          "caption": "#3A3A36",
+          "accent": "#188F65",
           "accent_gradient": "linear-gradient(139deg, rgba(251, 51, 166, 1), rgba(127, 72, 176, 1) 50%, rgba(48, 145, 211, 1) 100%)",
-          "heading": "#121212",
+          "heading": "#1E1E1B",
           "heading_background_gradient": "",
           "button_label": "#ffffff",
-          "button": "#121212",
+          "button": "#1F2421",
           "button_background_gradient": "",
-          "secondary_button_label": "#121212"
+          "secondary_button_label": "#1F2421"
         }
       },
       "scheme-13": {
