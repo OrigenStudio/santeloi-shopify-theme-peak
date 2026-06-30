@@ -322,7 +322,7 @@
           "heading": "#ffffff",
           "heading_background_gradient": "",
           "button_label": "#ffffff",
-          "button": "#4a9767",
+          "button": "#4F8A63",
           "button_background_gradient": "linear-gradient(50deg, rgba(121, 167, 70, 1) 13%, rgba(138, 186, 75, 1) 86%)",
           "secondary_button_label": "#ffffff"
         }
@@ -355,12 +355,12 @@
           "caption": "#121212",
           "accent": "rgba(0,0,0,0)",
           "accent_gradient": "",
-          "heading": "#157631",
+          "heading": "#4F8A63",
           "heading_background_gradient": "",
           "button_label": "#f3f3f3",
-          "button": "#008031",
+          "button": "#4F8A63",
           "button_background_gradient": "",
-          "secondary_button_label": "#008031"
+          "secondary_button_label": "#4F8A63"
         }
       },
       "scheme-9": {
@@ -376,7 +376,7 @@
           "heading": "#0b401f",
           "heading_background_gradient": "",
           "button_label": "#f3f3f3",
-          "button": "#008031",
+          "button": "#4F8A63",
           "button_background_gradient": "",
           "secondary_button_label": "#D9A04D"
         }
@@ -438,7 +438,7 @@
       "scheme-13": {
         "settings": {
           "background": "#1e1e1e",
-          "background_gradient": "linear-gradient(\n180deg,\n#CC9741 0%,\n#D3DABE 100%\n)",
+          "background_gradient": "linear-gradient(180deg, rgba(204, 151, 65, 1), rgba(211, 218, 190, 1) 100%)",
           "background_accent": "",
           "text": "#ffffff",
           "link": "#ffffff",
