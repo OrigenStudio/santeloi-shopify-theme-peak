@@ -438,7 +438,7 @@
       "scheme-13": {
         "settings": {
           "background": "#1e1e1e",
-          "background_gradient": "linear-gradient(180deg, rgba(217, 160, 77, 1), rgba(212, 217, 190, 1) 100%)",
+          "background_gradient": "linear-gradient(\n180deg,\n#CC9741 0%,\n#D3DABE 100%\n)",
           "background_accent": "",
           "text": "#ffffff",
           "link": "#ffffff",
