@@ -960,7 +960,7 @@
         "text_Ywdb6b": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Savings worth signing up for.</strong></p>",
+            "text": "<p><strong>Benvingut/da!</strong></p>",
             "text_size": "t2",
             "content_max_width": "m"
           }
@@ -968,13 +968,32 @@
         "text_gNdP6m": {
           "type": "text",
           "settings": {
-            "text": "<p>How about 10% off?</p>",
+            "text": "<p>Registra't i aconsegueix <strong>10 €</strong> de descompte en la primera compra.</p>",
             "text_size": "t2",
             "content_max_width": "m"
           }
         },
+        "buttons_hmrQP7": {
+          "type": "buttons",
+          "settings": {
+            "button_text_size": "t3",
+            "button_label_1": "Crear compte",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "button_style_2_show_arrow": false,
+            "button_style_2_show_gradient_border": false,
+            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
         "discount_UWBFRh": {
           "type": "discount",
+          "disabled": true,
           "settings": {
             "discount_code": "YOURCODE10",
             "text_size": "t5",
@@ -987,6 +1006,7 @@
       "block_order": [
         "text_Ywdb6b",
         "text_gNdP6m",
+        "buttons_hmrQP7",
         "discount_UWBFRh"
       ],
       "settings": {
@@ -997,7 +1017,7 @@
         "horizontal_padding": 3.5,
         "spacing_grid": 2.6,
         "image_overlay_opacity": 0,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-7",
         "line_separator": "",
         "top_padding": "pt-s",
         "bottom_padding": "pb-s",
