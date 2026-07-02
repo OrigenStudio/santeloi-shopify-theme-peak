@@ -1502,6 +1502,7 @@
       ],
       "disabled": true,
       "settings": {
+        "video": "shopify://files/videos/15. Què pots cuinar amb 20€_ Sant Eloi.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "show_play_pause": true,
         "reveal_content_timer": 4,
