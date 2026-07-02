@@ -457,6 +457,24 @@
           "button_background_gradient": "linear-gradient(305deg, rgba(NaN, NaN, NaN, 0), rgba(72, 171, 227, 1) 46%, rgba(119, 179, 245, 1) 91%)",
           "secondary_button_label": "#ffffff"
         }
+      },
+      "scheme-12389b62-1f23-483e-9237-4ea3f990d22b": {
+        "settings": {
+          "background": "#E9DFC8",
+          "background_gradient": "",
+          "background_accent": "",
+          "text": "#3a3a36",
+          "link": "#3a3a36",
+          "caption": "#3a3a36",
+          "accent": "#188f65",
+          "accent_gradient": "linear-gradient(90deg, rgba(0, 128, 49, 1), rgba(59, 217, 119, 1) 100%)",
+          "heading": "#1e1e1b",
+          "heading_background_gradient": "",
+          "button_label": "#ffffff",
+          "button": "#1f2421",
+          "button_background_gradient": "",
+          "secondary_button_label": "#1f2421"
+        }
       }
     }
   },
