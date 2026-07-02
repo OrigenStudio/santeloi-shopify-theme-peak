@@ -297,82 +297,6 @@
         "show_time_night": true
       }
     },
-    "ribbon_banner_A8JHia": {
-      "type": "ribbon-banner",
-      "blocks": {
-        "text_Ywdb6b": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Benvingut/da!</strong></p>",
-            "text_size": "t2",
-            "content_max_width": "m"
-          }
-        },
-        "text_gNdP6m": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Registra't i aconsegueix <strong>10 €</strong> de descompte en la primera compra.</p>",
-            "text_size": "t2",
-            "content_max_width": "m"
-          }
-        },
-        "buttons_hmrQP7": {
-          "type": "buttons",
-          "settings": {
-            "button_text_size": "t3",
-            "button_label_1": "Crear compte",
-            "button_link_1": "/",
-            "button_style_1": "primary",
-            "button_style_1_show_arrow": false,
-            "button_style_1_show_gradient_border": false,
-            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_2": "secondary",
-            "button_style_2_show_arrow": false,
-            "button_style_2_show_gradient_border": false,
-            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
-          }
-        },
-        "discount_UWBFRh": {
-          "type": "discount",
-          "disabled": true,
-          "settings": {
-            "discount_code": "YOURCODE10",
-            "text_size": "t5",
-            "discount_gated": true,
-            "color_peel_background": "#d23b3b",
-            "color_peel_foreground": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "text_Ywdb6b",
-        "text_gNdP6m",
-        "buttons_hmrQP7",
-        "discount_UWBFRh"
-      ],
-      "settings": {
-        "full_width": true,
-        "closable": true,
-        "content_alignment": "justify-center",
-        "vertical_padding": 1.6,
-        "horizontal_padding": 3.5,
-        "spacing_grid": 2.6,
-        "image_overlay_opacity": 0,
-        "color_scheme": "scheme-7",
-        "line_separator": "",
-        "top_padding": "pt-s",
-        "bottom_padding": "pb-s",
-        "visibility": "both",
-        "hide_when_empty": false,
-        "show_at_specific_time_of_day": false,
-        "show_time_morning": true,
-        "show_time_afternoon": true,
-        "show_time_evening": true,
-        "show_time_night": true
-      }
-    },
     "collection_list_3EHKmq": {
       "type": "collection-list",
       "blocks": {
@@ -460,6 +384,82 @@
         "show_time_evening": true,
         "show_time_night": true,
         "heading_tag": "h2"
+      }
+    },
+    "ribbon_banner_A8JHia": {
+      "type": "ribbon-banner",
+      "blocks": {
+        "text_Ywdb6b": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Benvingut/da!</strong></p>",
+            "text_size": "t2",
+            "content_max_width": "m"
+          }
+        },
+        "text_gNdP6m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Registra't i aconsegueix <strong>10 €</strong> de descompte en la primera compra.</p>",
+            "text_size": "t2",
+            "content_max_width": "m"
+          }
+        },
+        "buttons_hmrQP7": {
+          "type": "buttons",
+          "settings": {
+            "button_text_size": "t3",
+            "button_label_1": "Crear compte",
+            "button_link_1": "/",
+            "button_style_1": "primary",
+            "button_style_1_show_arrow": false,
+            "button_style_1_show_gradient_border": false,
+            "button_1_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "button_style_2_show_arrow": false,
+            "button_style_2_show_gradient_border": false,
+            "button_2_border_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "discount_UWBFRh": {
+          "type": "discount",
+          "disabled": true,
+          "settings": {
+            "discount_code": "YOURCODE10",
+            "text_size": "t5",
+            "discount_gated": true,
+            "color_peel_background": "#d23b3b",
+            "color_peel_foreground": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ywdb6b",
+        "text_gNdP6m",
+        "buttons_hmrQP7",
+        "discount_UWBFRh"
+      ],
+      "settings": {
+        "full_width": true,
+        "closable": true,
+        "content_alignment": "justify-center",
+        "vertical_padding": 1.2,
+        "horizontal_padding": 3.5,
+        "spacing_grid": 2.6,
+        "image_overlay_opacity": 0,
+        "color_scheme": "scheme-7",
+        "line_separator": "",
+        "top_padding": "pt-s",
+        "bottom_padding": "pb-s",
+        "visibility": "both",
+        "hide_when_empty": false,
+        "show_at_specific_time_of_day": false,
+        "show_time_morning": true,
+        "show_time_afternoon": true,
+        "show_time_evening": true,
+        "show_time_night": true
       }
     },
     "featured_collection_PCnMYQ": {
