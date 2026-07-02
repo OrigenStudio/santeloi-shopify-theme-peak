@@ -17,7 +17,7 @@
         "announcement_PPb9g4": {
           "type": "announcement",
           "settings": {
-            "text": "🎉 <strong>Benvingut a la nova web!</strong> 10 € de descompte en la primera compra superior a 80 €. <a href=\"/pages/contacte\" title=\"Contacte\">Descobreix-ho →</a>",
+            "text": "🎉 <strong>Benvingut/da a la nova web!</strong> 10 € de descompte en la primera compra superior a 80 €. <a href=\"/pages/contacte\" title=\"Contacte\">Descobreix-ho →</a>",
             "mobile_text": "",
             "announcement_pages": "",
             "color_scheme": "scheme-7"

@@ -170,7 +170,7 @@
         "show_country_filter": true,
         "enable_language_selector": true,
         "payment_enable": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "color_scheme_bottom": "",
         "color_scheme_bottom_light": false,
         "let_it_snow": false
