@@ -163,7 +163,7 @@
         "image_and_text_FFDePH"
       ],
       "settings": {
-        "bottom_bar_links": "",
+        "bottom_bar_links": "policies",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
