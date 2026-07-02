@@ -14,6 +14,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_PPb9g4": {
+          "type": "announcement",
+          "settings": {
+            "text": "🎉 <strong>Benvingut a la nova web!</strong> 10 € de descompte en la primera compra superior a 80 €. <a href=\"/pages/contacte\" title=\"Contacte\">Descobreix-ho →</a>",
+            "mobile_text": "",
+            "announcement_pages": "",
+            "color_scheme": "scheme-7"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -34,6 +43,7 @@
         }
       },
       "block_order": [
+        "announcement_PPb9g4",
         "announcement-bar-0",
         "01f1744f-4bdc-4966-8eb5-a7fdf375e9a5"
       ],
