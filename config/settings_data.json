@@ -454,7 +454,7 @@
           "heading_background_gradient": "",
           "button_label": "#ffffff",
           "button": "#d9a04d",
-          "button_background_gradient": "linear-gradient(305deg, rgba(42, 151, 211, 1), rgba(72, 171, 227, 1) 46%, rgba(119, 179, 245, 1) 91%)",
+          "button_background_gradient": "linear-gradient(305deg, rgba(NaN, NaN, NaN, 0), rgba(72, 171, 227, 1) 46%, rgba(119, 179, 245, 1) 91%)",
           "secondary_button_label": "#ffffff"
         }
       }
